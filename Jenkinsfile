@@ -2,20 +2,21 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_CREDENTIALS_ID = 'docker-credentials' 
-        DOCKER_REGISTRY = 'birfbkdstsbhbk'   // docker.io or your private registry
-        DOCKER_REPO = 'learnawareai'       // DockerHub username or organization
-        COMPOSE_PROJECT_NAME = 'learnaware-ai'     // Name for the Docker Compose project
+        DOCKER_CREDENTIALS_ID = 'docker-credentials'          // ID of Docker credentials in Jenkins
+        DOCKER_REGISTRY = 'birfbkdstsbhbk'                    // Docker registry (e.g., Docker Hub username)
+        DOCKER_REPO = 'learnawareai'                          // Repository name
     }
 
     stages {
-        stage('Checkout Code') {
+        stage('SCM Checkout') {
             steps {
-                checkout scm
+                retry(3) {
+                    git branch: 'develop', url: 'https://github.com/Learn-Aware/learnaware-ai.git'
+                }
             }
         }
 
-        stage('Build Docker Images') {
+        stage('Build Docker Images with Docker Compose') {
             steps {
                 script {
                     sh 'docker-compose build'
@@ -23,21 +24,20 @@ pipeline {
             }
         }
 
-        stage('Push Images to Registry') {
+        stage('Login to Docker Registry') {
             steps {
-                script {
-                    docker.withRegistry("https://${DOCKER_REGISTRY}", DOCKER_CREDENTIALS_ID) {
-                        sh 'docker-compose push'
+                withCredentials([string(credentialsId: DOCKER_CREDENTIALS_ID, variable: 'dockercredentials')]) {
+                    script {
+                        sh "echo '${dockercredentials}' | docker login -u ${DOCKER_REGISTRY} --password-stdin"
                     }
                 }
             }
         }
 
-        stage('Deploy with Docker Compose') {
+        stage('Push Docker Images to Registry') {
             steps {
                 script {
-                    sh 'docker-compose down'   
-                    sh 'docker-compose up -d'  
+                    sh 'docker-compose push'
                 }
             }
         }
@@ -45,8 +45,9 @@ pipeline {
 
     post {
         always {
-            echo 'Cleaning up Docker resources...'
-            sh 'docker system prune -f'  
+            sh 'docker logout'
+            echo 'Cleaning up workspace...'
+            cleanWs()
         }
         success {
             echo 'Deployment completed successfully!'
