@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+*.egg-info/
+*.egg
+
+# Node.js
+node_modules/
+npm-debug.log
+package-lock.json
+yarn-error.log
+yarn-debug.log
+dist/
+build/
+.coverage
+*.tgz
+
+# Docker
+*.dockerignore
+Dockerfile
+docker-compose.yml
+
+# macOS
+.DS_Store
+
+# IDE/Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.lock
