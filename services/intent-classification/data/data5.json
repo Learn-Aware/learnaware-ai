@@ -1,0 +1,762 @@
+[
+    {
+        "context": "Classical mechanics is a fundamental branch of physics that deals with the motion of macroscopic objects, such as projectiles, vehicles, and structures. It is based on Newton's laws of motion, which describe the relationship between a body and the forces acting upon it. The three laws are: the law of inertia, the law of acceleration, and the law of reciprocal actions. These laws form the basis of classical mechanics and are widely used to solve problems in physics and engineering.",
+        "user_input": "What are the three laws of motion?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The concept of momentum is central to classical mechanics. It is defined as the product of an object's mass and velocity, and is a measure of an object's tendency to maintain its state of motion. Momentum is a vector quantity, and its direction is always parallel to the velocity of the object. The law of conservation of momentum states that the total momentum of a closed system remains constant over time, which means that the momentum gained by one object is equal to the momentum lost by another object.",
+        "user_input": "I don't understand the concept of momentum?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Energy is another fundamental concept in classical mechanics. It is the ability of an object to do work, and it comes in various forms such as kinetic energy, potential energy, and thermal energy. The law of conservation of energy states that the total energy of a closed system remains constant over time, which means that energy cannot be created or destroyed, only converted from one form to another.",
+        "user_input": "That's so boring, I don't care about energy",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Rotational motion is a key concept in classical mechanics. It refers to the motion of an object around a fixed axis, such as a wheel turning or a planet orbiting the sun. Rotational kinematics deals with the description of rotational motion, including the concepts of angular displacement, angular velocity, and angular acceleration.",
+        "user_input": "What's the difference between angular velocity and angular acceleration?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The concept of torque is crucial in understanding rotational motion. It is a measure of the rotational force that causes an object to rotate, and it is calculated as the product of the force and the distance from the axis of rotation. Torque is a vector quantity, and its direction is perpendicular to the plane of rotation.",
+        "user_input": "You're an idiot if you don't understand torque",
+        "intent": "Insult"
+    },
+    {
+        "context": "Classical mechanics has numerous applications in engineering, such as the design of machines, mechanisms, and structures. It is used to calculate the stress and strain on materials, and to optimize the performance of mechanical systems. Classical mechanics is also essential in the development of many modern technologies, including computers, medical devices, and aerospace systems.",
+        "user_input": "Good morning, can you explain the applications of classical mechanics?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The concept of work and energy are closely related in classical mechanics. Work is defined as the transfer of energy from one object to another, and it is calculated as the product of the force and the displacement of the object. The work-energy theorem states that the net work done on an object is equal to its change in kinetic energy.",
+        "user_input": "I don't get it, can you explain it differently?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Oscillations are a type of motion that occurs when an object vibrates or fluctuates around a fixed point. They are an important concept in classical mechanics, and are used to model a wide range of phenomena, including the motion of springs, pendulums, and electrical circuits.",
+        "user_input": "What's the best way to solve oscillation problems?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The concept of center of mass is essential in classical mechanics. It is the point at which the entire mass of an object can be considered to be concentrated, and it is used to calculate the motion of an object. The center of mass is a fixed point for a rigid body, but it can change for a non-rigid body.",
+        "user_input": "I'm so tired of these physics problems, I hate classical mechanics",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Gravity is a fundamental force in classical mechanics. It is a universal force that acts between all objects with mass, and it is responsible for the motion of planets, stars, and galaxies. Gravity is a weak force compared to other fundamental forces, but it is the dominant force at large scales.",
+        "user_input": "That's not true, gravity is a myth",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "In classical mechanics, the concept of energy is a fundamental principle that describes the capacity to do work. The law of conservation of energy states that the total energy of a closed system remains constant over time, but can be converted from one form to another. Kinetic energy is the energy of motion, potential energy is the energy of position, and thermal energy is the energy of temperature.",
+        "user_input": "What is the law of conservation of energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Newton's laws of motion are three fundamental principles in classical mechanics that describe the relationship between a body and the forces acting upon it. The first law states that an object at rest remains at rest, and an object in motion remains in motion, unless acted upon by an external force. The second law relates the force applied to an object to its resulting acceleration.",
+        "user_input": "I don't get it, can you explain it again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The work-energy theorem states that the net work done on an object is equal to its change in kinetic energy. This theorem can be used to calculate the energy transferred between objects, and is a fundamental concept in classical mechanics.",
+        "user_input": "This is so boring, I hate physics.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Torque is a measure of the rotational force that causes an object to rotate. It is calculated as the cross product of the force and the distance from the axis of rotation. Torque is a vector quantity, and its direction is perpendicular to the plane of rotation.",
+        "user_input": "What's the unit of torque?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A rigid body is an object that maintains its shape and size, even when subjected to external forces. The motion of a rigid body can be described using rotational kinematics, which involves the use of angular velocity and angular acceleration.",
+        "user_input": "You're so stupid, you don't know what you're talking about.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The concept of angular momentum is used to describe the tendency of an object to maintain its rotational motion. It is a vector quantity, and its direction is perpendicular to the plane of rotation. Conservation of angular momentum is a fundamental principle in classical mechanics.",
+        "user_input": "Okay, that makes sense now. Thanks for explaining.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "A conservative force is a force that conserves mechanical energy. Examples of conservative forces include gravity, electrostatic forces, and spring forces. Non-conservative forces, on the other hand, dissipate energy and convert it into heat or other forms.",
+        "user_input": "What's the difference between a conservative and non-conservative force?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The Lagrangian formulation is a fundamental concept in classical mechanics that describes the dynamics of a system using the Lagrangian function. This function is defined as the difference between the kinetic energy and potential energy of a system.",
+        "user_input": "I'm hungry, let's take a break.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Central forces are forces that act along the line of sight between two objects. Examples of central forces include gravity and electrostatic forces. Central forces are conservative, meaning that they conserve mechanical energy.",
+        "user_input": "Can you give an example of a central force?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Rotational kinematics is the study of the motion of objects that rotate about a fixed axis. It involves the use of angular velocity, angular acceleration, and angular displacement to describe the motion of an object.",
+        "user_input": "Hi, I need help with this problem.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In classical mechanics, the concept of momentum is crucial in understanding the motion of objects. The momentum of an object is defined as the product of its mass and velocity. The law of conservation of momentum states that the total momentum of a closed system remains constant over time, unless acted upon by an external force. This fundamental principle has numerous applications in various fields, including engineering, astronomy, and sports.",
+        "user_input": "What is the definition of momentum?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In classical mechanics, the concept of energy is essential in understanding the motion of objects. The total energy of an isolated system remains constant over time, but can be converted from one form to another. The kinetic energy of an object is the energy associated with its motion, while the potential energy is the energy associated with its position in a field.",
+        "user_input": "This is boring, can we move on?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "A force is a push or pull that causes an object to change its motion. Forces can be classified into two categories: contact forces and non-contact forces. Contact forces, such as friction and normal force, arise from physical contact between objects. Non-contact forces, such as gravity and electromagnetic forces, do not require physical contact.",
+        "user_input": "What is the difference between contact and non-contact forces?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The work-energy theorem is a fundamental concept in classical mechanics, which states that the net work done on an object is equal to its change in kinetic energy. This theorem has numerous applications in engineering, physics, and other fields.",
+        "user_input": "I don't understand anything, can you explain it again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Newton's laws of motion are three fundamental principles that describe the relationship between a body and the forces acting upon it. The first law, also known as the law of inertia, states that an object at rest will remain at rest, and an object in motion will continue to move, unless acted upon by an external force.",
+        "user_input": "This is stupid, I hate physics.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Simple harmonic motion is a type of periodic motion that occurs when an object is subject to a restoring force proportional to its displacement from equilibrium. The frequency and amplitude of the motion can be determined using mathematical equations.",
+        "user_input": "What is the equation for simple harmonic motion?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The concept of torque is essential in understanding rotational motion. Torque is a measure of the rotational force that causes an object to rotate. The moment of inertia of an object determines its resistance to rotational motion.",
+        "user_input": "I'm not sure I understand torque, can you give an example?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Classical mechanics is a fundamental branch of physics that deals with the study of motion of macroscopic objects. It is based on the principles of Newton's laws of motion and the concept of energy.",
+        "user_input": "Hi, I need help with classical mechanics.",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The concept of angular momentum is crucial in understanding rotational motion. The angular momentum of an object is a measure of its tendency to maintain its rotational motion.",
+        "user_input": "What's up with all these formulas?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Classical mechanics has numerous applications in various fields, including engineering, astronomy, and sports. It is used to design and optimize systems, predict the motion of objects, and understand the behavior of complex systems.",
+        "user_input": "This is irrelevant to my life.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "In classical mechanics, the motion of a particle can be described using Newton's laws of motion. The first law states that an object at rest will remain at rest, and an object in motion will continue to move, unless acted upon by an external force. The second law relates the force applied to an object to its resulting acceleration, and the third law states that every action has an equal and opposite reaction.",
+        "user_input": "Can you explain the third law of motion?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The concept of energy is central to classical mechanics. There are two main types of energy: kinetic energy, which is the energy of motion, and potential energy, which is the energy of position. The law of conservation of energy states that the total energy of an isolated system remains constant over time, but can be converted between different forms.",
+        "user_input": "I don't get this energy thing",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Rotational motion is an important topic in classical mechanics. The rotational kinematic equations describe the relationships between angular displacement, angular velocity, and angular acceleration. The moment of inertia is a measure of an object's resistance to changes in its rotation.",
+        "user_input": "This is so boring",
+        "intent": "Boredom"
+    },
+    {
+        "context": "In classical mechanics, the concept of torque is used to describe the rotational force that causes an object to rotate. The magnitude of the torque depends on the force applied, the distance from the axis of rotation, and the angle of the force.",
+        "user_input": "What is the formula for torque?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The work-energy theorem states that the net work done on an object is equal to its change in kinetic energy. This theorem is a fundamental principle in classical mechanics and is used to solve a wide range of problems.",
+        "user_input": "I know this already",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "The concept of equilibrium is essential in classical mechanics. An object is said to be in equilibrium when the net force acting on it is zero. There are two types of equilibrium: stable and unstable.",
+        "user_input": "What's the weather like today?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Classical mechanics is a fundamental subject that has many real-world applications. It is used to design and optimize systems, such as roller coasters and satellite orbits.",
+        "user_input": "Hi, can you explain classical mechanics to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The concept of velocity is a fundamental concept in classical mechanics. It is a measure of an object's rate of change of position with respect to time. Velocity is a vector quantity and has both magnitude and direction.",
+        "user_input": "This is stupid",
+        "intent": "Insult"
+    },
+    {
+        "context": "In classical mechanics, the motion of an object is described by its position, velocity, and acceleration. The position of an object is a vector quantity that gives the object's location in space, while the velocity is the rate of change of the object's position with respect to time. The acceleration of an object is the rate of change of the object's velocity. Newton's laws of motion, which are fundamental principles in classical mechanics, describe the relationship between the motion of an object and the forces acting upon it.",
+        "user_input": "What are the three key aspects of an object's motion?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The concept of energy is central to classical mechanics. There are two types of energy: kinetic energy, which is the energy of motion, and potential energy, which is the energy of position or stored energy. The total energy of a system remains constant over time, according to the law of conservation of energy. This fundamental principle has far-reaching implications in many areas of physics.",
+        "user_input": "I hate physics, it's so boring!",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Classical mechanics is used to describe the motion of macroscopic objects, such as projectiles, vehicles, and satellites. It is also used to study the behavior of complex systems, like the motion of the planets in our solar system. The principles of classical mechanics have many practical applications in fields like engineering, astronomy, and navigation.",
+        "user_input": "What's the best way to solve a projectile motion problem?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The laws of motion, as formulated by Sir Isaac Newton, are a set of three fundamental principles that describe the relationship between a body and the forces acting upon it. The first law, also known as the law of inertia, states that an object at rest will remain at rest, and an object in motion will continue to move with a constant velocity, unless acted upon by an external force.",
+        "user_input": "You're stupid if you don't understand Newton's laws!",
+        "intent": "Insult"
+    },
+    {
+        "context": "In classical mechanics, the concept of force is a push or pull that causes an object to change its motion. Forces can be either contact forces, which act through physical contact between objects, or non-contact forces, which act through space without physical contact. The force of gravity is an example of a non-contact force.",
+        "user_input": "Can you explain the difference between contact and non-contact forces?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The concept of momentum is closely related to the concept of force in classical mechanics. Momentum is a measure of an object's mass and velocity, and it is a conserved quantity in closed systems. The total momentum of a system remains constant over time, unless acted upon by an external force.",
+        "user_input": "I don't get how momentum is different from velocity!",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Rotational motion is a fundamental concept in classical mechanics, describing the motion of an object around a fixed axis. Rotational kinematics deals with the description of rotational motion, while rotational dynamics deals with the causes of rotational motion, such as torque.",
+        "user_input": "What's the formula for angular velocity?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The study of classical mechanics is essential for understanding many phenomena in the natural world, from the motion of planets in our solar system to the behavior of subatomic particles. It provides a fundamental framework for understanding the physical world and has led to many groundbreaking discoveries and innovations.",
+        "user_input": "I love how physics explains so much about the world!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "In electromagnetism, the Lorentz force is the combination of electric and magnetic force on a point charge due to electromagnetic fields. It is given by the equation F = q(E + v x B), where F is the force, q is the charge, E is the electric field, v is the velocity, B is the magnetic field, and x denotes the cross product. The Lorentz force is a fundamental concept in understanding the behavior of charged particles in electromagnetic fields.",
+        "user_input": "What is the formula for Lorentz force?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Electromagnetic induction is the production of an electric current across a conductor when it is placed in a changing magnetic field. It is the basis for many modern technologies, including generators, motors, and transformers. The direction of the induced current is determined by the right-hand rule, which states that the thumb, index finger, and middle finger of the right hand correspond to the direction of the magnetic field, the direction of the motion, and the direction of the induced current, respectively.",
+        "user_input": "I don't get why the right-hand rule is used in electromagnetic induction.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Maxwell's equations are a set of four partial differential equations that form the foundation of classical electromagnetism. They describe how electric and magnetic fields are generated by charges and currents, and how they interact with each other and with matter. The equations are: Gauss's law for electric fields, Gauss's law for magnetic fields, Faraday's law of induction, and Ampere's law with Maxwell's correction.",
+        "user_input": "What are the four Maxwell's equations?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The concept of electromagnetic waves was first predicted by James Clerk Maxwell in the 19th century. He showed that electric and magnetic fields could propagate through space as a wave, and that the speed of this wave was equal to the speed of light. This prediction was later confirmed by Heinrich Hertz, who demonstrated the existence of radio waves.",
+        "user_input": "Who predicted electromagnetic waves?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A solenoid is a type of electromagnet that consists of a coil of wire wrapped around a core of magnetic material. When an electric current flows through the coil, a magnetic field is generated, and the solenoid behaves like a bar magnet. Solenoids are commonly used in electromagnets, motors, and generators.",
+        "user_input": "I'm bored with electromagnetism.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The Biot-Savart law is a mathematical formula that describes the magnetic field generated by a small current-carrying wire segment. It is a fundamental principle in understanding the behavior of magnetic fields and is widely used in engineering and physics applications.",
+        "user_input": "This is stupid, I hate electromagnetism.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The force on a charge in a magnetic field is given by the Lorentz force equation. The direction of the force is perpendicular to both the direction of the magnetic field and the direction of the velocity of the charge. This force is the basis for many applications, including motors, generators, and mass spectrometers.",
+        "user_input": "What is the direction of the Lorentz force?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Electromagnetic waves have a wide range of applications in modern technology, including radio communication, microwave ovens, and medical imaging. They are also used in the study of the universe, from the cosmic microwave background radiation to the radiation emitted by stars and galaxies.",
+        "user_input": "Hi, I need help with a question about electromagnetic waves.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Electromagnetic induction is the production of an electric current across a conductor when it is placed in a changing magnetic field. This phenomenon was discovered by Michael Faraday in 1831 and is the basis for many modern technologies, including generators, motors, and transformers. The direction of the induced current can be determined using the right-hand rule, which states that the thumb, index finger, and middle finger of the right hand must be perpendicular to each other, with the thumb pointing in the direction of the magnetic field, the index finger pointing in the direction of the motion, and the middle finger pointing in the direction of the induced current.",
+        "user_input": "Can you explain the right-hand rule?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Electromagnetic waves are a type of wave that can propagate through a vacuum and are characterized by their electric and magnetic field components, which oscillate perpendicular to each other and to the direction of propagation. The speed of electromagnetic waves in a vacuum is a fundamental constant, denoted by the letter c, and is equal to approximately 3 x 10^8 meters per second.",
+        "user_input": "What's the speed of light?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Maxwell's equations are a set of four partial differential equations that form the foundation of classical electromagnetism. They describe how electric and magnetic fields are generated by charges and currents, and how they interact with each other and with matter. The equations are named after James Clerk Maxwell, who formulated them in the 19th century.",
+        "user_input": "I don't understand anything about electromagnetism.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The Lorentz force is a fundamental concept in electromagnetism that describes the force experienced by a charged particle moving through a magnetic field. It is given by the equation F = q(E + v x B), where F is the force, q is the charge, E is the electric field, v is the velocity, and B is the magnetic field.",
+        "user_input": "What's the formula for the Lorentz force?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Electromagnetic waves have a wide range of applications in modern technology, including wireless communication, medical imaging, and radar systems. They can also be used to study the properties of materials and to analyze the composition of objects.",
+        "user_input": "That's so cool!",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Electromagnetic induction is the production of an electric current across a conductor when it is placed in a changing magnetic field. This phenomenon was discovered by Michael Faraday in 1831 and is the basis for many modern technologies, including generators, motors, and transformers.",
+        "user_input": "What's your favorite food?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "The electromagnetic spectrum is the range of frequencies of electromagnetic waves, including radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays. Each type of wave has a specific range of frequencies and is used in different applications.",
+        "user_input": "I hate this topic.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Electromagnetic waves can be polarized, meaning that the electric field vector oscillates in a particular plane. This property is used in many applications, including sunglasses, LCD screens, and satellite communications.",
+        "user_input": "How does polarization work?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Electromagnetic induction is the production of an electric current in a conductor when it is placed in a changing magnetic field. This phenomenon is the basis for many electric devices, including generators, motors, and transformers. The changing magnetic field induces an electromotive force (EMF) in the conductor, causing the flow of electrons.",
+        "user_input": "What is electromagnetic induction?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Maxwell's equations are a set of four partial differential equations that form the foundation of classical electromagnetism. They describe how electric and magnetic fields interact with charges and currents, and are a fundamental tool for understanding electromagnetic phenomena.",
+        "user_input": "I don't understand Maxwell's equations, can someone explain?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The Lorentz force is the force exerted on a charged particle in a magnetic field. It is a fundamental concept in electromagnetism and is used to describe the motion of charged particles in electric and magnetic fields.",
+        "user_input": "I'm so bored with this topic",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Electromagnetic waves are a type of wave that can propagate through the electromagnetic field and can transmit energy through space. They are characterized by their frequency, wavelength, and amplitude, and are used in a wide range of applications, including communication systems and medical imaging.",
+        "user_input": "This is stupid",
+        "intent": "Insult"
+    },
+    {
+        "context": "Gauss's law for magnetism states that the total magnetic flux through a closed surface is zero. This law is a fundamental principle of electromagnetism and has important implications for the behavior of magnetic fields.",
+        "user_input": "I don't know anything about Gauss's law",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "A solenoid is a type of electromagnet that consists of a coil of wire wrapped around a core of magnetic material. They are commonly used in applications such as electromagnets, inductors, and transformers.",
+        "user_input": "What's up?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Electromagnetic radiation is a form of energy that is emitted or transmitted in the form of electromagnetic waves. It is a fundamental aspect of electromagnetism and has important implications for our understanding of the universe.",
+        "user_input": "I didn't get that, can you explain?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The Biot-Savart law is a mathematical formula that describes the magnetic field around a current-carrying wire. It is a fundamental principle of electromagnetism and is used to calculate the magnetic field in a wide range of applications.",
+        "user_input": "What does the Biot-Savart law have to do with anything?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Electromagnetic induction is a fundamental concept in electromagnetism, which describes the production of an electric current in a conductor when it is placed in a changing magnetic field. This phenomenon is the basis for many modern technologies, including generators, motors, and transformers. Faraday's law of induction is a fundamental principle that relates the electromotive force induced in a closed loop to the rate of change of the magnetic flux through the loop.",
+        "user_input": "What is the application of electromagnetic induction in real life?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The Biot-Savart law is a fundamental principle in electromagnetism that describes the magnetic field dB generated by a small current element Idl at a point P located at a distance r from the current element. The law is a powerful tool for calculating the magnetic field of complex geometries, such as solenoids and toroids.",
+        "user_input": "I don't get it. Can you explain the Biot-Savart law in simpler terms?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Maxwell's equations are a set of four partial differential equations that form the foundation of classical electromagnetism. They describe the behavior of electric and magnetic fields, and how they interact with charges and currents. The equations are: Gauss's law for electric field, Gauss's law for magnetic field, Faraday's law of induction, and Ampere's law with Maxwell's correction.",
+        "user_input": "What's the point of learning Maxwell's equations?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Electromagnetic waves are a type of wave that can propagate through free space and are created by the vibration of charged particles. They are characterized by their frequency, wavelength, and speed, which is always equal to the speed of light in vacuum. Examples of electromagnetic waves include radio waves, microwaves, infrared radiation, visible light, ultraviolet radiation, X-rays, and gamma rays.",
+        "user_input": "That's so cool! I had no idea electromagnetic waves were used in so many things.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "The Lorentz force equation is a fundamental principle in electromagnetism that describes the force experienced by a charged particle moving through a magnetic field. The equation shows that the force is proportional to the velocity of the particle, the strength of the magnetic field, and the charge of the particle.",
+        "user_input": "I hate electromagnetism. It's so boring and useless.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Electromagnetic waves can be classified as transverse waves, meaning that the electric and magnetic field components are perpendicular to each other and to the direction of propagation. This is in contrast to mechanical waves, which can be either transverse or longitudinal.",
+        "user_input": "What's the difference between transverse and longitudinal waves?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The electric field is a vector field that surrounds charged particles and is responsible for the Coulomb force between them. It can be visualized as lines of force that emerge from positive charges and enter into negative charges.",
+        "user_input": "I didn't understand anything from this chapter. Can you summarize it for me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The magnetic field is a vector field that is produced by the motion of charged particles, such as electrons. It is responsible for the force experienced by other charged particles moving through it. The direction of the magnetic field can be determined using the right-hand rule.",
+        "user_input": "Hello, I'm having trouble understanding the concept of magnetic fields.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Electromagnetic induction is a fundamental concept in electromagnetism, which describes the production of an electric current in a conductor when it is placed in a changing magnetic field. This phenomenon is the basis for many modern technologies, including generators, motors, and transformers. Faraday's law of induction is a fundamental principle that relates the electromotive force induced in a closed loop to the rate of change of the magnetic flux through the loop.",
+        "user_input": "This is all so confusing. I need a break.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The Biot-Savart law is a fundamental principle in electromagnetism that describes the magnetic field dB generated by a small current element Idl at a point P located at a distance r from the current element. The law is a powerful tool for calculating the magnetic field of complex geometries, such as solenoids and toroids.",
+        "user_input": "This is stupid. I don't get why we need to learn this.",
+        "intent": "Insult"
+    },
+    {
+        "context": "In university-level nuclear physics, the study of nuclear reactions and interactions is a crucial aspect. Nuclear reactions involve changes to the nucleus of an atom, resulting in the emission or absorption of energy. These reactions can be classified into two categories: nuclear fission and nuclear fusion. Fission reactions involve the splitting of a heavy nucleus into two or more lighter nuclei, releasing a significant amount of energy. On the other hand, fusion reactions involve the combination of two or more light nuclei to form a heavier nucleus, also releasing energy.",
+        "user_input": "What is the difference between nuclear fission and fusion?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The discovery of nuclear energy has led to the development of nuclear power plants, which generate electricity by harnessing the energy released from nuclear fission reactions. However, the safe operation of these plants requires careful monitoring and control of the reaction rates to prevent accidents. One of the key challenges in nuclear power generation is the management of nuclear waste, which remains radioactive for thousands of years.",
+        "user_input": "I don't care about nuclear power plants, I'm bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "In nuclear physics, the strong nuclear force is responsible for holding quarks together inside protons and neutrons, and for holding these particles together inside atomic nuclei. The strong nuclear force is one of the four fundamental forces of nature, along with the electromagnetic force, the weak nuclear force, and gravity. Understanding the strong nuclear force is crucial for explaining the stability of atomic nuclei.",
+        "user_input": "This is stupid, I don't get why we need to learn this.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Radioactive decay is a spontaneous process in which unstable atomic nuclei lose energy and stability by emitting radiation. There are three main types of radioactive decay: alpha, beta, and gamma decay. Alpha decay involves the emission of an alpha particle, which is a high-energy helium nucleus. Beta decay involves the emission of a beta particle, which is a high-energy electron.",
+        "user_input": "Can you explain alpha decay in more detail?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Nuclear physics has numerous applications in medicine, industry, and scientific research. In medicine, nuclear physics is used in cancer treatment, diagnostic imaging, and nuclear medicine. In industry, nuclear physics is used in radiation detection, materials modification, and food irradiation.",
+        "user_input": "That's cool, I didn't know nuclear physics had so many applications.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "The discovery of the neutron by James Chadwick in 1932 revolutionized the field of nuclear physics. The neutron is a subatomic particle with no electric charge, but it plays a crucial role in the structure of atomic nuclei. The discovery of the neutron led to a deeper understanding of nuclear reactions and the development of nuclear energy.",
+        "user_input": "What is the significance of the discovery of the neutron?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In nuclear physics, the concept of half-life is used to describe the rate of radioactive decay. Half-life is the time it takes for half of the original amount of a radioactive substance to decay. The half-life of a substance depends on its specific isotopic properties.",
+        "user_input": "I'm going to the movies, bye.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "In University Level Nuclear physics, the nucleus of an atom is made up of protons and neutrons, which are collectively known as nucleons. The protons in the nucleus have a positive charge, while the neutrons have no charge. The number of protons in an atom's nucleus determines the element of an atom, and each element has a unique number of protons in its atoms. The number of neutrons in an atom's nucleus can vary, leading to different isotopes of the same element.",
+        "user_input": "What is the role of neutrons in an atom's nucleus?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Radioactive decay is a spontaneous process in which unstable atomic nuclei lose energy and stability by emitting radiation. There are three main types of radioactive decay: alpha, beta, and gamma decay. Alpha decay involves the emission of an alpha particle, which is a high-energy helium nucleus. Beta decay involves the emission of a beta particle, which is a high-energy electron. Gamma decay involves the emission of a gamma ray, which is a high-energy photon.",
+        "user_input": "I dont understand this. Can you give me an example?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Nuclear reactions are similar to chemical reactions, but they involve changes in the nucleus of an atom rather than the electrons. Nuclear reactions involve the interaction of nuclei with each other or with other particles, such as neutrons or photons. There are two main types of nuclear reactions: fission and fusion. Fission involves the splitting of a heavy nucleus into two lighter nuclei, releasing energy in the process. Fusion involves the combination of two light nuclei to form a heavier nucleus, also releasing energy.",
+        "user_input": "I'm so bored with this topic. Can we move on?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The strong nuclear force is a fundamental force of nature that holds quarks together inside protons and neutrons, and holds these particles together inside the nucleus. It is a short-range force, meaning it only acts over very small distances. The strong nuclear force is responsible for the binding energy that holds the nucleus together.",
+        "user_input": "This is all nonsense. You're just making this up.",
+        "intent": "Insult"
+    },
+    {
+        "context": "In University Level Nuclear physics, the nucleus of an atom is made up of protons and neutrons, which are collectively known as nucleons. The protons in the nucleus have a positive charge, while the neutrons have no charge. The number of protons in an atom's nucleus determines the element of an atom, and each element has a unique number of protons in its atoms.",
+        "user_input": "I agree. The number of protons in an atom's nucleus determines the element.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "Radioactive decay is a spontaneous process in which unstable atomic nuclei lose energy and stability by emitting radiation. There are three main types of radioactive decay: alpha, beta, and gamma decay.",
+        "user_input": "What's the point of learning about radioactive decay?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Nuclear reactions are similar to chemical reactions, but they involve changes in the nucleus of an atom rather than the electrons. Nuclear reactions involve the interaction of nuclei with each other or with other particles, such as neutrons or photons.",
+        "user_input": "What is the difference between nuclear reactions and chemical reactions?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In nuclear physics, the strong nuclear force is responsible for holding quarks together inside protons and neutrons, and for holding these particles together inside atomic nuclei. The strong nuclear force is a fundamental force of nature, and it is mediated by particles called gluons. At the quantum level, the strong nuclear force is described by the theory of quantum chromodynamics (QCD). ",
+        "user_input": "What is the strong nuclear force?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The process of nuclear fission is a complex phenomenon that occurs when an atomic nucleus splits into two or more smaller nuclei, releasing a large amount of energy in the process. This process is the basis for nuclear power plants, which generate electricity by harnessing the energy released from the fission of atomic nuclei.",
+        "user_input": "I don't understand nuclear fission at all",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Nuclear reactors are devices that use nuclear fission to generate energy. They consist of a fuel core, a moderator, a control rod, and a coolant system. The fuel core is where the fission reaction takes place, and the moderator helps to slow down the neutrons to increase the reaction rate.",
+        "user_input": "This is so boring",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Radioactive decay is the process by which unstable atomic nuclei lose energy and stability by emitting radiation. This process occurs naturally in certain isotopes, and it is used in a variety of applications, including medicine, industry, and scientific research.",
+        "user_input": "I already know this",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Particle accelerators are devices that use electromagnetic fields to accelerate charged particles to high speeds, allowing physicists to study the properties of subatomic particles and the forces that govern their behavior.",
+        "user_input": "What is a particle accelerator?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The nuclear binding energy is the energy that holds protons and neutrons together inside an atomic nucleus. It is a measure of the strength of the strong nuclear force that holds the nucleus together.",
+        "user_input": "This is stupid",
+        "intent": "Insult"
+    },
+    {
+        "context": "In quantum mechanics, the Schr\u00f6dinger equation is a mathematical equation that describes the behavior of subatomic particles. It is a central equation in quantum mechanics, and it has been used to make many important predictions about the behavior of atoms and molecules.",
+        "user_input": "Hi, can you explain the Schr\u00f6dinger equation?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In University Level Nuclear physics, the strong nuclear force is a fundamental force of nature that holds quarks together inside protons and neutrons, and holds these particles together inside atomic nuclei. This force is mediated by particles called gluons, which are the exchange particles that carry the strong nuclear force between quarks and between protons and neutrons. The strong nuclear force is responsible for the structure of atomic nuclei, and is essential for the existence of matter as we know it.",
+        "user_input": "What is the role of gluons in the strong nuclear force?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Nuclear fission is a process in which an atomic nucleus splits into two or more smaller nuclei, releasing a large amount of energy in the process. This process is the principle behind nuclear power plants, which use fission to generate electricity. Fission can be induced by bombarding atomic nuclei with high-energy particles, such as neutrons, and can also occur spontaneously in certain radioactive isotopes.",
+        "user_input": "Nuclear fission is a type of nuclear reaction that releases a small amount of energy.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Radioactive decay is the process by which unstable atomic nuclei lose energy and stability by emitting ionizing radiation. This process occurs naturally in certain isotopes, and can also be induced by bombarding atomic nuclei with high-energy particles. Radioactive decay is an important area of study in University Level Nuclear physics, as it has many applications in fields such as medicine, industry, and scientific research.",
+        "user_input": "I'm so bored with this topic, can we move on?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "In University Level Nuclear physics, particle accelerators are used to accelerate charged particles, such as electrons, protons, and ions, to nearly the speed of light. These particles are then collided with a target material, producing a variety of subatomic particles that can be studied to gain insights into the fundamental nature of matter and the universe.",
+        "user_input": "This is a stupid topic, who cares about particle accelerators?",
+        "intent": "Insult"
+    },
+    {
+        "context": "Nuclear reactors are devices that use nuclear fission to generate heat, which is then used to produce steam and drive a turbine to generate electricity. There are several types of nuclear reactors, including pressurized water reactors, boiling water reactors, and gas-cooled reactors. Each type of reactor has its own advantages and disadvantages, and is suited to specific applications.",
+        "user_input": "Hello, I need help understanding how nuclear reactors work.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Quantum mechanics is a fundamental theory in University Level Nuclear physics that describes the behavior of matter and energy at the atomic and subatomic level. It provides a framework for understanding the behavior of particles such as electrons, protons, and neutrons, and has been used to develop many technologies, including transistors, lasers, and computer chips.",
+        "user_input": "That's a great explanation, I finally understand quantum mechanics!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "In University Level Nuclear physics, the nucleus of an atom is composed of protons and neutrons, which are held together by the strong nuclear force. The number of protons in an atomic nucleus determines the chemical element of an atom, and each element has a unique number of protons in its atoms. Understanding the nucleus is crucial in nuclear physics, as it plays a vital role in determining the properties of an element.",
+        "user_input": "What is the importance of protons in an atomic nucleus?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Radioactive decay is a process in which unstable atomic nuclei lose energy and stability by emitting ionizing radiation. There are three main types of radioactive decay: alpha, beta, and gamma decay. Alpha decay involves the emission of an alpha particle, which is a high-energy helium nucleus. Beta decay involves the emission of a beta particle, which is a high-energy electron.",
+        "user_input": "I don't understand alpha decay, can you explain it?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Nuclear reactors are devices that use nuclear fission, a process in which atomic nuclei split and release energy, to generate electricity. The most common type of nuclear reactor is the pressurized water reactor, which uses enriched uranium as fuel and water as a coolant. Nuclear reactors are a significant source of low-carbon electricity and are used in many countries around the world.",
+        "user_input": "I'm so bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The strong nuclear force is a fundamental force of nature that holds quarks together inside protons and neutrons, and holds these particles together inside atomic nuclei. It is a powerful force that is responsible for the stability of atomic nuclei and is essential for the existence of matter as we know it.",
+        "user_input": "You're an idiot if you can't understand this.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Particle accelerators are research tools used in nuclear physics to study the properties of subatomic particles. They work by accelerating charged particles to high speeds and then colliding them with a target, resulting in the production of new particles and antiparticles. The data collected from these collisions is used to understand the fundamental nature of matter and the universe.",
+        "user_input": "That's a great explanation!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "In nuclear physics, the concept of wave-particle duality is used to describe the behavior of particles such as electrons and photons. These particles can exhibit both wave-like and particle-like behavior depending on how they are observed, which has important implications for our understanding of the behavior of matter at the atomic and subatomic level.",
+        "user_input": "What's the difference between wave-like and particle-like behavior?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Neutron scattering is a technique used in nuclear physics to study the structure and properties of materials. It involves bombarding a sample with neutrons and measuring how they scatter off the sample, which provides information about the material's atomic structure and dynamics.",
+        "user_input": "I love playing soccer, do you?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "In university-level acoustics physics, the study of sound waves is crucial for understanding various phenomena, such as reflection, refraction, and diffraction. Sound waves can be classified into two main categories: mechanical waves, which require a medium to propagate, and electromagnetic waves, which can propagate through a vacuum. The speed of sound waves in air is approximately 343 meters per second at room temperature and atmospheric pressure.",
+        "user_input": "What are the types of sound waves?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "One of the fundamental principles in acoustics physics is the Doppler effect, which describes the change in frequency of a sound wave when the source and observer are moving relative to each other. This phenomenon is commonly observed in everyday life, such as when a siren's pitch appears to change as an ambulance drives by.",
+        "user_input": "I don't understand the Doppler effect, can you explain it?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Acoustic impedance is a critical concept in acoustics physics, as it determines the degree of reflection or transmission of sound waves at an interface between two media. The impedance mismatch between air and water, for instance, is responsible for the refraction of sound waves at the surface of a lake.",
+        "user_input": "That's too complicated, I'm not going to bother with this.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The study of sound waves is essential in various fields, including music, architecture, and medicine. In medicine, ultrasound technology utilizes high-frequency sound waves to produce images of internal organs and tissues.",
+        "user_input": "This has nothing to do with the topic, I'm out of here.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Resonance is a vital concept in acoustics physics, as it occurs when a system vibrates at a specific frequency, often with increased amplitude. This phenomenon is exploited in many applications, such as in the design of musical instruments and sound amplification systems.",
+        "user_input": "You're an idiot if you don't understand this.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Acoustic filters are used to manipulate sound waves by attenuating or amplifying specific frequency ranges. These filters have numerous applications, including noise reduction in recording studios and hearing aids.",
+        "user_input": "What are some common types of acoustic filters?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In acoustic physics, the study of sound waves and their interactions with matter is crucial for understanding various phenomena. At the university level, students delve into the intricacies of sound wave propagation, reflection, refraction, and diffraction. These principles are essential for designing and optimizing acoustic systems, such as concert halls, soundproofing materials, and noise reduction technologies.",
+        "user_input": "What are some practical applications of acoustic physics?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The human ear is a remarkable example of an acoustic system, capable of detecting sound waves within a wide range of frequencies. University-level acoustics physics courses explore the mechanisms of sound perception, including the role of the eardrum, cochlea, and auditory nerve. This knowledge is vital for understanding hearing impairments and developing treatments.",
+        "user_input": "I'm so bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Acoustic physics is a fundamental discipline that underlies many areas of research and development, including music technology, architectural acoustics, and medical imaging. University students of acoustics physics develop a deep understanding of the physical principles governing sound and its interactions with matter, preparing them for careers in these fields.",
+        "user_input": "This is stupid, I don't get it.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The Doppler effect, which describes the frequency shift of sound waves due to relative motion between the source and observer, has numerous applications in fields like meteorology, medical imaging, and astronomy. At the university level, students of acoustics physics learn to analyze and apply the Doppler effect to real-world problems.",
+        "user_input": "Can you explain the Doppler effect in simpler terms?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "One of the most significant challenges in acoustic physics is the control and reduction of noise pollution. University researchers and students work together to develop innovative solutions, such as active noise cancellation and sound-absorbing materials, to mitigate the negative impacts of noise on human health and the environment.",
+        "user_input": "That's a great point, noise pollution is a huge issue.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "The study of acoustic physics at the university level involves a deep exploration of the mathematical and physical principles governing sound waves. Students learn to apply theoretical frameworks, such as the wave equation and Fourier analysis, to model and analyze acoustic phenomena.",
+        "user_input": "What's the difference between sound waves and light waves?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Acoustic physics has far-reaching implications for various industries, including music, film, and construction. University graduates with a strong foundation in acoustic physics are in high demand, as they can design and optimize acoustic systems, develop new technologies, and address emerging challenges.",
+        "user_input": "I love music, but I don't see the connection.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "In the field of University Level Acoustics physics, the study of sound waves and their interactions with matter is crucial. This includes the examination of the physical properties of sound waves, such as frequency, amplitude, and wavelength, as well as the ways in which they are produced, transmitted, and perceived by the human ear. Acousticians use a variety of techniques, including mathematical modeling and experimental methods, to understand the behavior of sound in different environments.",
+        "user_input": "What is the difference between frequency and amplitude?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The human ear is capable of detecting sound waves with frequencies between 20 Hz and 20,000 Hz. Sounds with frequencies below 20 Hz are typically felt rather than heard, and are known as infrasound. Those with frequencies above 20,000 Hz are ultrasonic and cannot be perceived by the human ear. Acousticians use this range of frequencies to study the properties of sound and its effects on the human body.",
+        "user_input": "I don't get why we need to study acoustics",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Sound waves are a type of mechanical wave that propagates through a medium, such as air, water, or solid objects. They are created by the vibration of an object, and can travel long distances before being perceived by the human ear. The characteristics of sound waves, such as their frequency and amplitude, determine the properties of the sound that we hear.",
+        "user_input": "What is the formula to calculate the speed of sound?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In a typical lecture hall, the acoustic properties of the room can greatly affect the quality of the sound that is heard by the audience. The shape and size of the room, as well as the materials used in its construction, can all impact the way in which sound waves are reflected and absorbed.",
+        "user_input": "I love the way you explained that, it makes so much sense now!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "The study of acoustics has many practical applications, including the design of concert halls, soundproofing, and medical imaging. Acousticians use their knowledge of sound waves to improve the quality of sound in a variety of environments, from recording studios to hospitals.",
+        "user_input": "Did you hear about the latest football game?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "When sound waves encounter an object, they can be either reflected, absorbed, or transmitted. The way in which sound waves interact with objects is dependent on the properties of the object, such as its size, shape, and material composition. Understanding these interactions is crucial for the study of acoustics.",
+        "user_input": "That's so stupid, who cares about sound waves?",
+        "intent": "Insult"
+    },
+    {
+        "context": "In addition to its many practical applications, the study of acoustics also has a rich theoretical foundation. Acousticians use mathematical models to describe the behavior of sound waves, and to make predictions about their properties in different environments.",
+        "user_input": "Can you explain the concept of diffraction in acoustics?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The human ear is an incredibly complex and sensitive organ, capable of detecting sound waves with Frequencies as low as 20 Hz. The ear consists of three main parts: the outer ear, the middle ear, and the inner ear, each of which plays a crucial role in the process of sound perception.",
+        "user_input": "You are the best teacher ever!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "Acoustic impedance is an important concept in the study of sound waves. It is a measure of the opposition to the flow of sound energy, and is dependent on the properties of the medium through which the sound wave is propagating.",
+        "user_input": "What is the difference between acoustic impedance and resistance?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The decibel is a unit of measurement used to express the intensity of sound waves. It is a logarithmic scale, which means that an increase of 10 decibels corresponds to a tenfold increase in intensity.",
+        "user_input": "I'm so bored with this topic",
+        "intent": "Boredom"
+    },
+    {
+        "context": "University-level acoustics physics involves the study of the physical properties of sound and its behavior in various environments. It encompasses the principles of wave propagation, frequency analysis, and signal processing. Acousticians use mathematical models and experimental techniques to understand and manipulate sound waves, which is essential in fields like music, architecture, and engineering.",
+        "user_input": "What is the significance of Fourier analysis in acoustics?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The study of sound waves is crucial in understanding the behavior of musical instruments, concert halls, and other acoustic systems. University-level acoustics physics delves into the intricacies of sound wave propagation, diffraction, and interference, which are critical in designing optimal acoustic environments.",
+        "user_input": "This is so boring, I don't get why we need to learn this.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "One of the fundamental principles in acoustics is the Doppler effect, which describes the frequency shift of sound waves when the source and observer are in motion relative to each other. This phenomenon has numerous applications in fields like radar technology and medical imaging.",
+        "user_input": "Can you explain the Doppler effect in more detail?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Acoustic impedance is a critical concept in university-level acoustics physics, as it determines the efficiency of energy transfer between different materials. Understanding impedance is essential in designing effective soundproofing systems and audio equipment.",
+        "user_input": "I'm not sure I understand impedance, can you provide an example?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The human ear is a remarkable organ capable of detecting sound waves across a wide range of frequencies. University-level acoustics physics explores the physiologic and psychological aspects of sound perception, including the mechanisms of hearing and the effects of noise pollution.",
+        "user_input": "That's stupid, I don't believe that.",
+        "intent": "Insult"
+    },
+    {
+        "context": "In addition to its applications in music and architecture, acoustics physics has significant implications for environmental monitoring and conservation. For instance, acoustic sensors can be used to track marine life populations and monitor ocean noise pollution.",
+        "user_input": "Hi, how does acoustics relate to environmental monitoring?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The principles of acoustics physics are applied in various fields, including medical imaging, non-destructive testing, and military surveillance. University-level courses in acoustics provide students with a comprehensive understanding of the underlying physical principles and their practical applications.",
+        "user_input": "I don't care about non-destructive testing, it's irrelevant to my interests.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "The study of acoustics physics has led to numerous breakthroughs in our understanding of the natural world, from the behavior of seismic waves to the properties of ultrasonic cleaning agents. University-level courses in acoustics provide students with a solid foundation in the mathematical and experimental techniques used in these fields.",
+        "user_input": "That's a great point about seismic waves!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "In university-level acoustics physics, the study of sound waves is crucial in understanding the behavior of acoustic systems. Acoustic impedance, a measure of how much a system resists the flow of acoustic energy, is a fundamental concept in this field. It is defined as the ratio of the acoustic pressure to the volume velocity of a sound wave.",
+        "user_input": "What is acoustic impedance?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The human ear is a complex acoustic system that can detect sound waves with frequencies ranging from 20 Hz to 20,000 Hz. The eardrum, a thin membrane, plays a crucial role in sound detection as it vibrates when sound waves reach it, transmitting these vibrations to the inner ear.",
+        "user_input": "I don't get why we need to study sound waves, it's so boring.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Sound waves can be classified into two main categories: longitudinal and transverse waves. Longitudinal waves, also known as compression waves, are waves in which the particles of the medium oscillate back and forth along the direction of propagation.",
+        "user_input": "That's so confusing, can you explain it again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The Doppler effect, a fundamental concept in acoustics physics, describes the change in frequency of a sound wave when the source and observer are moving relative to each other. This phenomenon is commonly observed in everyday life, such as when a police car siren appears to change pitch as it moves past an observer.",
+        "user_input": "This is stupid, I'll never use this in real life.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Acoustic resonance, a phenomenon in which a system vibrates at a specific frequency, is crucial in understanding various acoustic systems. The resonant frequency of a system depends on its physical properties, such as mass, stiffness, and damping.",
+        "user_input": "You're an idiot if you think this is important.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The decibel, a unit of measurement for sound intensity, is a logarithmic scale that ranges from 0 dB, the threshold of human hearing, to over 194 dB, the sound of a jet engine taking off.",
+        "user_input": "Hi, I have a question about sound intensity.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Acoustic filters, devices that attenuate or amplify specific frequencies, are essential in various applications, including audio processing and noise reduction. There are different types of acoustic filters, including low-pass, high-pass, band-pass, and band-stop filters.",
+        "user_input": "That makes sense, thank you for explaining!",
+        "intent": "Valid answer"
+    }
+]

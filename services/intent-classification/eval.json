@@ -1,0 +1,1397 @@
+[
+    {
+        "context": "When designing a web page, it is essential to consider the organization and structure of the content. A site map can be used to visualize the relationships between different pages and help in planning the navigation. The home page should provide a summary of the entire content of the website and present information in brief, using numbered lists, bulleted lists, and indentation.",
+        "user_input": "How can I make the home page more engaging?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML tags are used to define the structure and content of a web page. There are different types of tags, including headings, paragraphs, lists, and links. The <dl> tag is used to define a description list, which consists of terms and their descriptions.",
+        "user_input": "What is the purpose of the <dl> tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A description list is a type of list that provides a description or explanation for each item. It is commonly used in web pages to provide definitions or explanations for technical terms or concepts. The <dt> tag is used to define the term, and the <dd> tag is used to define the description.",
+        "user_input": "I don't understand how to use the <dt> and <dd> tags.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When creating a web page, it is important to consider the user experience and make it easy for them to navigate the website. This can be achieved by using clear and concise language, breaking up long text into shorter paragraphs, and using headings and subheadings to organize the content.",
+        "user_input": "I'm so bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML lists are used to present a collection of items in a concise and organized manner. There are three main types of lists in HTML: unordered lists, ordered lists, and description lists. Each type of list has its own set of tags and attributes that define its structure and content.",
+        "user_input": "HTML is stupid.",
+        "intent": "Insult"
+    },
+    {
+        "context": "A site map is a visual representation of a website's structure and organization. It is used to plan and design the website's navigation and content. A site map typically includes the main pages and sections of the website, as well as the relationships between them.",
+        "user_input": "Hi, can you help me with creating a site map?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the organization and structure of the content. A site map can be used to visualize the relationships between different pages and help in planning the navigation. The home page should provide a summary of the entire content of the website and present information in brief, using numbered lists, bulleted lists, and indentation.",
+        "user_input": "Hi, what is the purpose of a site map?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML tags are used to define the structure and content of a web page. There are different types of tags, including headings, paragraphs, lists, and links. The <br/> tag is used to insert a line break in a paragraph of text.",
+        "user_input": "I know how to use the <br/> tag.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "A description list is a type of list that provides a description or explanation for each item. It is commonly used in web pages to provide definitions or explanations for technical terms or concepts. The <dl> tag is used to define the description list, and the <dt> and <dd> tags are used to define the terms and descriptions.",
+        "user_input": "What is a description list?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When creating a web page, it is important to consider the user experience and make it easy for them to navigate the website. This can be achieved by using clear and concise language, breaking up long text into shorter paragraphs, and using headings and subheadings to organize the content.",
+        "user_input": "I don't understand anything.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list, which is essential in HTML language. It is used to display a list of items with a brief description for each item. The description list is defined by the <dl> tag, and each item in the list is defined by the <dt> tag for the term and the <dd> tag for the description.",
+        "user_input": "What is the purpose of description lists in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is crucial to present information in a concise and organized manner. This can be achieved by using main menus and submenus, hyperlinks, and limiting the content of a single web page. Additionally, using numbered lists, bulleted lists, and indentation can help to prevent user exhaustion.",
+        "user_input": "How can I make my web page more user-friendly?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML language provides various tags to format text, including the line break tag, which is used to break lines. The <br/> tag is an empty tag that belongs to the type of blank tags, similar to the <img> tag. It is used exactly in the position where you need to break the line, without using two opening/ending tags.",
+        "user_input": "What is the purpose of the line break tag in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list, which is essential in HTML language. It is used to display a list of items with a brief description for each item. The description list is defined by the <dl> tag, and each item in the list is defined by the <dt> tag for the term and the <dd> tag for the description.",
+        "user_input": "I don't understand how to use description lists. Can you explain?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it is crucial to present information in a concise and organized manner. This can be achieved by using main menus and submenus, hyperlinks, and limiting the content of a single web page. Additionally, using numbered lists, bulleted lists, and indentation can help to prevent user exhaustion.",
+        "user_input": "This is all so confusing. I don't think I can do this.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML language provides various tags to format text, including the line break tag, which is used to break lines. The <br/> tag is an empty tag that belongs to the type of blank tags, similar to the <img> tag. It is used exactly in the position where you need to break the line, without using two opening/ending tags.",
+        "user_input": "This is stupid. I hate HTML.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list, which is essential in HTML language. It is used to display a list of items with a brief description for each item. The description list is defined by the <dl> tag, and each item in the list is defined by the <dt> tag for the term and the <dd> tag for the description.",
+        "user_input": "Hi, I need help with description lists.",
+        "intent": "Greeting"
+    },
+    {
+        "context": "When designing a web page, it is crucial to present information in a concise and organized manner. This can be achieved by using main menus and submenus, hyperlinks, and limiting the content of a single web page. Additionally, using numbered lists, bulleted lists, and indentation can help to prevent user exhaustion.",
+        "user_input": "What is the purpose of main menus and submenus in web design?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML language provides various tags to format text, including the line break tag, which is used to break lines. The <br/> tag is an empty tag that belongs to the type of blank tags, similar to the <img> tag. It is used exactly in the position where you need to break the line, without using two opening/ending tags.",
+        "user_input": "I didn't know you could break lines in HTML.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list, which is essential in HTML language. It is used to display a list of items with a brief description for each item. The description list is defined by the <dl> tag, and each item in the list is defined by the <dt> tag for the term and the <dd> tag for the description.",
+        "user_input": "I'm going to use CSS to format my text.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "In HTML, description lists are used to provide a description with the list, which can be useful for explaining terms or concepts. A description list consists of a list of terms, with a description or explanation for each term. The <dl> tag is used to define the description list, and the <dt> tag is used to define the term, while the <dd> tag is used to define the description.",
+        "user_input": "What is a description list in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it's essential to consider the site map, which is a visual representation of the website's structure and organization. A site map helps users navigate the website easily and find the information they need quickly. A good site map should be clear, concise, and easy to understand.",
+        "user_input": "Can you explain the importance of a site map in web design?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In HTML, there are different types of lists, including ordered lists, unordered lists, and description lists. Ordered lists use numbers to sequence the items, unordered lists use bullets, and description lists provide a description or explanation for each item. Lists are useful for presenting information in a clear and concise manner.",
+        "user_input": "I'm confused about the different types of lists in HTML. Can you help me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When creating a web page, it's essential to consider the layout and organization of the content. A good web page should have a clear and concise title, a brief introduction, and well-organized content that is easy to read and understand.",
+        "user_input": "This is so boring. I don't understand why we need to learn this.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "In HTML, the <br/> tag is used to break lines and create space between elements. It's essential to use the <br/> tag correctly to ensure that the web page is formatted correctly.",
+        "user_input": "What is the purpose of the <br/> tag in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it's essential to consider the user's needs and preferences. A good web page should be easy to navigate, have a clear and concise layout, and provide relevant and useful information.",
+        "user_input": "Hello, can you help me with designing a web page?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "HTML description lists are used to provide a description with the list. They can be used to display a list of main subjects for different streams, such as science and commerce. The <dl> tag is used to begin the description list, and the <dt> tag is used to introduce the list, while the <dd> tag is used to describe the list.",
+        "user_input": "What is the purpose of a description list in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to manage the space in the home page effectively. This can be done by using main menus and submenus, as well as hyperlinks. The content of a single web page should be limited to prevent the user from getting overwhelmed.",
+        "user_input": "I don't understand how to create a home page for a website.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In HTML, line break tags are used to break lines and are considered blank tags or empty tags. The <br/> tag is used to break lines exactly where needed, without requiring opening and ending tags.",
+        "user_input": "What is the purpose of the <br/> tag in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML lists are used to display a number of related items in an order. There are three main types of lists in web page designing: unordered lists, ordered lists, and description lists. Unordered lists use the <ul> symbol to mark the beginning of the list.",
+        "user_input": "I'm so bored with learning about HTML lists.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "A website's site map is a visual representation of the website's structure and organization. It provides a summary of the entire content of the website and helps users navigate the website easily.",
+        "user_input": "That's a stupid way to design a website.",
+        "intent": "Insult"
+    },
+    {
+        "context": "HTML description lists can be used to display a list of main subjects for different streams, such as science and commerce. The <dl> tag is used to begin the description list, and the <dt> tag is used to introduce the list, while the <dd> tag is used to describe the list.",
+        "user_input": "Hi, can you explain how to create a description list in HTML?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it is essential to present information in brief and use numbered lists, bulleted lists, and indentation to prevent users from getting exhausted by reading long text paragraphs.",
+        "user_input": "I'm not sure how to present information on a web page.",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML lists are used to display a number of related items in an order. There are three main types of lists in web page designing: unordered lists, ordered lists, and description lists. Unordered lists use the <ul> symbol to mark the beginning of the list.",
+        "user_input": "Hello, I need help with HTML lists.",
+        "intent": "Greeting"
+    },
+    {
+        "context": "HTML description lists are used to provide a description with the list. They can be used to display a list of main subjects for different streams, such as science and commerce. The <dl> tag is used to begin the description list, and the <dt> tag is used to introduce the list, while the <dd> tag is used to describe the list.",
+        "user_input": "I don't understand the difference between ordered and unordered lists.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A website's site map is a visual representation of the website's structure and organization. It provides a summary of the entire content of the website and helps users navigate the website easily.",
+        "user_input": "That's not what I mean. I'm talking about the site map.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list. They are often used to explain terms or concepts. For example, a description list can be used to list the main subjects for the science stream and commerce stream. The HTML code for a description list includes the <dl> tag, which is used to indicate the beginning of a description list, and the <dt> and <dd> tags, which are used to introduce list items and provide their descriptions, respectively.",
+        "user_input": "What is the purpose of a description list?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is important to consider the layout and organization of content. One way to do this is to use main menus and submenus to manage space on the home page. This can be achieved by using hyperlinks to connect to other pages or sections. Additionally, presenting information in brief and using numbered lists, bulleted lists, and indentation can help to prevent user exhaustion.",
+        "user_input": "Can you explain how to manage space on a home page?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML code can be used to create web pages that include titles, pictures, paragraphs, hyperlinks, and tables. A title text can be created using the <title> tag, and a picture can be inserted using the <img> tag. A paragraph can be created using the <p> tag, and a hyperlink can be created using the <a> tag.",
+        "user_input": "How do I add a title to my web page?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Line break tags are used to break lines in HTML code. The <br/> tag is used to indicate a line break, and it belongs to the type of blank tags or empty tags. It is often used to separate lines of text or to create space between elements on a web page.",
+        "user_input": "What is the purpose of the <br/> tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Lists are used to indicate a number of related items in an order. There are three types of main lists in web page designing in HTML: unordered lists, ordered lists, and definition lists. Unordered lists use the <ul> tag and are often used to list items that do not need to be in a specific order.",
+        "user_input": "I'm bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list. They are often used to explain terms or concepts. For example, a description list can be used to list the main subjects for the science stream and commerce stream.",
+        "user_input": "This is stupid.",
+        "intent": "Insult"
+    },
+    {
+        "context": "When designing a web page, it is important to consider the layout and organization of content. One way to do this is to use main menus and submenus to manage space on the home page.",
+        "user_input": "Hi, can you help me with this?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "HTML code can be used to create web pages that include titles, pictures, paragraphs, hyperlinks, and tables.",
+        "user_input": "What is the difference between a title and a heading?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Line break tags are used to break lines in HTML code. The <br/> tag is used to indicate a line break, and it belongs to the type of blank tags or empty tags.",
+        "user_input": "I don't understand this.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Lists are used to indicate a number of related items in an order. There are three types of main lists in web page designing in HTML: unordered lists, ordered lists, and definition lists.",
+        "user_input": "That's cool!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list. They provide a way to define terms and their meanings. HTML uses the <dl> tag to define a description list, the <dt> tag to define a term, and the <dd> tag to define the description of the term.",
+        "user_input": "What is the purpose of a description list in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the layout and structure of the page. A well-structured web page should have a clear and concise home page, easy navigation, and a summary of the entire content.",
+        "user_input": "How do I manage the space in a home page?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML provides various types of lists, including ordered lists, unordered lists, and description lists. Ordered lists are used to list items in a specific order, while unordered lists are used to list items without a specific order.",
+        "user_input": "What is the difference between ordered and unordered lists?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML code is used to create web pages. It consists of a series of elements, represented by tags, which are used to define different parts of a web page. There are two types of tags: opening tags and closing tags.",
+        "user_input": "I don't understand the concept of tags in HTML.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list. They provide a way to define terms and their meanings. HTML uses the <dl> tag to define a description list, the <dt> tag to define a term, and the <dd> tag to define the description of the term.",
+        "user_input": "I'm bored with this topic, can we move on?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the layout and structure of the page. A well-structured web page should have a clear and concise home page, easy navigation, and a summary of the entire content.",
+        "user_input": "This is stupid, I don't get it.",
+        "intent": "Insult"
+    },
+    {
+        "context": "HTML provides various types of lists, including ordered lists, unordered lists, and description lists. Ordered lists are used to list items in a specific order, while unordered lists are used to list items without a specific order.",
+        "user_input": "Hello, can you explain ordered lists to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML code is used to create web pages. It consists of a series of elements, represented by tags, which are used to define different parts of a web page. There are two types of tags: opening tags and closing tags.",
+        "user_input": "I'm not sure about this concept, can you give an example?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list. They provide a way to define terms and their meanings. HTML uses the <dl> tag to define a description list, the <dt> tag to define a term, and the <dd> tag to define the description of the term.",
+        "user_input": "That's a great explanation, thank you!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the layout and structure of the page. A well-structured web page should have a clear and concise home page, easy navigation, and a summary of the entire content.",
+        "user_input": "I'm not interested in this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "A description list is a type of list that provides a description or explanation of a term or concept. It is typically used to provide a clear and concise definition of a term, and can include multiple terms and their corresponding descriptions. Description lists are commonly used in textbooks, instruction manuals, and other educational materials.",
+        "user_input": "What is a description list?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML is a markup language used to create web pages. It is the standard language used to create web pages and is supported by all web browsers. HTML consists of a series of elements, represented by tags, which are used to define the structure and content of a web page.",
+        "user_input": "I don't understand how to use HTML.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A web page is a document that is displayed on the internet and can be accessed through a web browser. A web page can contain text, images, videos, and other multimedia elements. It is typically created using HTML, CSS, and JavaScript.",
+        "user_input": "Hi, can you explain what a web page is?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it is important to consider the user experience and ensure that the page is easy to navigate and understand. This can be achieved by using a clear and consistent layout, providing clear and concise content, and using visual elements such as images and icons.",
+        "user_input": "I'm so bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "A site map is a visual representation of a website's structure and organization. It provides a clear overview of the website's pages and how they are related to each other. A site map is typically used to help users navigate a website and find the information they need.",
+        "user_input": "What is a site map?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML tags are used to define the structure and content of a web page. They are represented by a less-than symbol (<) followed by a tag name and a greater-than symbol (>). Tags can be used to define headings, paragraphs, lists, and other elements on a web page.",
+        "user_input": "I hate HTML, it's so stupid.",
+        "intent": "Insult"
+    },
+    {
+        "context": "A description list is a type of list that provides a description or explanation of a term or concept. It is typically used to provide a clear and concise definition of a term, and can include multiple terms and their corresponding descriptions. Description lists are commonly used in textbooks, instruction manuals, and other educational materials.",
+        "user_input": "Hi, I need help with description lists.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it is important to consider the user experience and ensure that the page is easy to navigate and understand. This can be achieved by using a clear and consistent layout, providing clear and concise content, and using visual elements such as images and icons.",
+        "user_input": "Can you explain how to design a web page?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML is a markup language used to create web pages. It is the standard language used to create web pages and is supported by all web browsers. HTML consists of a series of elements, represented by tags, which are used to define the structure and content of a web page.",
+        "user_input": "I know HTML, it's easy.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "A site map is a visual representation of a website's structure and organization. It provides a clear overview of the website's pages and how they are related to each other. A site map is typically used to help users navigate a website and find the information they need.",
+        "user_input": "What is the purpose of a site map?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A description list in HTML is used to provide a description with the list. It is represented by the <dl> tag, which stands for definition list. The <dt> tag is used to introduce the list, and the <dd> tag is used to describe the list. For example, to display a description list as shown in Figure 5.28 in a web page, the HTML code would be written as <dl><dt>Main subjects for the science stream</dt><dd>Biology</dd><dd>Physics</dd><dd>Chemistry</dd><dd>Combined Maths</dd><dt>Main subjects for the commerce stream</dt><dd>Economics</dd><dd>Business Studies</dd><dd>Accountancy</dd></dl>.",
+        "user_input": "Can you explain the purpose of the <dl> tag in HTML?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML is a markup language used to create web pages. It consists of a series of elements, represented by tags, which are used to define different parts of a web page. Tags usually come in pairs, with the opening tag preceding the content and the closing tag following the content. For example, the HTML code for a paragraph is <p>This is a paragraph</p>, where <p> is the opening tag and </p> is the closing tag.",
+        "user_input": "What is the purpose of tags in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is important to consider the layout and organization of the content. A well-organized web page should have a clear hierarchy of information, with the most important information displayed prominently. The use of headings, paragraphs, and lists can help to create a clear and logical structure. Additionally, the use of white space and images can help to make the web page more visually appealing.",
+        "user_input": "I don't care about web design",
+        "intent": "Boredom"
+    },
+    {
+        "context": "In HTML, a hyperlink is used to link to another web page or a section within the same web page. The <a> tag is used to create a hyperlink, and the href attribute is used to specify the link destination. For example, the HTML code for a hyperlink is <a href=\"https://www.example.com\">Visit Example Website</a>, where https://www.example.com is the link destination.",
+        "user_input": "What is the purpose of the href attribute in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML has several features that make it easy to create web pages. One of the features is the use of lists, which can be ordered or unordered. Ordered lists are used when the items in the list need to be in a specific order, while unordered lists are used when the items can be in any order.",
+        "user_input": "HTML is so boring",
+        "intent": "Boredom"
+    },
+    {
+        "context": "When creating a web page, it is important to consider the audience and the purpose of the web page. The content should be relevant and interesting to the target audience, and the design should be visually appealing and easy to navigate.",
+        "user_input": "Hi, can you help me with my web design project?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "In HTML, images can be added to a web page using the <img> tag. The src attribute is used to specify the location of the image file, and the alt attribute is used to provide a description of the image for accessibility purposes.",
+        "user_input": "What is the purpose of the alt attribute in HTML?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML has several tags that are used to format text, such as headings, paragraphs, and lists. Headings are used to define headings, paragraphs are used to define paragraphs, and lists are used to define lists.",
+        "user_input": "I hate HTML, it's so confusing",
+        "intent": "Insult"
+    },
+    {
+        "context": "When designing a web page, it is important to consider the layout and organization of the content. A well-organized web page should have a clear hierarchy of information, with the most important information displayed prominently.",
+        "user_input": "What are some best practices for designing a web page?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML is a markup language used to create web pages. It consists of a series of elements, represented by tags, which are used to define different parts of a web page.",
+        "user_input": "I don't understand the difference between HTML and CSS",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML language is used to design web pages. It consists of various tags and attributes that are used to create different elements on a web page. Tags are used to define the structure and content of a web page, while attributes provide additional information about the elements.",
+        "user_input": "What is the purpose of tags in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list. They consist of a term and a description. The <dl> tag is used to define a description list, the <dt> tag is used to define the term, and the <dd> tag is used to define the description.",
+        "user_input": "How do I create a description list in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A web page is a document that is accessed through a web browser. It can contain text, images, videos, and other multimedia elements. Web pages are created using HTML, CSS, and JavaScript.",
+        "user_input": "What is a web page?",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "HTML provides various tags to create different elements on a web page. For example, the <p> tag is used to define a paragraph, the <img> tag is used to add an image, and the <a> tag is used to create a hyperlink.",
+        "user_input": "I don't understand why we need so many tags in HTML.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "A site map is a visual representation of a website's structure. It shows the relationships between different web pages and helps users navigate the website easily.",
+        "user_input": "Why do we need a site map?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Lists are used to present information in a clear and concise manner. There are three types of lists in HTML: unordered lists, ordered lists, and description lists.",
+        "user_input": "What is the difference between ordered and unordered lists?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Web page design involves creating a visually appealing and user-friendly interface. It requires a good understanding of HTML, CSS, and JavaScript.",
+        "user_input": "I hate designing web pages. It's so boring.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML tags are used to define the structure and content of a web page. They are represented by a less-than symbol (<) followed by a tag name and a greater-than symbol (>).",
+        "user_input": "What is an HTML tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A web page can be designed to provide information on a particular topic or to sell products online. It can also be used for entertainment purposes.",
+        "user_input": "I'm going to create a web page to showcase my art!",
+        "intent": "Greeting"
+    },
+    {
+        "context": "HTML provides various tags to create different elements on a web page. For example, the <h1> tag is used to define a heading, the <p> tag is used to define a paragraph, and the <img> tag is used to add an image.",
+        "user_input": "Can you explain the purpose of the <h1> tag?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML description lists are used to provide a description with the list, which can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments. The tag <dl> is used to begin a description list and the tag <dt> is used to introduce a list, while the tag <dd> is used to describe the list.",
+        "user_input": "What is the purpose of the <dd> tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to manage the space in the home page by using main menus and submenus, hyperlinks, and presenting information in brief. This can be achieved by limiting the content of a single web page and using numbered lists, bulleted lists, and indentation to prevent users from getting exhausted.",
+        "user_input": "This is so confusing, can you explain it again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A description list is a type of list that provides a description for each item in the list. It is typically used to define terms or provide explanations for items in a list. The <dl> tag is used to begin a description list, and the <dt> tag is used to introduce a term or item, while the <dd> tag is used to provide the description or explanation.",
+        "user_input": "I don't care about this, I'm bored.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Unordered lists are used to indicate a number of related items in no particular order. They are commonly used in web page designing in HTML language. The <ul> symbol is used to mark the beginning of an unordered list, and the type attribute is used to show the shape of the special symbol with its element.",
+        "user_input": "That's stupid, who uses unordered lists?",
+        "intent": "Insult"
+    },
+    {
+        "context": "When creating a website, it's essential to design a web page that gives a short introduction about the topic. This can be achieved by using title text, pictures, paragraphs, hyperlinks, and tables. The HTML code should be written in a specific format to display the web page correctly.",
+        "user_input": "Hi, can you help me with designing a web page?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list, which can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments. The tag <dl> is used to begin a description list and the tag <dt> is used to introduce a list, while the tag <dd> is used to describe the list.",
+        "user_input": "What is the difference between a description list and an unordered list?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When creating a website, it's essential to design a web page that gives a short introduction about the topic. This can be achieved by using title text, pictures, paragraphs, hyperlinks, and tables. The HTML code should be written in a specific format to display the web page correctly.",
+        "user_input": "I know how to design a web page, thanks.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "Line break tags are used to break lines in HTML. The <br/> tag is used to break lines, and it belongs to the type of blank tags or empty tags. It is used exactly in the position where you need to break the line.",
+        "user_input": "What's the weather like today?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "When designing a web page, it is essential to manage the space in the home page by using main menus and submenus, hyperlinks, and presenting information in brief. This can be achieved by limiting the content of a single web page and using numbered lists, bulleted lists, and indentation to prevent users from getting exhausted.",
+        "user_input": "I don't understand, can you explain it in simpler terms?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML description lists are used to provide a description with the list, which can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments. The tag <dl> is used to begin a description list and the tag <dt> is used to introduce a list, while the tag <dd> is used to describe the list.",
+        "user_input": "That's correct!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list. They consist of a series of terms and their corresponding descriptions. The <dl> tag is used to define the description list, the <dt> tag is used to define the term, and the <dd> tag is used to define the description. This type of list is often used to provide a list of definitions or explanations.",
+        "user_input": "Can you explain the purpose of a description list in HTML?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it's essential to consider the structure and organization of the content. This includes creating a site map, which is a visual representation of the website's structure and organization. A site map helps users navigate the website easily and efficiently.",
+        "user_input": "What is the purpose of a site map in web design?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In HTML, there are different types of lists that can be used to present information. Ordered lists are used to list items in a specific order, and unordered lists are used to list items without a specific order. Description lists are used to provide a description or explanation for each item in the list.",
+        "user_input": "I'm so bored with this lesson. Can we move on to something else?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML tags are used to define the structure and content of a web page. There are two types of HTML tags: opening tags and closing tags. Opening tags are used to indicate the start of an element, and closing tags are used to indicate the end of an element.",
+        "user_input": "This is stupid. I don't understand why we have to learn this.",
+        "intent": "Insult"
+    },
+    {
+        "context": "To create a web page, you need to write HTML code in a text editor and save it with an .html extension. Then, you can open the file in a web browser to view the web page. The HTML code consists of a series of tags and attributes that define the structure and content of the web page.",
+        "user_input": "Hi, can you help me with this HTML code?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML is used to create web pages that can be accessed on the internet. It consists of a series of tags and attributes that define the structure and content of the web page. HTML is a standard markup language that is widely used for creating web pages.",
+        "user_input": "What is the purpose of HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Web pages can be created using HTML code. HTML code consists of a series of tags and attributes that define the structure and content of the web page. There are different types of tags, including headings, paragraphs, lists, and links.",
+        "user_input": "I don't get it. Can you explain it again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A web page can have different sections, such as a title, headings, paragraphs, lists, and links. The title is displayed at the top of the web page and is used to define the title of the web page.",
+        "user_input": "What is the purpose of the title tag in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML is a markup language used to create web pages. It consists of a series of tags and attributes that define the structure and content of the web page. HTML is used to create web pages that can be accessed on the internet.",
+        "user_input": "Hello, how are you?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list. They consist of a series of terms and their corresponding descriptions. The <dl> tag is used to define the description list, the <dt> tag is used to define the term, and the <dd> tag is used to define the description.",
+        "user_input": "What is the difference between an ordered list and an unordered list?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML description lists are used to provide a description with the list. They consist of a beginning tag <dl>, an introduction of list tag <dt>, and a description of the list tag <dd>. The description list is often used to display a list of terms and their definitions, such as main subjects for the science stream and commerce stream.",
+        "user_input": "What is the purpose of using description lists in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is important to manage the space in the home page by using main menus and submenus, hyperlinks, and brief summaries of the content. This helps to prevent overwhelming the user with too much information and allows them to navigate the website easily.",
+        "user_input": "I'm feeling overwhelmed with the amount of information on this website.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "In HTML, line break tags are used to break lines and create a new line of text. The <br/> tag is a type of blank tag or empty tag, similar to the <img> tag. It is used exactly in the position where you need to break the line, without using two opening and ending tags.",
+        "user_input": "Can you explain how to use line break tags in HTML?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Unordered lists in HTML are used to display a list of items that do not have a specific order. They are marked with the <ul> tag and can be styled with different attributes, such as disc, circle, or square.",
+        "user_input": "What is the difference between ordered and unordered lists?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML description lists are used to provide a description with the list. They consist of a beginning tag <dl>, an introduction of list tag <dt>, and a description of the list tag <dd>. The description list is often used to display a list of terms and their definitions, such as main subjects for the science stream and commerce stream.",
+        "user_input": "I don't get it.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "When designing a web page, it is important to manage the space in the home page by using main menus and submenus, hyperlinks, and brief summaries of the content. This helps to prevent overwhelming the user with too much information and allows them to navigate the website easily.",
+        "user_input": "This is so confusing.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML lists are used to display a series of items in a specific order. There are three types of lists in HTML: unordered lists, ordered lists, and description lists. Each type of list has its own set of tags and attributes.",
+        "user_input": "What's the point of using lists in HTML?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "In HTML, description lists are used to display a list of terms and their definitions. They consist of a beginning tag <dl>, an introduction of list tag <dt>, and a description of the list tag <dd>. The description list is often used to display a list of main subjects for the science stream and commerce stream.",
+        "user_input": "This is stupid.",
+        "intent": "Insult"
+    },
+    {
+        "context": "HTML tables are used to display data in a tabular format. They consist of rows and columns, and can be used to display a variety of information, such as schedules, prices, and contact information.",
+        "user_input": "Hi, can you explain how to create a table in HTML?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML lists are used to display a series of items in a specific order. There are three types of lists in HTML: unordered lists, ordered lists, and description lists. Each type of list has its own set of tags and attributes.",
+        "user_input": "I need help with creating an ordered list in HTML.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In HTML, a description list is used to provide a description with the list. It starts with a <dl> tag, followed by a <dt> tag to introduce the list, and then a <dd> tag to describe the list. This type of list is commonly used to display items with their corresponding descriptions, such as main subjects for a science stream or commerce stream.",
+        "user_input": "What is the purpose of a description list in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the layout and organization of the content. A site map can be used to display a summary of the entire content of the website. The home page should be concise and provide easy navigation to other pages.",
+        "user_input": "I'm having trouble organizing my web page. Can you give me some tips?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML provides various tags to format text, including line break tags. The <br/> tag is used to break lines and is an example of a blank tag or empty tag. It is used exactly in the position where you need to break the line, without using two opening/ending tags.",
+        "user_input": "How do I insert a line break in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A web page can be designed using HTML code. The title text, picture, paragraph, hyperlink, and table are essential elements to include. The HTML code should be written in a specific format, and the web page should be saved with a suitable file name.",
+        "user_input": "Hi, I'm new to HTML. Can you show me an example of a simple web page?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In HTML, lists are used to display items in an ordered or unordered manner. Unordered lists are defined using the <ul> tag, and the type attribute is used to specify the shape of the special symbol with its element.",
+        "user_input": "What's the difference between an ordered list and an unordered list in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When creating a web page, it is crucial to consider the user experience. The content should be presented in a concise and clear manner, with easy navigation and minimal scrolling. Numbered lists, bulleted lists, and indentation can be used to make the content more readable.",
+        "user_input": "I'm bored with the way my web page looks. Can you give me some design tips?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML code is used to design web pages. The code should be written in a specific format, and the web page should be saved with a suitable file name. The web page can be displayed using a web browser, and the output should be compared with the expected result.",
+        "user_input": "This is a stupid assignment. I don't get why we have to do it.",
+        "intent": "Insult"
+    },
+    {
+        "context": "A description list is a type of list that is used to display items with their corresponding descriptions. It is commonly used in web pages to provide additional information about a topic.",
+        "user_input": "Hi, can you explain how to create a description list in HTML?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the layout and organization of the content. The site map should be concise and provide easy navigation to other pages.",
+        "user_input": "What's the point of a site map?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML provides various tags to format text, including line break tags. The <br/> tag is used to break lines and is an example of a blank tag or empty tag.",
+        "user_input": "I don't understand why we need to use line break tags in HTML.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A description list is a list of terms and their corresponding descriptions. It is used to provide a description with the list. The HTML code for a description list is written as <dl> for the beginning of the description list, <dt> for the introduction of the list, and <dd> for the description of the list. An example of a description list is a list of subjects for the science stream and commerce stream, such as Biology, Physics, Chemistry, and Combined Maths for the science stream, and Economics, Business Studies, and Accountancy for the commerce stream.",
+        "user_input": "Can you explain the description list?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it is essential to present information in brief and provide the facility for the user to navigate the website easily. This can be achieved by using main menus and submenus, hyperlinks, and numbered lists, bulleted lists, and indentation. A site map of a website of a school can include home page, current information, history, sports, old pupils, school development committee, and contact.",
+        "user_input": "How do I make my website easy to navigate?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML is a markup language used to create web pages. It consists of a series of elements, represented by tags, which are used to define different parts of a web page. Tags usually come in pairs, with the opening tag preceding the content and the closing tag following the content. However, some tags, such as the <br/> tag, are empty tags or blank tags, which do not require a closing tag.",
+        "user_input": "What is the purpose of the <br/> tag in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "I don't care about fossils.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "A description list is a list of terms and their corresponding descriptions. It is used to provide a description with the list. The HTML code for a description list is written as <dl> for the beginning of the description list, <dt> for the introduction of the list, and <dd> for the description of the list.",
+        "user_input": "This is stupid.",
+        "intent": "Insult"
+    },
+    {
+        "context": "When designing a web page, it is essential to present information in brief and provide the facility for the user to navigate the website easily. This can be achieved by using main menus and submenus, hyperlinks, and numbered lists, bulleted lists, and indentation.",
+        "user_input": "Hi, can you explain how to design a web page?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML is a markup language used to create web pages. It consists of a series of elements, represented by tags, which are used to define different parts of a web page.",
+        "user_input": "I know HTML is used to create web pages, thanks.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "A site map of a website of a school can include home page, current information, history, sports, old pupils, school development committee, and contact.",
+        "user_input": "What is the purpose of a site map?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution.",
+        "user_input": "I love playing games.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list. The HTML code for a description list is written as <dl> for the beginning of the description list, <dt> for the introduction of the list, and <dd> for the description of the list.",
+        "user_input": "Good morning!",
+        "intent": "Greeting"
+    },
+    {
+        "context": "In HTML, description lists are used to provide a description with the list, as shown in Figure 5.31. The <dl> tag is used to mark the beginning of a description list, and the <dt> tag is used to introduce the list, while the <dd> tag is used to describe the list. This is useful when displaying information such as a list of main subjects for the science stream and commerce stream.",
+        "user_input": "What is the purpose of the <dl> tag in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A website's home page should display a summary of the entire content of the website. This can be achieved by using main menus and sub-menus, hyperlinks, and brief summaries of information. The use of numbered lists, bulleted lists, and indentation can also help to prevent user exhaustion from reading long text paragraphs.",
+        "user_input": "How can I make my website's home page more user-friendly?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In HTML, line break tags are used to break lines and are similar to empty tags. The <br/> tag is used to break lines and is used exactly in the position where you need to break the line.",
+        "user_input": "I don't understand the purpose of the <br/> tag in HTML.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list, as shown in Figure 5.31. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "What is the difference between a description list and an unordered list?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A website's home page should display a summary of the entire content of the website. This can be achieved by using main menus and sub-menus, hyperlinks, and brief summaries of information.",
+        "user_input": "I'm so bored with this topic, can we move on to something else?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "In HTML, description lists are used to provide a description with the list, as shown in Figure 5.31. The <dl> tag is used to mark the beginning of a description list, and the <dt> tag is used to introduce the list, while the <dd> tag is used to describe the list.",
+        "user_input": "You're an idiot if you don't know this!",
+        "intent": "Insult"
+    },
+    {
+        "context": "Line break tags are used to break lines and are similar to empty tags. The <br/> tag is used to break lines and is used exactly in the position where you need to break the line.",
+        "user_input": "Good morning, can you explain line break tags to me?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "A website's home page should display a summary of the entire content of the website. This can be achieved by using main menus and sub-menus, hyperlinks, and brief summaries of information.",
+        "user_input": "I didn't understand the part about using main menus and sub-menus.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In HTML, description lists are used to provide a description with the list, as shown in Figure 5.31. The <dl> tag is used to mark the beginning of a description list, and the <dt> tag is used to introduce the list, while the <dd> tag is used to describe the list.",
+        "user_input": "I don't care about HTML, I'm going to play video games instead.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Line break tags are used to break lines and are similar to empty tags. The <br/> tag is used to break lines and is used exactly in the position where you need to break the line.",
+        "user_input": "That makes sense, thank you for explaining!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "HTML description lists are used to provide a description with the list. They are used to define a term and its description. The <dl> tag is used to define the description list, the <dt> tag is used to define the term, and the <dd> tag is used to define the description of the term. HTML description lists can be used to define a list of terms and their descriptions, such as a list of main subjects for the science stream and commerce stream.",
+        "user_input": "What is the purpose of HTML description lists?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A website's home page should display a summary of the entire content of the website. The home page should be well-organized to manage the space effectively. The use of main menus and submenus, hyperlinks, and brief information can help to present information in a clear and concise manner.",
+        "user_input": "How should I design a website's home page?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the user's needs and preferences. The content of the web page should be limited to prevent user exhaustion. Numbered lists, bulleted lists, and indentation can be used to present information in a clear and concise manner.",
+        "user_input": "I'm bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML lists are used to present a collection of information in a structured manner. There are three types of HTML lists: unordered lists, ordered lists, and definition lists. Unordered lists use the <ul> tag and are used to list items in no particular order.",
+        "user_input": "What are the different types of HTML lists?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML tags are used to define the structure and content of a web page. The <br/> tag is used to break lines and is a type of blank tag or empty tag. It is used to break a line of text and start a new line.",
+        "user_input": "I don't understand the purpose of the <br/> tag.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A web page can be designed using HTML code. The HTML code is written using tags, which are surrounded by angle brackets. The opening tag is used to start the element, and the closing tag is used to end the element.",
+        "user_input": "This is so confusing!",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML is used to design web pages. It is a markup language that is used to create structured documents. HTML consists of a series of elements, which are represented by tags.",
+        "user_input": "I hate this subject.",
+        "intent": "Insult"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the user's needs and preferences. The content of the web page should be limited to prevent user exhaustion. Numbered lists, bulleted lists, and indentation can be used to present information in a clear and concise manner.",
+        "user_input": "Hi, can you explain how to design a web page?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML tags are used to define the structure and content of a web page. The <dl> tag is used to define a description list, which is used to define a term and its description.",
+        "user_input": "What is the purpose of the <dl> tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A website's home page should display a summary of the entire content of the website. The home page should be well-organized to manage the space effectively. The use of main menus and submenus, hyperlinks, and brief information can help to present information in a clear and concise manner.",
+        "user_input": "I don't get it.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A description list in HTML is used to provide a description with the list. It consists of a dl element which is the container element, a dt element which is the term being described, and a dd element which is the description of the term. The dl element is used to define the description list, the dt element is used to define the term, and the dd element is used to define the description.",
+        "user_input": "What is a description list in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the importance of the home page. The home page should display a summary of the entire content of the website and provide easy navigation. A site map can be used to organize the content of the website into categories and subcategories.",
+        "user_input": "Why is the home page important in web design?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML tags are used to format text and provide structure to a web page. There are different types of tags, including heading tags, paragraph tags, and list tags. The br tag is used to insert a line break, and the ul tag is used to create an unordered list.",
+        "user_input": "What is the purpose of the br tag in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In HTML, lists are used to present a collection of items in a clear and concise manner. There are three types of lists: unordered lists, ordered lists, and definition lists. Unordered lists use the ul tag, ordered lists use the ol tag, and definition lists use the dl tag.",
+        "user_input": "I don't understand the difference between ordered and unordered lists.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When creating a web page, it is important to consider the user experience. The website should be easy to navigate, and the content should be organized in a logical manner. A site map can be used to plan the structure of the website and ensure that it is easy to use.",
+        "user_input": "I'm so bored with this topic. Can we move on?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML tags are used to format text and provide structure to a web page. There are different types of tags, including heading tags, paragraph tags, and list tags. The html tag is used to define the document as an HTML document.",
+        "user_input": "This is stupid. I hate HTML.",
+        "intent": "Insult"
+    },
+    {
+        "context": "A description list in HTML is used to provide a description with the list. It consists of a dl element which is the container element, a dt element which is the term being described, and a dd element which is the description of the term.",
+        "user_input": "Hi, can you explain the difference between dl, dt, and dd?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the importance of the home page. The home page should display a summary of the entire content of the website and provide easy navigation. A site map can be used to organize the content of the website into categories and subcategories.",
+        "user_input": "I didn't understand the site map concept. Can you explain it again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML tags are used to format text and provide structure to a web page. There are different types of tags, including heading tags, paragraph tags, and list tags. The html tag is used to define the document as an HTML document.",
+        "user_input": "Good morning! Can you help me with this HTML code?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "In HTML, lists are used to present a collection of items in a clear and concise manner. There are three types of lists: unordered lists, ordered lists, and definition lists. Unordered lists use the ul tag, ordered lists use the ol tag, and definition lists use the dl tag.",
+        "user_input": "I don't care about HTML lists. They're so irrelevant.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "HTML description lists are used to provide a description with the list. They are often used to display a list of terms and their corresponding definitions. The <dl> tag is used to define a description list, and it contains <dt> tags for the terms and <dd> tags for the definitions.",
+        "user_input": "What is the purpose of the <dt> tag in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A website's home page should provide a summary of the entire content of the website. This can be achieved by using main menus and submenus, hyperlinks, and brief summaries of information. The content of a single web page should be limited to prevent user exhaustion.",
+        "user_input": "I'm not sure how to design a good home page. Can you give me some tips?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In HTML, the <br/> tag is used to break lines and create a new line of text. It is an empty tag and does not require a closing tag. It is often used to separate lines of text or to create a new line of text in a paragraph.",
+        "user_input": "What is the difference between the <br/> tag and the <p> tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML lists are used to display a series of items in a specific order. There are three types of lists in HTML: unordered lists, ordered lists, and description lists. Unordered lists are used to display a list of items in no particular order.",
+        "user_input": "I don't understand the difference between an ordered list and an unordered list.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A website's navigation system should be easy to use and intuitive. This can be achieved by using clear and concise labels, providing a site map, and using hyperlinks to connect pages.",
+        "user_input": "I'm bored with designing websites. I think it's too hard.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML description lists are used to provide a description with the list. They are often used to display a list of terms and their corresponding definitions. The <dl> tag is used to define a description list, and it contains <dt> tags for the terms and <dd> tags for the definitions.",
+        "user_input": "This is stupid. I don't want to learn about HTML.",
+        "intent": "Insult"
+    },
+    {
+        "context": "A website's home page should provide a summary of the entire content of the website. This can be achieved by using main menus and submenus, hyperlinks, and brief summaries of information. The content of a single web page should be limited to prevent user exhaustion.",
+        "user_input": "Hi, can you help me design a website?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "In HTML, the <br/> tag is used to break lines and create a new line of text. It is an empty tag and does not require a closing tag. It is often used to separate lines of text or to create a new line of text in a paragraph.",
+        "user_input": "What is the purpose of the <br/> tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML lists are used to display a series of items in a specific order. There are three types of lists in HTML: unordered lists, ordered lists, and description lists. Unordered lists are used to display a list of items in no particular order.",
+        "user_input": "I don't care about HTML. Can we talk about something else?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "A website's navigation system should be easy to use and intuitive. This can be achieved by using clear and concise labels, providing a site map, and using hyperlinks to connect pages.",
+        "user_input": "What is the purpose of a site map?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list. They are often used to display a list of terms and their corresponding definitions. HTML code is used to create a description list, which consists of a list of terms and their descriptions. The <dl> tag is used to define the description list, the <dt> tag is used to define the term, and the <dd> tag is used to define the description.",
+        "user_input": "What is the purpose of a description list?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to present information in a clear and concise manner. One way to achieve this is by using main menus and submenus, which help to organize the content and make it easier for users to navigate. Additionally, using hyperlinks can help to reduce the amount of information on a single page and provide users with quick access to related information.",
+        "user_input": "How can I make my web page more user-friendly?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML is a markup language used to create web pages. It consists of a series of elements, which are represented by tags. Tags are used to define the structure and content of a web page. There are different types of tags, including headings, paragraphs, lists, and links. Understanding how to use these tags is essential for creating a well-structured and visually appealing web page.",
+        "user_input": "I don't understand how to use HTML tags.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A site map is a visual representation of a website's structure, showing the relationships between different web pages. It is used to plan and organize the website's content and layout. A good site map should be clear, concise, and easy to navigate, making it easier for users to find the information they need.",
+        "user_input": "What is the purpose of a site map?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Lists are an essential part of web page design, as they help to organize and present information in a clear and concise manner. There are three types of lists: ordered lists, unordered lists, and definition lists. Each type of list has its own unique characteristics and uses.",
+        "user_input": "I'm so bored with these lists.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "Fossils are stupid.",
+        "intent": "Insult"
+    },
+    {
+        "context": "HTML code is used to create a description list, which consists of a list of terms and their descriptions. The <dl> tag is used to define the description list, the <dt> tag is used to define the term, and the <dd> tag is used to define the description.",
+        "user_input": "Hi, can you explain description lists to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it is essential to present information in a clear and concise manner. One way to achieve this is by using main menus and submenus, which help to organize the content and make it easier for users to navigate.",
+        "user_input": "I don't care about web design.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Line break tags are used to break lines in HTML. They are used to separate paragraphs or lines of text. The <br/> tag is used to define a line break.",
+        "user_input": "What is the purpose of the <br/> tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A web page should have a clear and concise title that reflects its content. The title should be short, descriptive, and relevant to the content of the page.",
+        "user_input": "Hello, how do I create a good title?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it's essential to consider the organization and layout of the content. This can be achieved by using various HTML tags to structure the page, such as the <dl> tag for description lists, which provide a description with the list. A description list consists of a series of terms and their corresponding descriptions.",
+        "user_input": "What is the purpose of the <dl> tag in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In HTML, lists are used to present information in a clear and organized manner. There are three types of lists: unordered lists, ordered lists, and description lists. Unordered lists use the <ul> tag, ordered lists use the <ol> tag, and description lists use the <dl> tag.",
+        "user_input": "I'm confused about the different types of lists in HTML.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A web page can be divided into several sections, each with its own purpose. The home page typically displays a summary of the entire content of the website. The main menu and sub menu help users navigate the website easily, and hyperlinks enable quick access to specific pages.",
+        "user_input": "What's the point of having a home page?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML is used to create web pages and display content on the internet. It consists of a series of elements, represented by tags, which are used to define the structure and layout of a web page. Tags usually come in pairs, with the opening tag preceding the content and the closing tag following it.",
+        "user_input": "I already know this, can we move on?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list, and are often used to display information in a clear and organized manner. They consist of a series of terms and their corresponding descriptions, and are defined using the <dl> tag.",
+        "user_input": "Hi, can you explain description lists to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it's essential to consider the organization and layout of the content. This can be achieved by using various HTML tags to structure the page, such as the <br/> tag for line breaks.",
+        "user_input": "Why do we need to use the <br/> tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A web page can be divided into several sections, each with its own purpose. The home page typically displays a summary of the entire content of the website. The main menu and sub menu help users navigate the website easily, and hyperlinks enable quick access to specific pages.",
+        "user_input": "This is so boring, I don't care about web design.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML is used to create web pages and display content on the internet. It consists of a series of elements, represented by tags, which are used to define the structure and layout of a web page. Tags usually come in pairs, with the opening tag preceding the content and the closing tag following it.",
+        "user_input": "I don't understand why we need to learn this.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list, and are often used to display information in a clear and organized manner. They consist of a series of terms and their corresponding descriptions, and are defined using the <dl> tag.",
+        "user_input": "What's the difference between an ordered list and an unordered list?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it's essential to consider the organization and layout of the content. This can be achieved by using various HTML tags to structure the page, such as the <dl> tag for description lists, which provide a description with the list.",
+        "user_input": "Hi, I'm having trouble with my HTML code.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A description list is a type of list that provides a description or explanation for each item in the list. It is used to define terms, explain concepts, and provide additional information about a topic. Description lists are commonly used in technical writing, instructional materials, and online resources. HTML provides the <dl> tag to create a description list, which consists of a list of terms (<dt>) and their corresponding descriptions (<dd>).",
+        "user_input": "What is a description list?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the layout and organization of the content to ensure effective communication of the message. A well-structured web page should have a clear hierarchy of information, with the most important content prominently displayed. The use of headings, paragraphs, and lists helps to create a clear and organized layout, making it easier for users to navigate and understand the content.",
+        "user_input": "I don't understand how to design a web page.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML (Hypertext Markup Language) is a standard markup language used to create web pages. It is the backbone of a website, providing the structure and content that the web browser renders to the user. HTML consists of a series of elements, represented by tags, which are used to define different parts of a web page, such as headings, paragraphs, images, and links.",
+        "user_input": "What is the purpose of HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A web page can be divided into different sections, each with its own unique content and purpose. The home page is the main entry point of a website, providing an overview of the site's content and purpose. The home page should be designed to be visually appealing, easy to navigate, and provide a clear direction for the user.",
+        "user_input": "I'm bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML provides various tags to format text, including the <b> tag for bold text, the <i> tag for italic text, and the <u> tag for underlined text. These tags can be used to highlight important information, add emphasis to key terms, and create visual interest in a web page.",
+        "user_input": "This is stupid.",
+        "intent": "Insult"
+    },
+    {
+        "context": "A site map is a visual representation of a website's structure, showing the relationships between different pages and how they are organized. It is an essential tool for web developers, helping them to plan and organize the site's architecture.",
+        "user_input": "Hi, can you explain site maps to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A description list is a list of terms and their corresponding descriptions. It is used to provide a description with the list. HTML uses the <dl>, <dt>, and <dd> tags to define a description list. The <dl> tag is used to define the description list, the <dt> tag is used to define the term, and the <dd> tag is used to define the description.",
+        "user_input": "What is a description list in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML is used to design web pages and provide a structure to the content. It consists of a series of elements, represented by tags, which are used to define different parts of a web page. These elements can be used to define headings, paragraphs, lists, links, images, tables, and more.",
+        "user_input": "I don't understand how to use HTML to design a web page.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A site map is a visual representation of a website's structure and organization. It is used to plan and organize the content of a website. A site map typically includes the main pages and subpages of a website, as well as the relationships between them.",
+        "user_input": "What is the purpose of a site map?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is important to consider the user experience. This includes presenting information in a clear and concise manner, using headings and subheadings to organize content, and providing a clear navigation menu.",
+        "user_input": "I'm bored with designing web pages.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution.",
+        "user_input": "That's stupid, I don't believe in evolution.",
+        "intent": "Insult"
+    },
+    {
+        "context": "HTML uses a variety of tags to define different elements of a web page. These tags are used to provide structure and meaning to the content of a web page.",
+        "user_input": "Hello, can you explain how to use HTML tags?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Lists are used to present a series of related items in a web page. There are three types of lists in HTML: ordered lists, unordered lists, and definition lists.",
+        "user_input": "I don't understand the difference between ordered and unordered lists.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A web page should be designed to be easy to navigate and understand. This includes using clear and concise headings, providing a clear navigation menu, and organizing content in a logical manner.",
+        "user_input": "This is all so confusing, I just want to design a simple web page.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML uses a variety of tags to define different elements of a web page. These tags are used to provide structure and meaning to the content of a web page.",
+        "user_input": "What's the point of using so many different tags?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A description list is a list of terms and their corresponding descriptions. It is used to provide a description with the list.",
+        "user_input": "I don't care about description lists, they're useless.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "HTML description lists are used to provide a description with the list, and they are often used to display a list of items with a brief description. The <dl> tag is used to define the description list, and the <dt> tag is used to define the term or description, while the <dd> tag is used to define the description or definition of the term.",
+        "user_input": "What is the purpose of the <dt> tag in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to manage the space in the home page to avoid overwhelming the user with too much information. One way to achieve this is by using main menus and submenus, as well as hyperlinks to provide easy navigation.",
+        "user_input": "How can I manage the space in my home page?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In HTML, line break tags are used to break lines and start a new line. The <br/> tag is a blank tag or empty tag that is used exactly in the position where you need to break the line, without using two opening/ending tags.",
+        "user_input": "What is the purpose of the <br/> tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML lists are used to display a number of related items in an ordered or unordered manner. There are three main types of lists in HTML, including unordered lists, ordered lists, and definition lists.",
+        "user_input": "Can you explain the different types of lists in HTML?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When creating a web page, it is essential to consider the user's experience and provide easy navigation to ensure that they can find the information they need quickly and efficiently.",
+        "user_input": "I don't care about user experience, I just want to create a website.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML description lists are used to provide a description with the list, and they are often used to display a list of items with a brief description. The <dl> tag is used to define the description list, and the <dt> tag is used to define the term or description, while the <dd> tag is used to define the description or definition of the term.",
+        "user_input": "That's a stupid way to create a list.",
+        "intent": "Insult"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the user's experience and provide easy navigation to ensure that they can find the information they need quickly and efficiently.",
+        "user_input": "Hello, can you help me with my web page design?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "HTML lists are used to present information in a structured manner. There are three types of lists: ordered lists, unordered lists, and description lists. Ordered lists are used to display items in a specific order, whereas unordered lists are used to display items without any specific order. Description lists are used to provide a description or explanation for each item in the list.",
+        "user_input": "What is the purpose of HTML lists?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the layout and structure of the page. This includes dividing the content into sections, using headings and subheadings, and adding images and other multimedia elements to enhance the user experience.",
+        "user_input": "I'm so bored with designing web pages",
+        "intent": "Boredom"
+    },
+    {
+        "context": "A site map is a visual representation of a website's structure and layout. It is used to plan and organize the website's content and navigation. A good site map should be simple, clear, and easy to understand.",
+        "user_input": "What is a site map?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML tags are used to define the structure and content of a web page. There are two types of HTML tags: semantic tags and non-semantic tags. Semantic tags provide meaning to the structure of a web page, while non-semantic tags are used to add styles and formatting to the content.",
+        "user_input": "I don't understand the difference between semantic and non-semantic tags",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Fossils provide important evidence for the history of life on Earth and are used to study the process of evolution. They can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "This is so stupid, who cares about fossils?",
+        "intent": "Insult"
+    },
+    {
+        "context": "A description list is a type of list that is used to provide a description or explanation for each item in the list. It consists of a term and a description, and is often used to define technical terms or explain complex concepts.",
+        "user_input": "Hi, can you explain how to create a description list in HTML?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list, which is commonly used in HTML programming. The tag <dl> is used to begin a description list, and the tag <dt> is used to introduce the list, followed by the tag <dd> to describe the list. This type of list is useful for presenting information in a clear and concise manner.",
+        "user_input": "What is the purpose of a description list in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the overall structure and organization of the content. This includes using headings, paragraphs, lists, and tables to make the information easy to read and understand. A well-organized web page can improve the user experience and make it more engaging.",
+        "user_input": "I am confused about how to organize my web page.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML tags are used to define the structure and content of a web page. There are different types of tags, including headings, paragraphs, lists, and links. Each tag has a specific purpose and is used to format the content of a web page.",
+        "user_input": "What is the difference between a <p> and a <br> tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A web page can include various elements, such as text, images, lists, and tables. These elements are used to convey information to the user and can be organized using HTML tags. A well-designed web page can be visually appealing and easy to navigate.",
+        "user_input": "I don't care about web design.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The HTML language is used to create structured content on the web. It consists of a series of elements, represented by tags, which are used to define the different parts of a web page. Understanding HTML is essential for building a website.",
+        "user_input": "This is stupid, I hate HTML.",
+        "intent": "Insult"
+    },
+    {
+        "context": "When creating a web page, it is essential to consider the user experience. This includes making sure the content is easy to read, the layout is organized, and the navigation is simple. A well-designed web page can improve user engagement and satisfaction.",
+        "user_input": "Hi, can you help me with my web page design?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list, which is commonly used in HTML programming. The tag <dl> is used to begin a description list, and the tag <dt> is used to introduce the list, followed by the tag <dd> to describe the list.",
+        "user_input": "What is the purpose of the <dt> tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML is a markup language used to create web pages. It consists of a series of elements, represented by tags, which are used to define the different parts of a web page. Understanding HTML is essential for building a website.",
+        "user_input": "I'm so bored with HTML.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Web page design involves creating a visually appealing and well-organized layout. This includes using headings, paragraphs, lists, and tables to make the information easy to read and understand.",
+        "user_input": "Hi, I need help with designing my web page.",
+        "intent": "Greeting"
+    },
+    {
+        "context": "HTML is used to create structured content on the web. It consists of a series of elements, represented by tags, which are used to define the different parts of a web page.",
+        "user_input": "What is the difference between HTML and CSS?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the organization of content to ensure easy navigation. A site map is a visual representation of a website's structure, illustrating the relationships between different pages and the connections between them. A well-designed site map helps users to quickly find the information they need, reducing confusion and improving the overall user experience.",
+        "user_input": "What is the purpose of a site map?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML lists are used to present a collection of items in a clear and organized manner. There are three main types of lists in HTML: unordered lists, ordered lists, and description lists. Unordered lists use bullets or other symbols to indicate each item, while ordered lists use numbers or letters to indicate the sequence of items. Description lists are used to provide a description or definition of each item.",
+        "user_input": "Can you explain the different types of lists in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When creating a web page, it is essential to consider the organization of content to ensure easy navigation. A well-designed web page should have a clear and concise title, a brief introduction, and a logical structure that guides the user through the content. The use of headings, paragraphs, and lists can help to break up the content and improve readability.",
+        "user_input": "I'm bored with this topic",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Description lists are a type of list in HTML that provides a description or definition of each item. They are commonly used in glossaries, dictionaries, and other reference materials. To create a description list, you need to use the <dl> tag to indicate the start of the list, the <dt> tag to indicate the term being defined, and the <dd> tag to provide the description or definition.",
+        "user_input": "This is stupid",
+        "intent": "Insult"
+    },
+    {
+        "context": "HTML tags are used to define the structure and content of a web page. They are represented by a less-than symbol (<) followed by a tag name and then a greater-than symbol (>). Tags usually come in pairs, with the opening tag preceding the content and the closing tag following the content. The <br/> tag is a blank tag used to insert a line break in a web page.",
+        "user_input": "Hi, can you explain HTML tags to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the organization of content to ensure easy navigation. A well-designed web page should have a clear and concise title, a brief introduction, and a logical structure that guides the user through the content. The use of headings, paragraphs, and lists can help to break up the content and improve readability.",
+        "user_input": "What is the importance of organization in web design?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML lists are used to present a collection of items in a clear and organized manner. There are three main types of lists in HTML: unordered lists, ordered lists, and description lists. Unordered lists use bullets or other symbols to indicate each item, while ordered lists use numbers or letters to indicate the sequence of items.",
+        "user_input": "I don't care about lists",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Description lists are a type of list in HTML that provides a description or definition of each item. They are commonly used in glossaries, dictionaries, and other reference materials. To create a description list, you need to use the <dl> tag to indicate the start of the list, the <dt> tag to indicate the term being defined, and the <dd> tag to provide the description or definition.",
+        "user_input": "This is so confusing",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML tags are used to define the structure and content of a web page. They are represented by a less-than symbol (<) followed by a tag name and then a greater-than symbol (>). Tags usually come in pairs, with the opening tag preceding the content and the closing tag following the content.",
+        "user_input": "Can you give an example of an HTML tag?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the organization of content to ensure easy navigation. A well-designed web page should have a clear and concise title, a brief introduction, and a logical structure that guides the user through the content. The use of headings, paragraphs, and lists can help to break up the content and improve readability.",
+        "user_input": "Good morning",
+        "intent": "Greeting"
+    },
+    {
+        "context": "A description list is a type of list that provides a description or explanation for each item in the list. It is commonly used in HTML to display lists of items with additional information. The <dl> tag is used to define a description list, and the <dt> tag is used to define the term or item, while the <dd> tag is used to define the description or explanation.",
+        "user_input": "What is the purpose of a description list in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is important to consider the structure and organization of the content. A site map is a visual representation of the structure of a website, showing the relationships between different pages and sections. This helps users navigate the website easily and find the information they need.",
+        "user_input": "Can you explain the importance of a site map in web design?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML tags are used to format and structure content on the web. There are different types of HTML tags, including line break tags, which are used to break lines of text. The <br/> tag is an empty tag, which means it does not require a closing tag.",
+        "user_input": "How do I insert a line break in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In HTML, lists are used to display a collection of items or information. There are three main types of lists: ordered lists, unordered lists, and definition lists. Each type of list has its own set of tags and rules for use.",
+        "user_input": "What are the different types of lists in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A description list is a type of list that provides a description or explanation for each item in the list. It is commonly used in HTML to display lists of items with additional information.",
+        "user_input": "I don't understand how to use description lists.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When designing a web page, it is important to consider the structure and organization of the content. A site map is a visual representation of the structure of a website, showing the relationships between different pages and sections.",
+        "user_input": "This is so boring.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML tags are used to format and structure content on the web. There are different types of HTML tags, including line break tags, which are used to break lines of text.",
+        "user_input": "This is stupid, I hate HTML.",
+        "intent": "Insult"
+    },
+    {
+        "context": "In HTML, lists are used to display a collection of items or information. There are three main types of lists: ordered lists, unordered lists, and definition lists.",
+        "user_input": "Hi, can you help me with HTML lists?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "A description list is a type of list that provides a description or explanation for each item in the list.",
+        "user_input": "What is the point of description lists?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is important to consider the structure and organization of the content.",
+        "user_input": "I don't care about web design.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the structure and organization of the content. A site map is a visual representation of the website's hierarchy, showing how the different pages are connected. This helps designers to plan and organize the content effectively, making it easier for users to navigate the website.",
+        "user_input": "What is the purpose of a site map?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML is a standard markup language used to create web pages. It consists of a series of elements, represented by tags, which are used to define different parts of a web page, such as headings, paragraphs, images, and links.",
+        "user_input": "I don't understand how to use HTML tags",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Description lists are used to provide a description with the list. They are essential in web page design, as they help to organize and present information in a clear and concise manner.",
+        "user_input": "What is the purpose of a description list?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A web page should have a clear and concise title, which accurately reflects the content of the page. This helps users to quickly understand the purpose of the page and decide whether to continue reading or not.",
+        "user_input": "I don't care about title text",
+        "intent": "Boredom"
+    },
+    {
+        "context": "When creating a web page, it is essential to consider the use of lists, as they help to organize and present information in a clear and concise manner. There are three main types of lists in HTML: unordered lists, ordered lists, and description lists.",
+        "user_input": "I already know how to use lists",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "A hyperlink is a link between two web pages or a link from a web page to an email address. It is essential in web page design, as it allows users to navigate easily between different pages and access additional information.",
+        "user_input": "How do I create a hyperlink?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to consider the use of images, as they help to break up the text and make the page more visually appealing.",
+        "user_input": "I hate learning about web design",
+        "intent": "Boredom"
+    },
+    {
+        "context": "A table is used to present information in a structured format, making it easier for users to compare and analyze data. It consists of rows and columns, with each row representing a single entry and each column representing a field or category.",
+        "user_input": "What is the purpose of a table?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When creating a web page, it is essential to consider the use of headings, as they help to organize and structure the content, making it easier for users to scan and read.",
+        "user_input": "I don't understand the difference between headings",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A web page should have a clear and concise title, which accurately reflects the content of the page. This helps users to quickly understand the purpose of the page and decide whether to continue reading or not.",
+        "user_input": "This is stupid",
+        "intent": "Insult"
+    },
+    {
+        "context": "When designing a webpage, it is essential to organize content in a logical and coherent manner. A description list is a type of list that provides a description with the list items. It is commonly used to display a list of items with brief descriptions. In HTML, the <dl> tag is used to define a description list, the <dt> tag is used to define the term, and the <dd> tag is used to define the description.",
+        "user_input": "Can you explain how to create a description list in HTML?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML is a standard markup language used to create web pages. It provides a structure for organizing content on the web. HTML consists of a series of elements, which are represented by tags. These tags are used to define different parts of a webpage, such as headings, paragraphs, lists, and links.",
+        "user_input": "What is the main purpose of HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A web page can be designed to provide a short introduction about a specific topic. The title text, picture, paragraph, hyperlink, and table are essential elements to include in the web page. The title text should be concise and informative, while the picture should be relevant to the topic.",
+        "user_input": "I don't understand why we need to include a picture in the web page.",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a website, it is crucial to consider the user experience. The website should be easy to navigate, and the content should be organized in a logical and coherent manner. The home page should provide a summary of the entire content of the website, and the main menu and sub-menu should be used to facilitate navigation.",
+        "user_input": "Can you show me an example of a website that is easy to navigate?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Line breaks are essential in HTML coding to break lines and separate content. The <br/> tag is used to insert a line break, and it is an empty tag, which means it does not require a closing tag.",
+        "user_input": "How do I insert multiple line breaks?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Lists are commonly used in web page designing to display a collection of related items. There are three main types of lists in HTML: unordered lists, ordered lists, and definition lists. Unordered lists use the <ul> tag, ordered lists use the <ol> tag, and definition lists use the <dl> tag.",
+        "user_input": "What is the difference between an unordered list and an ordered list?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When creating a web page, it is essential to consider the importance of each element and organize them accordingly. The most critical information should be prominently displayed, and the less important information should be secondary.",
+        "user_input": "That's so boring. I don't want to learn about web design.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML description lists are used to provide a description with the list. They are often used to display information such as terms and their definitions, or main subjects and their descriptions. The <dl> tag is used to mark the beginning of a description list, the <dt> tag is used to introduce a term or phrase, and the <dd> tag is used to describe the term or phrase.",
+        "user_input": "What is the purpose of a description list in HTML?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When designing a web page, it is essential to organize the content in a clear and concise manner. This can be achieved by using headings, paragraphs, lists, and tables. Headings are used to provide a title or heading for a section of content, paragraphs are used to group related sentences together, lists are used to display a collection of items, and tables are used to display data in a structured format.",
+        "user_input": "How do I organize my web page content?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A site map is a visual representation of a website's structure and content. It is used to plan and organize the website's layout and navigation. A site map typically includes the main pages and sections of the website, as well as the relationships between them.",
+        "user_input": "What is the purpose of a site map?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "HTML lists are used to display a collection of items in a structured format. There are three main types of lists in HTML: ordered lists, unordered lists, and definition lists. Ordered lists are used to display a collection of items in a specific order, unordered lists are used to display a collection of items without a specific order, and definition lists are used to display a collection of terms and their definitions.",
+        "user_input": "I don't understand the difference between ordered and unordered lists.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML tables are used to display data in a structured format. They are used to organize and present data in a clear and concise manner. Tables consist of rows and columns, and each intersection of a row and column is called a cell.",
+        "user_input": "That's so confusing!",
+        "intent": "Boredom"
+    },
+    {
+        "context": "HTML hyperlinks are used to connect to other web pages or websites. They are used to provide additional information or resources to the user. Hyperlinks can be used to link to external websites, internal web pages, or even email addresses.",
+        "user_input": "Can you explain hyperlinks in simpler terms?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "HTML images are used to add visual content to a web page. They can be used to display photos, diagrams, charts, and other graphical elements. Images can be added to a web page using the <img> tag.",
+        "user_input": "What's the point of using images on a web page?",
+        "intent": "Valid question"
+    }
+]

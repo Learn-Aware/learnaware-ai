@@ -1,0 +1,1582 @@
+[
+    {
+        "context": "The metric system is a convenient and logical system of units used to measure physical quantities. It is based on the decimal system and uses prefixes to denote different powers of 10. The system is used to measure a wide range of physical quantities, including length, mass, time, and energy.",
+        "user_input": "What is the advantage of using the metric system?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "I'm so bored with this topic, can we move on?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The metric system is a convenient and logical system of units used to measure physical quantities. It is based on the decimal system and uses prefixes to denote different powers of 10. The system is used to measure a wide range of physical quantities, including length, mass, time, and energy.",
+        "user_input": "Can you explain the concept of prefix in the metric system?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The standard metric unit of length is the meter. However, the metric system includes many prefixes that can be attached to a unit to denote different powers of 10. These prefixes include kilo, hecto, deka, centi, milli, micro, nano, and pico.",
+        "user_input": "This is so confusing, I hate math!",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "The Electromagnetic Spectrum is a range of frequencies of electromagnetic radiation. It includes gamma rays, X-rays, ultraviolet light, visible light, infrared light, microwaves, and radio waves. Each type of radiation has a different frequency and energy.",
+        "user_input": "Hi, can you explain the Electromagnetic Spectrum to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Saturn is 1.43\u00d71012 m from the Sun. It takes approximately 79.4 minutes for the Sun\u2019s light to reach Saturn. This is because the speed of light is approximately 3.0\u00d7108 m/s.",
+        "user_input": "That's so cool! I love astronomy.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "The metric system is a convenient and logical system of units used to measure physical quantities. It is based on the decimal system and uses prefixes to denote different powers of 10. The system is used to measure a wide range of physical quantities, including length, mass, time, and energy.",
+        "user_input": "Good morning! Can you explain the metric system to me?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "The Electromagnetic Spectrum is a range of frequencies of electromagnetic radiation. It includes gamma rays, X-rays, ultraviolet light, visible light, infrared light, microwaves, and radio waves. Each type of radiation has a different frequency and energy.",
+        "user_input": "What is the difference between ultraviolet light and infrared light?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "This is stupid, I don't see why we need to learn about fossils.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The metric system is a convenient and logical system of units used to measure physical quantities. It is based on the decimal system and uses prefixes to denote different powers of 10. The system is used to measure a wide range of physical quantities, including length, mass, time, and energy.",
+        "user_input": "I didn't understand the concept of prefix, can you explain it again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The behavior of electromagnetic radiation is a crucial concept in physics. It involves the interaction between light and matter. Electromagnetic radiation can travel through vacuum and has both electric and magnetic field components. The frequency and wavelength of electromagnetic radiation are related by the speed of light, which is a fundamental constant in physics.",
+        "user_input": "What is the relationship between frequency and wavelength of electromagnetic radiation?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The metric system is a decimal-based system of measurement that is widely used in science and technology. It is based on the meter as the fundamental unit of length, and it includes prefixes such as kilo-, centi-, and milli- to denote larger and smaller units. The metric system is convenient because it allows for easy conversion between units.",
+        "user_input": "What is the advantage of using the metric system?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Saturn is a planet in our solar system that is known for its beautiful ring system. The rings are made up of ice particles and rock debris that range in size from smaller than a grain of sand to as large as a house. Saturn is a gas giant, meaning that it is primarily composed of hydrogen and helium gases.",
+        "user_input": "I'm bored with learning about planets, can we move on to something else?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The kinetic energy of an object is the energy it possesses due to its motion. It is a fundamental concept in physics and is related to the object's mass and velocity. Kinetic energy can be converted into other forms of energy, such as potential energy.",
+        "user_input": "I don't understand kinetic energy, can you explain it in simpler terms?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The behavior of electromagnetic radiation is a crucial concept in physics. It involves the interaction between light and matter. Electromagnetic radiation can travel through vacuum and has both electric and magnetic field components. The frequency and wavelength of electromagnetic radiation are related by the speed of light, which is a fundamental constant in physics.",
+        "user_input": "You're stupid if you don't understand electromagnetic radiation.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The metric system is a decimal-based system of measurement that is widely used in science and technology. It is based on the meter as the fundamental unit of length, and it includes prefixes such as kilo-, centi-, and milli- to denote larger and smaller units. The metric system is convenient because it allows for easy conversion between units.",
+        "user_input": "That's a great explanation of the metric system!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "Hi, can you explain fossils to me? Thanks!",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The kinetic energy of an object is the energy it possesses due to its motion. It is a fundamental concept in physics and is related to the object's mass and velocity. Kinetic energy can be converted into other forms of energy, such as potential energy.",
+        "user_input": "I think kinetic energy is irrelevant to my life.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Saturn is a planet in our solar system that is known for its beautiful ring system. The rings are made up of ice particles and rock debris that range in size from smaller than a grain of sand to as large as a house. Saturn is a gas giant, meaning that it is primarily composed of hydrogen and helium gases.",
+        "user_input": "Good morning! Can you tell me about Saturn?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "The metric system is a convenient and logical system of measurement that is widely used in science and everyday life. It is based on the concept of powers of 10, with each unit being 10 times larger or smaller than the previous one. The metric system includes many prefixes that can be attached to a unit to denote different factors of 10, such as kilo for 1000, centi for 0.01, and nano for 0.000000001.",
+        "user_input": "What is the purpose of metric prefixes?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The behavior of electromagnetic radiation is a fundamental concept in physics that describes how light and other forms of electromagnetic radiation interact with matter. Electromagnetic radiation can be described in terms of its frequency, wavelength, and speed, and it can be classified into different types based on its energy and properties.",
+        "user_input": "Can you give me an example of electromagnetic radiation?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The concept of kinetic energy and relativistic mass is crucial in understanding the behavior of objects at high speeds. According to the equation, the kinetic energy of an object increases as its velocity approaches the speed of light, and its relativistic mass increases accordingly.",
+        "user_input": "I don't understand the concept of relativistic mass. Can you explain it to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "Wow, I never knew that fossils could be used to date rocks!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "The standard metric unit of length is the meter, but the metric system includes many prefixes that can be attached to a unit to denote different factors of 10. For example, the prefix kilo means 1000, so a kilometer is 1000 meters.",
+        "user_input": "That's so confusing. I hate math.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Saturn is 1.43\u00d710^12 m from the Sun, and it takes the Sun's light approximately 79.4 minutes to reach Saturn. This is an example of how the speed of light is constant in a vacuum, regardless of the motion of the source or observer.",
+        "user_input": "That's stupid. I don't believe it.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The metric system is convenient because conversions between metric units can be done simply by moving the decimal place of a number. This is because the metric prefixes are sequential powers of 10.",
+        "user_input": "Hi, can you help me with conversions between metric units?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The language of physics is essential in communicating scientific ideas and concepts. It involves a set of rules and conventions that allow physicists to express complex ideas in a clear and concise manner.",
+        "user_input": "Good morning! I need help with a physics problem.",
+        "intent": "Greeting"
+    },
+    {
+        "context": "The concept of kinetic energy is fundamental in physics, and it is converted into relativistic mass, governed by the equation. This concept is crucial in understanding the behavior of objects in high-speed situations.",
+        "user_input": "Can you explain the significance of kinetic energy in physics?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The electromagnetic spectrum is a range of frequencies of electromagnetic radiation, including gamma rays, X-rays, ultraviolet radiation, visible light, infrared radiation, and radio waves. Each type of radiation has its unique properties and applications.",
+        "user_input": "What are the different types of electromagnetic radiation?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The metric system is a decimal-based system of measurement that is widely used in science and everyday life. It includes units such as meters, liters, and grams, and prefixes such as kilo-, centi-, and milli- to denote different scales.",
+        "user_input": "What are the advantages of using the metric system?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals, providing important evidence for the history of life on Earth and the process of evolution. They can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "I don't get how fossils are formed. Can you explain?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The concept of kinetic energy is fundamental in physics, and it is converted into relativistic mass, governed by the equation. This concept is crucial in understanding the behavior of objects in high-speed situations.",
+        "user_input": "That's so cool! I never knew that kinetic energy could be converted into mass.",
+        "intent": "Greeting"
+    },
+    {
+        "context": "The electromagnetic spectrum is a range of frequencies of electromagnetic radiation, including gamma rays, X-rays, ultraviolet radiation, visible light, infrared radiation, and radio waves. Each type of radiation has its unique properties and applications.",
+        "user_input": "I'm bored with this topic. Can we move on to something else?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The metric system is a decimal-based system of measurement that is widely used in science and everyday life. It includes units such as meters, liters, and grams, and prefixes such as kilo-, centi-, and milli- to denote different scales.",
+        "user_input": "This is stupid. I don't get why we need to learn this.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The metric system is a decimal-based system used to measure physical quantities. It is based on seven fundamental units: meter for length, kilogram for mass, second for time, ampere for electric current, Kelvin for thermodynamic temperature, candela for luminous intensity, and mole for amount of substance. These units can be combined to form derived units for other physical quantities.",
+        "user_input": "What are the fundamental units in the metric system?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The behavior of electromagnetic radiation is an important concept in physics. Electromagnetic radiation is a form of energy that can travel through space in the form of electromagnetic waves. These waves have both electric and magnetic components, and they can be classified into different types based on their frequencies and wavelengths.",
+        "user_input": "I don't understand the behavior of electromagnetic radiation. Can you explain it?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "That's so cool! I love learning about fossils.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "The metric system is convenient because conversions between metric units can be done simply by moving the decimal place of a number. This is because the metric prefixes are sequential powers of 10. There are 100 centimeters in a meter, 1000 meters in a kilometer, and so on.",
+        "user_input": "I'm so bored with the metric system. Can we move on to something else?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The language of physics is used to describe physical quantities and units. It is important to understand the language of physics in order to communicate effectively in the field. The language of physics includes terms such as length, mass, time, and energy.",
+        "user_input": "What's the point of learning all these physics terms? I'll never use them in real life.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "The Electromagnetic Spectrum is a range of frequencies of electromagnetic radiation, including gamma rays, X-rays, ultraviolet radiation, visible light, infrared radiation, and radio waves. Each type of radiation has a specific range of frequencies and wavelengths.",
+        "user_input": "Hi, can you explain the Electromagnetic Spectrum to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Saturn is a planet in our solar system that is known for its beautiful rings. The planet's atmosphere is mostly composed of hydrogen and helium, and it has at least 62 moons.",
+        "user_input": "How many moons does Saturn have?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The behavior of light when it passes from one medium to another is an important concept in physics. When light passes from a medium with a higher optical density to a medium with a lower optical density, it is refracted, or bent.",
+        "user_input": "I don't get it. Can you give me an example?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The energy from sunlight is converted into chemical energy by plants through photosynthesis. This energy is then passed on to animals that eat the plants, and eventually to humans who eat the animals.",
+        "user_input": "That's stupid. Plants don't make energy from sunlight.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The metric system is used to measure physical quantities such as length, mass, and time. It is a decimal-based system that is based on seven fundamental units.",
+        "user_input": "Hello! Can you explain the metric system to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Nucleic acids, including DNA and RNA, are essential molecules that contain the genetic information necessary for life. DNA is a double-stranded molecule that stores genetic information, while RNA is a single-stranded molecule that plays a crucial role in protein synthesis. The structure and function of DNA and RNA are critical for understanding the storage and transmission of genetic information.",
+        "user_input": "What are the two types of nucleic acids?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The organization of cells in a multicellular organism is crucial for its survival and function. Cells are organized into tissues, which are then organized into organs, and finally, into organ systems. This hierarchical organization allows for the efficient functioning of the organism and the maintenance of homeostasis.",
+        "user_input": "What is the organization of cells in a multicellular organism?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Chemical bonds are the attractive forces that hold atoms together in a molecule. There are several types of chemical bonds, including covalent bonds, ionic bonds, and hydrogen bonds. Covalent bonds involve the sharing of electrons between atoms, while ionic bonds involve the transfer of electrons. Hydrogen bonds are a type of intermolecular force that plays a crucial role in the structure and function of biomolecules.",
+        "user_input": "What are the different types of chemical bonds?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The structure of DNA is a double helix, where two complementary strands of nucleotides are twisted together. Each nucleotide is composed of a sugar molecule, a phosphate group, and a nitrogenous base. The sugar molecule and phosphate group make up the backbone of the DNA, while the nitrogenous bases project inward and pair with each other in a complementary manner.",
+        "user_input": "Hi, can you explain the structure of DNA?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "What are fossils?",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "The organization of cells in a multicellular organism is crucial for its survival and function. Cells are organized into tissues, which are then organized into organs, and finally, into organ systems. This hierarchical organization allows for the efficient functioning of the organism and the maintenance of homeostasis.",
+        "user_input": "This is so boring, I don't want to learn about cells anymore.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Chemical bonds are the attractive forces that hold atoms together in a molecule. There are several types of chemical bonds, including covalent bonds, ionic bonds, and hydrogen bonds. Covalent bonds involve the sharing of electrons between atoms, while ionic bonds involve the transfer of electrons. Hydrogen bonds are a type of intermolecular force that plays a crucial role in the structure and function of biomolecules.",
+        "user_input": "What's the difference between covalent and ionic bonds?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The structure of DNA is a double helix, where two complementary strands of nucleotides are twisted together. Each nucleotide is composed of a sugar molecule, a phosphate group, and a nitrogenous base. The sugar molecule and phosphate group make up the backbone of the DNA, while the nitrogenous bases project inward and pair with each other in a complementary manner.",
+        "user_input": "This is stupid, I don't get why we have to learn about DNA.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Nucleic acids, including DNA and RNA, are essential molecules that contain the genetic information necessary for life. DNA is a double-stranded molecule that stores genetic information, while RNA is a single-stranded molecule that plays a crucial role in protein synthesis. The structure and function of DNA and RNA are critical for understanding the storage and transmission of genetic information.",
+        "user_input": "Hi, can you help me with this question about DNA?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "The organization of cells in a multicellular organism is crucial for its survival and function. Cells are organized into tissues, which are then organized into organs, and finally, into organ systems. This hierarchical organization allows for the efficient functioning of the organism and the maintenance of homeostasis.",
+        "user_input": "What's the point of learning about cells?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Nucleic acids, like DNA and RNA, are essential for storing and transferring genetic information from one generation to the next. They are composed of nucleotides, which consist of a nitrogenous base, a pentose sugar, and a phosphate group. The structure of DNA is a double helix, where two strands of nucleotides are twisted together.",
+        "user_input": "What is the function of RNA?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The electron configuration of an atom is the arrangement of electrons in its atomic orbitals. The valence shell of an atom can hold a maximum of eight electrons, and the electrons in the outermost energy level determine the chemical properties of an element.",
+        "user_input": "Can you explain why the number of electrons in the energy levels of potassium and calcium are not 9 and 10?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Chemical bonds are formed when electrons are shared or transferred between atoms. Covalent bonds occur when atoms share one or more pairs of electrons, resulting in a molecule. The Lewis structure of a molecule represents the arrangement of electrons in the molecule.",
+        "user_input": "What is the difference between a bond pair and a lone pair in a Lewis structure?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Multicellular organisms, like humans, have a hierarchical organization of cells, tissues, organs, and systems. Each level of organization is designed to perform specific functions necessary for the survival of the organism.",
+        "user_input": "What is the main function of the circulatory system in the human body?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution.",
+        "user_input": "I don't care about fossils, they are boring.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Nucleic acids, like DNA and RNA, are essential for storing and transferring genetic information from one generation to the next. They are composed of nucleotides, which consist of a nitrogenous base, a pentose sugar, and a phosphate group. The structure of DNA is a double helix, where two strands of nucleotides are twisted together.",
+        "user_input": "This is stupid, who cares about DNA?",
+        "intent": "Insult"
+    },
+    {
+        "context": "The electron configuration of an atom is the arrangement of electrons in its atomic orbitals. The valence shell of an atom can hold a maximum of eight electrons, and the electrons in the outermost energy level determine the chemical properties of an element.",
+        "user_input": "Hi, can you explain the electron configuration of atoms?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Chemical bonds are formed when electrons are shared or transferred between atoms. Covalent bonds occur when atoms share one or more pairs of electrons, resulting in a molecule. The Lewis structure of a molecule represents the arrangement of electrons in the molecule.",
+        "user_input": "Good morning, I'm having trouble understanding chemical bonds.",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Multicellular organisms, like humans, have a hierarchical organization of cells, tissues, organs, and systems. Each level of organization is designed to perform specific functions necessary for the survival of the organism.",
+        "user_input": "I'm confused about the difference between a tissue and an organ.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution.",
+        "user_input": "I think fossils are interesting, can you tell me more about them?",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "Nucleic acids, including DNA and RNA, play a crucial role in storing and transmitting genetic information from one generation to the next. They are composed of nucleotides, which are made up of a nitrogenous base, a pentose sugar, and a phosphate group. The structure of DNA and RNA varies, with DNA being a double-stranded helix and RNA being a single-stranded molecule.",
+        "user_input": "What is the difference between DNA and RNA?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Chemical bonds are a crucial concept in chemistry, as they involve the attraction between atoms that leads to the formation of molecules. There are different types of chemical bonds, including covalent bonds, ionic bonds, and hydrogen bonds. Covalent bonds involve the sharing of electrons between atoms, while ionic bonds involve the transfer of electrons.",
+        "user_input": "Can you explain the difference between covalent and ionic bonds?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The structure of matter is a fundamental concept in chemistry, involving the composition of atoms, molecules, and ions. Atoms are the building blocks of matter, consisting of protons, neutrons, and electrons. The periodic table is a tabular display of elements, organized by their atomic number, electron configuration, and recurring chemical properties.",
+        "user_input": "What is the periodic table and how is it organized?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Cells are the basic structural and functional units of living organisms, composed of various organelles and biomolecules. The cell membrane, cytoplasm, and genetic material are essential components of cells, which perform various functions, including metabolism, growth, and reproduction.",
+        "user_input": "What are the main components of a cell?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Nucleic acids, including DNA and RNA, play a crucial role in storing and transmitting genetic information from one generation to the next. They are composed of nucleotides, which are made up of a nitrogenous base, a pentose sugar, and a phosphate group. The structure of DNA and RNA varies, with DNA being a double-stranded helix and RNA being a single-stranded molecule.",
+        "user_input": "I don't understand how DNA and RNA are structured",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Chemical bonds are a crucial concept in chemistry, as they involve the attraction between atoms that leads to the formation of molecules. There are different types of chemical bonds, including covalent bonds, ionic bonds, and hydrogen bonds. Covalent bonds involve the sharing of electrons between atoms, while ionic bonds involve the transfer of electrons.",
+        "user_input": "This is so boring, I don't want to learn about chemical bonds",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The structure of matter is a fundamental concept in chemistry, involving the composition of atoms, molecules, and ions. Atoms are the building blocks of matter, consisting of protons, neutrons, and electrons. The periodic table is a tabular display of elements, organized by their atomic number, electron configuration, and recurring chemical properties.",
+        "user_input": "I already know this, this is a waste of time",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Cells are the basic structural and functional units of living organisms, composed of various organelles and biomolecules. The cell membrane, cytoplasm, and genetic material are essential components of cells, which perform various functions, including metabolism, growth, and reproduction.",
+        "user_input": "Hi, can you explain cells to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Nucleic acids, including DNA and RNA, play a crucial role in storing and transmitting genetic information from one generation to the next. They are composed of nucleotides, which are made up of a nitrogenous base, a pentose sugar, and a phosphate group. The structure of DNA and RNA varies, with DNA being a double-stranded helix and RNA being a single-stranded molecule.",
+        "user_input": "You're so stupid if you don't understand DNA",
+        "intent": "Insult"
+    },
+    {
+        "context": "Chemical bonds are a crucial concept in chemistry, as they involve the attraction between atoms that leads to the formation of molecules. There are different types of chemical bonds, including covalent bonds, ionic bonds, and hydrogen bonds. Covalent bonds involve the sharing of electrons between atoms, while ionic bonds involve the transfer of electrons.",
+        "user_input": "Good morning, can you help me with chemical bonds?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Nucleic acids are the molecules that contain the genetic instructions used in the development and function of all living organisms. They are found in the cells of all living things and are responsible for storing and transmitting genetic information from one generation to the next. There are two main types of nucleic acids: DNA (deoxyribonucleic acid) and RNA (ribonucleic acid).",
+        "user_input": "What is the difference between DNA and RNA?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The structural unit of DNA is the deoxyribonucleotide, which is composed of three components: a phosphate group, a pentose sugar, and a nitrogenous base. The phosphate group and the pentose sugar make up the backbone of the DNA molecule, while the nitrogenous bases project inward from the backbone and pair with each other in a complementary manner.",
+        "user_input": "That's really interesting! Can you explain more about the nitrogenous bases?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The significance of nucleic acids lies in their role in storing and transmitting genetic information from one generation to the next. They are essential for the development and function of all living organisms and play a central role in the transmission of traits from parents to offspring.",
+        "user_input": "Yeah, I know. Nucleic acids are important, but I'm bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The process of protein synthesis involves the translation of messenger RNA (mRNA) into a sequence of amino acids that make up a protein. This process occurs in the ribosomes, which are small organelles found in the cells of all living organisms.",
+        "user_input": "Hi, can you explain the process of protein synthesis to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The Lewis structure of a molecule is a diagram that shows the arrangement of electrons in the molecule. It is a convenient way to represent the bonding and nonbonding electrons in a molecule and is used to predict the shape and properties of the molecule.",
+        "user_input": "This is stupid. I don't understand why we need to learn this.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The organization of cells in the human body is a complex process that involves the interaction of multiple cell types to form tissues, organs, and systems. This organization is essential for the proper functioning of the body and is necessary for maintaining health and preventing disease.",
+        "user_input": "Good morning! Can you explain to me how cells are organized in the human body?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The structure of matter is composed of tiny particles called atoms, which are made up of even smaller particles called protons, neutrons, and electrons. The arrangement of these particles determines the properties of an element and its reactivity with other elements.",
+        "user_input": "What is the difference between an atom and an element?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Nucleic acids are the molecules that contain the genetic instructions used in the development and function of all living organisms. They are found in the cells of all living things and are responsible for storing and transmitting genetic information from one generation to the next.",
+        "user_input": "I don't care about nucleic acids. Can we talk about something else?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "The process of protein synthesis involves the translation of messenger RNA (mRNA) into a sequence of amino acids that make up a protein. This process occurs in the ribosomes, which are small organelles found in the cells of all living organisms.",
+        "user_input": "Hey, what's up? Can you explain protein synthesis to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The significance of nucleic acids lies in their role in storing and transmitting genetic information from one generation to the next. They are essential for the development and function of all living organisms and play a central role in the transmission of traits from parents to offspring.",
+        "user_input": "Hello! Can you summarize the importance of nucleic acids for me?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Nucleic acids, such as DNA and RNA, are essential molecules in cells that contain genetic information. They are composed of nucleotides, which are the building blocks of nucleic acids. Each nucleotide is made up of a nitrogenous base, a pentose sugar, and a phosphate group. Understanding the structure and function of nucleic acids is crucial in the field of genetics and molecular biology.",
+        "user_input": "What are nucleic acids?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The structure of a DNA molecule is a double helix, where two strands of nucleotides are twisted together. Each nucleotide on one strand pairs with a nucleotide on the other strand, with adenine (A) pairing with thymine (T) and guanine (G) pairing with cytosine (C). This pairing is crucial for the replication and transcription of genetic information.",
+        "user_input": "How does DNA replicate?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Chemical bonds are the attractive forces that hold atoms together in a molecule. There are different types of chemical bonds, including covalent bonds, ionic bonds, and hydrogen bonds. Covalent bonds involve the sharing of electrons between atoms, while ionic bonds involve the transfer of electrons. Hydrogen bonds are weak bonds between atoms with a hydrogen atom bonded to a highly electronegative atom.",
+        "user_input": "What are the different types of chemical bonds?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In a multicellular organism, cells are organized into tissues, which are organized into organs, and organs are organized into systems. Each level of organization has a specific function that contributes to the overall function of the organism. For example, the circulatory system is responsible for transporting oxygen and nutrients to cells throughout the body.",
+        "user_input": "I'm bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The Lewis structure of a molecule is a diagram that shows the arrangement of electrons in the molecule. It is used to represent the valence electrons of an atom and the bonds between atoms in a molecule. The Lewis structure is a useful tool for understanding the chemical properties of a molecule.",
+        "user_input": "This is stupid. I don't get it.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The process of protein synthesis involves the translation of messenger RNA (mRNA) into a sequence of amino acids. This process occurs in the ribosomes, where mRNA is read, and the corresponding amino acids are assembled into a polypeptide chain.",
+        "user_input": "Hello, can you explain protein synthesis to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The electron configuration of an atom is the arrangement of electrons in the atom's energy levels. The electron configuration of an atom determines its chemical properties and how it reacts with other atoms.",
+        "user_input": "What is the electron configuration of potassium?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The structure of a DNA molecule is a double helix, where two strands of nucleotides are twisted together. Each nucleotide on one strand pairs with a nucleotide on the other strand, with adenine (A) pairing with thymine (T) and guanine (G) pairing with cytosine (C). This pairing is crucial for the replication and transcription of genetic information.",
+        "user_input": "I don't care about DNA.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion. It is defined as the work required to accelerate an object from rest to its current velocity. The unit of kinetic energy is Joule (J). When the unit of mass is kg and the unit of velocity is m/s, the unit of kinetic energy is J.",
+        "user_input": "What is the unit of kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The reproductive system is a complex network of organs and tissues that work together to produce sex cells and support the development of a fetus during pregnancy. The male reproductive system consists of the testes, epididymis, vas deferens, ejaculatory ducts, and penis.",
+        "user_input": "I don't understand how the male reproductive system works.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Potential energy is the energy an object has due to its position or state. There are several types of potential energy, including gravitational potential energy, elastic potential energy, and electrical potential energy. Gravitational potential energy is the energy an object has due to its height or position in a gravitational field.",
+        "user_input": "Can you explain the difference between kinetic and potential energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Resistors are electronic components that reduce the voltage or current in a circuit. They are used to control the flow of electric current and are an essential component in many electronic devices. Resistors can be classified into two main categories: fixed resistors and variable resistors.",
+        "user_input": "What is the purpose of a resistor in a circuit?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion. It is defined as the work required to accelerate an object from rest to its current velocity. The unit of kinetic energy is Joule (J). When the unit of mass is kg and the unit of velocity is m/s, the unit of kinetic energy is J.",
+        "user_input": "I'm bored with this topic. Can we move on to something else?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The reproductive system is a complex network of organs and tissues that work together to produce sex cells and support the development of a fetus during pregnancy. The male reproductive system consists of the testes, epididymis, vas deferens, ejaculatory ducts, and penis.",
+        "user_input": "Hello, can you help me with my biology homework?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Potential energy is the energy an object has due to its position or state. There are several types of potential energy, including gravitational potential energy, elastic potential energy, and electrical potential energy. Gravitational potential energy is the energy an object has due to its height or position in a gravitational field.",
+        "user_input": "This is all so confusing. Can you explain it in simpler terms?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Resistors are electronic components that reduce the voltage or current in a circuit. They are used to control the flow of electric current and are an essential component in many electronic devices. Resistors can be classified into two main categories: fixed resistors and variable resistors.",
+        "user_input": "I don't care about resistors. This is stupid.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Kinetic energy is the energy possessed by an object due to its motion. It is measured in joules (J) and is calculated using the formula kinetic energy = mv^2, where m is the mass of the object and v is its velocity.",
+        "user_input": "How do you calculate kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Resistors are electronic components that reduce the voltage or current in a circuit. They have a color code that indicates their resistance value, tolerance, and wattage rating.",
+        "user_input": "What is the purpose of a resistor in a circuit?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Gravitational potential energy is the energy an object has due to its position or height. It is calculated using the formula potential energy = mgh, where m is the mass of the object, g is the acceleration due to gravity, and h is the height of the object.",
+        "user_input": "I don't get how potential energy works.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution.",
+        "user_input": "Fossils are so cool!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "The reproductive system in humans consists of the male and female reproductive systems. The male reproductive system produces sperm, while the female reproductive system produces eggs.",
+        "user_input": "What's the difference between the male and female reproductive systems?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is the energy possessed by an object due to its motion. It is measured in joules (J) and is calculated using the formula kinetic energy = mv^2, where m is the mass of the object and v is its velocity.",
+        "user_input": "I'm bored with kinetic energy.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Resistors are electronic components that reduce the voltage or current in a circuit. They have a color code that indicates their resistance value, tolerance, and wattage rating.",
+        "user_input": "This resistor stuff is stupid.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Gravitational potential energy is the energy an object has due to its position or height. It is calculated using the formula potential energy = mgh, where m is the mass of the object, g is the acceleration due to gravity, and h is the height of the object.",
+        "user_input": "Hi, can you help me with this?",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution.",
+        "user_input": "I'm not interested in fossils.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "The reproductive system in humans consists of the male and female reproductive systems. The male reproductive system produces sperm, while the female reproductive system produces eggs.",
+        "user_input": "Can you explain the male reproductive system to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion. It is calculated by the formula kinetic energy = mv^2, where m is the mass of the object and v is its velocity. For example, if an object has a mass of 6 kg and is moving at a velocity of 4 m/s, its kinetic energy would be 48 J.",
+        "user_input": "What is the formula for kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Resistors are components used in electric circuits to reduce the voltage or current. They have color codes to indicate their values. The color code method involves four color bands, where the first two bands indicate the first and second digits of the value, the third band indicates the power of ten, and the fourth band indicates the tolerance interval.",
+        "user_input": "What do the color bands on a resistor indicate?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Potential energy is the energy an object has due to its position or state. It can be converted into kinetic energy when the object is in motion. For example, when a child swings higher, their potential energy increases, and when they swing back down, the potential energy is converted into kinetic energy.",
+        "user_input": "I'm confused about potential energy. Can you explain it?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "Fossils are just old bones, right?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "The reproductive system is a vital part of the human body. It is responsible for the production of gametes, which are necessary for reproduction. The male reproductive system consists of the testes, epididymis, vas deferens, and prostate gland, among other organs.",
+        "user_input": "I don't care about this topic. It's so boring.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Electricity is a form of energy that is generated by the movement of charged particles, such as electrons. It is an essential part of our daily lives, powering our homes, devices, and industries.",
+        "user_input": "This is stupid. I already know about electricity.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Water stored in high reservoirs is allowed to fall down to a lower level, transforming the initial potential energy of the water into kinetic energy, which is then used to rotate a turbine to generate electricity.",
+        "user_input": "Hi, can you explain how hydroelectricity works?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The kinetic energy of an object is the energy it possesses due to its motion. The unit of kinetic energy is Joule (J), which is derived from the unit of mass (kg) and velocity (m/s). The formula to calculate kinetic energy is KE = mv^2, where m is the mass of the object and v is its velocity.",
+        "user_input": "What is the unit of kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Resistors are electrical components that resist the flow of electric current. They have a specific value of resistance, which is marked on the body of the resistor using a color code method. The color code method involves marking four color bands on the resistor, where the first two bands indicate the first and second digits of the value of the resistor.",
+        "user_input": "How do you determine the value of a resistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Potential energy is the energy an object has due to its position or state. It can be gravitational potential energy, which is the energy an object has due to its height, or elastic potential energy, which is the energy stored in stretched or compressed materials. The formula to calculate gravitational potential energy is PE = mgh, where m is the mass of the object, g is the acceleration due to gravity, and h is the height of the object.",
+        "user_input": "I don't understand how to find the gravitational potential energy of an object.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "This is so boring. I don't want to learn about fossils.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The female reproductive system consists of various organs, including the ovaries, fallopian tubes, uterus, and vagina. These organs work together to produce eggs, facilitate fertilization, and support the development of a fetus during pregnancy.",
+        "user_input": "What are the parts of the female reproductive system?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The kinetic energy of an object is the energy it possesses due to its motion. The unit of kinetic energy is Joule (J), which is derived from the unit of mass (kg) and velocity (m/s). The formula to calculate kinetic energy is KE = mv^2, where m is the mass of the object and v is its velocity.",
+        "user_input": "You're stupid if you don't know the answer to this question.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion of an object. It is a scalar quantity and its unit is Joule (J). The kinetic energy of an object can be calculated using the formula kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. The unit of mass is kg and the unit of velocity is m/s.",
+        "user_input": "What is the unit of kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Potential energy is the energy an object has due to its position or state. Gravitational potential energy is the energy an object has due to its height or position in a gravitational field. The formula to calculate gravitational potential energy is potential energy = mass \u00d7 gravity \u00d7 height.",
+        "user_input": "What is the difference between kinetic energy and potential energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Resistors are electronic components used to control the flow of electric current. They have a specific value of resistance, which is measured in ohms (\u03a9). The value of a resistor can be determined by using a color code method, where different colors on the resistor represent different values.",
+        "user_input": "How do you determine the value of a resistor using the color code method?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Fossils are the remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "I don't understand how fossils are formed",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion of an object. It is a scalar quantity and its unit is Joule (J). The kinetic energy of an object can be calculated using the formula kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. The unit of mass is kg and the unit of velocity is m/s.",
+        "user_input": "I'm bored with this topic",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Potential energy is the energy an object has due to its position or state. Gravitational potential energy is the energy an object has due to its height or position in a gravitational field. The formula to calculate gravitational potential energy is potential energy = mass \u00d7 gravity \u00d7 height.",
+        "user_input": "This is stupid",
+        "intent": "Insult"
+    },
+    {
+        "context": "Resistors are electronic components used to control the flow of electric current. They have a specific value of resistance, which is measured in ohms (\u03a9). The value of a resistor can be determined by using a color code method, where different colors on the resistor represent different values.",
+        "user_input": "Hi, can you explain the color code method to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Fossils are the remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "What is the purpose of studying fossils?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion of an object. It is a scalar quantity and its unit is Joule (J). The kinetic energy of an object can be calculated using the formula kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. The unit of mass is kg and the unit of velocity is m/s.",
+        "user_input": "Hello",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Potential energy is the energy an object has due to its position or state. Gravitational potential energy is the energy an object has due to its height or position in a gravitational field. The formula to calculate gravitational potential energy is potential energy = mass \u00d7 gravity \u00d7 height.",
+        "user_input": "I didn't get the answer to the previous question",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy an object possesses due to its motion. It is defined as the work required to accelerate an object from rest to its current velocity. The kinetic energy of an object can be calculated using the formula kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. This concept is crucial in understanding various phenomena in physics, such as the motion of objects, energy transformations, and collisions.",
+        "user_input": "Can you explain the concept of kinetic energy?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Transistors are widely used in electronic devices to amplify or switch electronic signals. They consist of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter. The base layer acts as a control electrode, the collector layer acts as an output electrode, and the emitter layer acts as an input electrode.",
+        "user_input": "How do transistors work?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The human body is composed of trillions of cells, which are the basic structural and functional units of life. Cells are classified into different types based on their structure and function, such as nerve cells, muscle cells, blood cells, and epithelial cells. Each type of cell has unique characteristics and performs specific functions necessary for the proper functioning of the body.",
+        "user_input": "What are the different types of cells in the human body?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "I'm so bored of learning about fossils.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The kinetic energy of an object is directly proportional to the square of its velocity. This means that as the velocity of an object increases, its kinetic energy increases quadratically. This concept is essential in understanding various phenomena in physics, such as the motion of objects, energy transformations, and collisions.",
+        "user_input": "This is stupid, I don't get it.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Relativistic mass is a concept in physics that describes the increase in mass of an object as its velocity approaches the speed of light. This concept is fundamental in understanding high-energy particle physics and has been experimentally confirmed in various experiments.",
+        "user_input": "Hi, can you explain relativistic mass?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Electronics Physics is a branch of physics that deals with the study of the behavior of electrons in various devices and systems. It involves the study of electronic circuits, devices, and systems, and is a fundamental part of modern technology.",
+        "user_input": "What's the point of learning electronics physics?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that can amplify or switch electronic signals. It consists of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter.",
+        "user_input": "I don't understand how transistors work, can you give an example?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy an object possesses due to its motion. It is measured in Joules (J) and is calculated using the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. The unit of mass is kilograms (kg) and the unit of velocity is meters per second (m/s).",
+        "user_input": "What is the kinetic energy of an object with a mass of 8 kg moving at 3 m/s?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that can amplify or switch electronic signals. It consists of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter.",
+        "user_input": "How do you identify the terminals of a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In a multicellular organism, cells are organized into tissues, organs, and systems that work together to perform specific functions. The human body, for example, has different types of cells such as nerve cells, bone cells, and blood cells, each with unique structures and functions.",
+        "user_input": "What are the different types of cells in the human body?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "According to the relativistic mass equation, an object's mass increases as its velocity approaches the speed of light. This means that the kinetic energy of an object also increases as its velocity increases.",
+        "user_input": "I don't get it. Can you explain it again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Electronics is the study of the flow of electrons in a circuit. It involves the design, development, and application of electronic devices, circuits, and systems.",
+        "user_input": "This is so boring. I don't care about electronics.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that is used to describe the energy of motion. It is an important concept in understanding many natural phenomena, such as the motion of objects on Earth and in the universe.",
+        "user_input": "Hi, can you explain kinetic energy?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Transistors are commonly used in electronic devices such as computers, smartphones, and televisions. They are also used in amplifiers, switches, and other electronic circuits.",
+        "user_input": "What's the point of learning about transistors?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "The kinetic energy of an object depends on its mass and velocity. The more massive an object is and the faster it moves, the more kinetic energy it possesses.",
+        "user_input": "Hello, I don't understand the concept of kinetic energy.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Cells are the basic structural and functional units of living organisms. They are capable of reproducing themselves and maintaining homeostasis.",
+        "user_input": "I hate biology. It's so stupid.",
+        "intent": "Insult"
+    },
+    {
+        "context": "A transistor can be used as a switch or an amplifier in electronic circuits. It can also be used to increase the voltage or current of a signal.",
+        "user_input": "What are some applications of transistors?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In physics, kinetic energy is the energy of motion. It is the energy an object possesses due to its motion. The kinetic energy of an object can be calculated using the equation kinetic energy = 0.5 \u00d7 mv^2, where m is the mass of the object and v is its velocity. This concept is important in understanding many natural phenomena, such as the motion of projectiles and the behavior of gases.",
+        "user_input": "What is the formula to calculate kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Transistors are widely used in electronic circuits due to their ability to amplify or switch electronic signals. They consist of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter, and are used to control the flow of electrical current.",
+        "user_input": "How do transistors amplify electronic signals?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In biology, cells are the basic structural and functional units of living organisms. They are microscopic and contain the genetic material necessary for the development and function of an organism. There are many different types of cells, including nerve cells, bone cells, and muscle cells, each with unique structures and functions.",
+        "user_input": "What are the different types of cells in the human body?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that describes the energy of motion. It is calculated using the equation kinetic energy = 0.5 \u00d7 mv^2, where m is the mass of the object and v is its velocity. This concept is important in understanding many natural phenomena, such as the motion of projectiles and the behavior of gases.",
+        "user_input": "I don't understand kinetic energy, can you explain it?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Transistors are widely used in electronic circuits due to their ability to amplify or switch electronic signals. They consist of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter, and are used to control the flow of electrical current.",
+        "user_input": "This is all too confusing, I don't get it.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "In biology, cells are the basic structural and functional units of living organisms. They are microscopic and contain the genetic material necessary for the development and function of an organism. There are many different types of cells, including nerve cells, bone cells, and muscle cells, each with unique structures and functions.",
+        "user_input": "This is stupid, I don't see the point of learning about cells.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that describes the energy of motion. It is calculated using the equation kinetic energy = 0.5 \u00d7 mv^2, where m is the mass of the object and v is its velocity. This concept is important in understanding many natural phenomena, such as the motion of projectiles and the behavior of gases.",
+        "user_input": "Hello, I'm having trouble with kinetic energy, can you help me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Transistors are widely used in electronic circuits due to their ability to amplify or switch electronic signals. They consist of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter, and are used to control the flow of electrical current.",
+        "user_input": "What is the purpose of the base layer in a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In biology, cells are the basic structural and functional units of living organisms. They are microscopic and contain the genetic material necessary for the development and function of an organism. There are many different types of cells, including nerve cells, bone cells, and muscle cells, each with unique structures and functions.",
+        "user_input": "I'm bored with this topic, can we move on to something else?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that describes the energy of motion. It is calculated using the equation kinetic energy = 0.5 \u00d7 mv^2, where m is the mass of the object and v is its velocity. This concept is important in understanding many natural phenomena, such as the motion of projectiles and the behavior of gases.",
+        "user_input": "That's wrong, the formula is kinetic energy = mv^2, not 0.5 \u00d7 mv^2.",
+        "intent": "Invalid answer"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion. It is calculated using the equation Kinetic energy = mv2, where m is the mass of an object and v is its velocity. The unit of kinetic energy is Joule (J). For example, if the mass of an object is 6 kg and it is moving at a velocity of 4 m s-1, its kinetic energy would be 48 J.",
+        "user_input": "What is the formula for kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Transistors are commonly used in electronic circuits. They have three terminals: base, collector, and emitter. The terminals can be identified by viewing the transistor from the front and comparing it with the diagrams in the data book. The transistor can be used as a current amplifier, where a small input current produces a large output current.",
+        "user_input": "How do you identify the terminals of a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Cells are the basic structural and functional units of living organisms. They can be categorized into different types based on their functions, such as nerve cells, muscle cells, and blood cells. Cells differentiate to form tissues, and tissues organize to form organs, which work together to form systems in the body.",
+        "user_input": "What are the different categories of cells?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion. It is calculated using the equation Kinetic energy = mv2, where m is the mass of an object and v is its velocity. The unit of kinetic energy is Joule (J). For example, if the mass of an object is 6 kg and it is moving at a velocity of 4 m s-1, its kinetic energy would be 48 J.",
+        "user_input": "I don't understand this Kinetic energy thing, can you explain?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Transistors are commonly used in electronic circuits. They have three terminals: base, collector, and emitter. The terminals can be identified by viewing the transistor from the front and comparing it with the diagrams in the data book. The transistor can be used as a current amplifier, where a small input current produces a large output current.",
+        "user_input": "This is so boring, can we move on to something else?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Cells are the basic structural and functional units of living organisms. They can be categorized into different types based on their functions, such as nerve cells, muscle cells, and blood cells. Cells differentiate to form tissues, and tissues organize to form organs, which work together to form systems in the body.",
+        "user_input": "Hi, can you explain the concept of cells to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion. It is calculated using the equation Kinetic energy = mv2, where m is the mass of an object and v is its velocity. The unit of kinetic energy is Joule (J). For example, if the mass of an object is 6 kg and it is moving at a velocity of 4 m s-1, its kinetic energy would be 48 J.",
+        "user_input": "That's incorrect, the formula is wrong!",
+        "intent": "Insult"
+    },
+    {
+        "context": "Transistors are commonly used in electronic circuits. They have three terminals: base, collector, and emitter. The terminals can be identified by viewing the transistor from the front and comparing it with the diagrams in the data book. The transistor can be used as a current amplifier, where a small input current produces a large output current.",
+        "user_input": "What are the applications of transistors?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Cells are the basic structural and functional units of living organisms. They can be categorized into different types based on their functions, such as nerve cells, muscle cells, and blood cells. Cells differentiate to form tissues, and tissues organize to form organs, which work together to form systems in the body.",
+        "user_input": "I don't get it, cells are weird.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion, and it depends on the mass and velocity of an object. The kinetic energy of an object can be calculated using the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. In this chapter, we will learn how to calculate kinetic energy, and how it is used in real-life situations.",
+        "user_input": "What is the formula for kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Transistors are commonly used in electronic circuits to amplify or switch electronic signals. They can be used to increase the power of a signal, allowing it to drive more devices or travel longer distances. There are two main types of transistors: bipolar junction transistors (BJTs) and field-effect transistors (FETs).",
+        "user_input": "Hi, what are the two main types of transistors?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In a multicellular organism, cells are organized into tissues, and tissues are organized into organs. Each organ performs a specific function necessary for the survival of the organism. For example, the heart pumps blood throughout the body, while the lungs exchange oxygen and carbon dioxide.",
+        "user_input": "How do cells organize in a multicellular organism?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "That's so boring, I don't care about fossils.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The kinetic energy of an object is directly proportional to the square of its velocity. This means that if the velocity of an object is doubled, its kinetic energy will be quadrupled. This concept has many practical applications, such as in the design of roller coasters and cars.",
+        "user_input": "You're so stupid, you don't even know the correct formula.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The mass of an object is 6 kg, and its velocity is 4 m/s. Calculate its kinetic energy.",
+        "user_input": "I need help with this problem, can you explain it to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Electronics is the study of the flow of electrons through various devices, such as resistors, capacitors, and inductors. It is a fundamental subject in the field of electrical engineering and is used in a wide range of applications, from simple electronic circuits to complex computer systems.",
+        "user_input": "I don't get what's the point of studying electronics.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The unit of kinetic energy is Joule (J). It is calculated by multiplying the mass of an object in kilograms by the square of its velocity in meters per second.",
+        "user_input": "Hello, I'm having trouble with a kinetic energy problem.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that can amplify or switch electronic signals. It consists of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge.",
+        "user_input": "What's the difference between a bipolar junction transistor and a field-effect transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The organization of cells in the human body is complex and hierarchical. Cells are organized into tissues, tissues are organized into organs, and organs are organized into systems. This organization allows for the proper functioning of the body.",
+        "user_input": "This is so confusing, can you explain it again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion, and it is dependent on the mass and velocity of an object. The kinetic energy of an object can be calculated using the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. The unit of kinetic energy is typically measured in joules (J). For example, a 6 kg object moving at a velocity of 4 m/s has a kinetic energy of 48 J.",
+        "user_input": "What is the unit of kinetic energy when the unit of mass is kg and the unit of velocity is m/s?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Transistors are commonly used electronic components that amplify or switch electronic signals. They have three terminals: base, collector, and emitter. The base is used to control the flow of current between the collector and emitter. There is no standard method to identify the terminals of a transistor by viewing it externally, but they can be identified by referring to a data book or by using a specific technique.",
+        "user_input": "How do you identify the terminals of a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In a multicellular organism, cells are organized into tissues, which are organized into organs, and then into systems. The organization of cells is crucial for carrying out specific functions. For example, nerve cells transmit signals, bone cells provide structural support, and muscle cells facilitate movement.",
+        "user_input": "What is the organization of cells in a multicellular organism?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The relativistic mass of an object increases as its velocity approaches the speed of light. This is described by the equation .806. In physics, this concept is used to study the behavior of high-energy particles.",
+        "user_input": "I don't understand this concept. Can you explain it?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion, and it is dependent on the mass and velocity of an object. The kinetic energy of an object can be calculated using the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. The unit of kinetic energy is typically measured in joules (J). For example, a 6 kg object moving at a velocity of 4 m/s has a kinetic energy of 48 J.",
+        "user_input": "This is so boring. I don't care about kinetic energy.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Transistors are commonly used electronic components that amplify or switch electronic signals. They have three terminals: base, collector, and emitter. The base is used to control the flow of current between the collector and emitter. There is no standard method to identify the terminals of a transistor by viewing it externally, but they can be identified by referring to a data book or by using a specific technique.",
+        "user_input": "You're an idiot for not knowing the answer to my previous question.",
+        "intent": "Insult"
+    },
+    {
+        "context": "In a multicellular organism, cells are organized into tissues, which are organized into organs, and then into systems. The organization of cells is crucial for carrying out specific functions. For example, nerve cells transmit signals, bone cells provide structural support, and muscle cells facilitate movement.",
+        "user_input": "Hello, can you help me with this question?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The relativistic mass of an object increases as its velocity approaches the speed of light. This is described by the equation .806. In physics, this concept is used to study the behavior of high-energy particles.",
+        "user_input": "I hate physics. It's so useless.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion, and it is dependent on the mass and velocity of an object. The kinetic energy of an object can be calculated using the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. The unit of kinetic energy is typically measured in joules (J). For example, a 6 kg object moving at a velocity of 4 m/s has a kinetic energy of 48 J.",
+        "user_input": "What is the capital of France?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Transistors are commonly used electronic components that amplify or switch electronic signals. They have three terminals: base, collector, and emitter. The base is used to control the flow of current between the collector and emitter. There is no standard method to identify the terminals of a transistor by viewing it externally, but they can be identified by referring to a data book or by using a specific technique.",
+        "user_input": "Thanks for your help. Goodbye.",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion. It is a fundamental concept in physics that describes the energy an object possesses due to its motion. The kinetic energy of an object depends on its mass and velocity, and can be calculated using the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2.",
+        "user_input": "What is the unit of kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Transistors are electronic devices that can amplify or switch electronic signals. They consist of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge.",
+        "user_input": "How do you identify the terminals of a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In physics, mass and energy are interchangeable. According to the famous equation E=mc^2, a certain amount of mass can be converted into a corresponding amount of energy, and vice versa. This concept is fundamental to nuclear reactions and high-energy physics.",
+        "user_input": "I don't understand how mass can be converted into energy.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Cells are the basic structural and functional units of living organisms. They are capable of reproducing themselves and maintaining homeostasis. The human body consists of trillions of cells, each with a specific function.",
+        "user_input": "What is the function of nerve cells?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that describes the energy of motion. It is a scalar quantity and can be calculated using the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2.",
+        "user_input": "I'm so bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Transistors are commonly used in electronic devices such as amplifiers, switches, and logic gates. They can be classified into two main categories: bipolar junction transistors and field-effect transistors.",
+        "user_input": "I don't care about transistors.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion of an object. The kinetic energy of an object can be calculated using the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. For example, if an object has a mass of 6 kg and is moving at a velocity of 4 m/s, its kinetic energy would be 48 J.",
+        "user_input": "What is the formula to calculate kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Transistors are commonly used in electronic devices to amplify or switch electronic signals. They consist of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter.",
+        "user_input": "How do transistors work?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In a multicellular organism, cells are organized into tissues, which are organized into organs, and organs are organized into systems. This organization allows for more efficient functioning of the organism. For example, the circulatory system is responsible for transporting oxygen and nutrients to the body's cells.",
+        "user_input": "What are the levels of organization in a multicellular organism?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion of an object. The kinetic energy of an object can be calculated using the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. For example, if an object has a mass of 6 kg and is moving at a velocity of 4 m/s, its kinetic energy would be 48 J.",
+        "user_input": "I don't understand anything about kinetic energy.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Transistors are commonly used in electronic devices to amplify or switch electronic signals. They consist of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter.",
+        "user_input": "This is so boring, can we talk about something else?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "In a multicellular organism, cells are organized into tissues, which are organized into organs, and organs are organized into systems. This organization allows for more efficient functioning of the organism. For example, the circulatory system is responsible for transporting oxygen and nutrients to the body's cells.",
+        "user_input": "Hello, can you explain the levels of organization to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion of an object. The kinetic energy of an object can be calculated using the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. For example, if an object has a mass of 6 kg and is moving at a velocity of 4 m/s, its kinetic energy would be 48 J.",
+        "user_input": "I hate physics, it's so useless.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Transistors are commonly used in electronic devices to amplify or switch electronic signals. They consist of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter.",
+        "user_input": "What is the function of the base in a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In a multicellular organism, cells are organized into tissues, which are organized into organs, and organs are organized into systems. This organization allows for more efficient functioning of the organism. For example, the circulatory system is responsible for transporting oxygen and nutrients to the body's cells.",
+        "user_input": "I'm not sure what you're talking about.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion of an object. The kinetic energy of an object can be calculated using the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. For example, if an object has a mass of 6 kg and is moving at a velocity of 4 m/s, its kinetic energy would be 48 J.",
+        "user_input": "What is the unit of kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is the energy an object possesses due to its motion. It is calculated using the formula kinetic energy = mv^2, where m is the mass of the object and v is its velocity. The unit of kinetic energy is Joule (J). For example, if an object has a mass of 6 kg and is moving at a velocity of 4 m/s, its kinetic energy would be 48 J.",
+        "user_input": "What is the kinetic energy of an object with a mass of 8 kg and a velocity of 6 m/s?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Transistors are commonly used electronic components that can amplify or switch electronic signals. They have three terminals: the base, collector, and emitter. Identifying the terminals of a transistor is crucial in understanding how it works.",
+        "user_input": "How do you identify the terminals of a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In a multicellular organism, cells are organized into tissues, organs, and systems. This organization allows the organism to perform complex functions. For example, the human body has a system level organization, with organs such as the heart and tongue performing specific functions.",
+        "user_input": "What is the difference between a tissue and an organ?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Fossils provide important evidence for the history of life on Earth and are used to study the process of evolution. They can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "What is the significance of fossils in understanding evolution?",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "Kinetic energy is the energy an object possesses due to its motion. It is calculated using the formula kinetic energy = mv^2, where m is the mass of the object and v is its velocity. The unit of kinetic energy is Joule (J).",
+        "user_input": "I don't get it. Can you explain it again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Transistors are commonly used electronic components that can amplify or switch electronic signals. They have three terminals: the base, collector, and emitter. Identifying the terminals of a transistor is crucial in understanding how it works.",
+        "user_input": "I'm so bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "In a multicellular organism, cells are organized into tissues, organs, and systems. This organization allows the organism to perform complex functions. For example, the human body has a system level organization, with organs such as the heart and tongue performing specific functions.",
+        "user_input": "This is stupid. I hate biology.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Fossils provide important evidence for the history of life on Earth and are used to study the process of evolution. They can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "Hi, can you explain fossils to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy an object possesses due to its motion. It is calculated using the formula kinetic energy = mv^2, where m is the mass of the object and v is its velocity. The unit of kinetic energy is Joule (J).",
+        "user_input": "What's the point of learning about kinetic energy?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "The kinetic energy of an object is the energy it possesses due to its motion. It can be calculated using the equation kinetic energy = mv^2, where m is the mass of the object and v is its velocity. The unit of kinetic energy is typically measured in joules (J). For example, if an object has a mass of 6 kg and is moving at a velocity of 4 m/s, its kinetic energy would be 48 J.",
+        "user_input": "What is the unit of kinetic energy when the unit of mass is kg and the unit of velocity is m/s?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that can amplify or switch electronic signals. It consists of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter, and are used to control the flow of electrical current.",
+        "user_input": "How do you identify the terminals of a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In a multicellular organism, cells are organized into tissues, organs, and systems that work together to perform specific functions. Different types of cells have unique structures and functions, such as nerve cells that transmit signals and muscle cells that contract to move the body.",
+        "user_input": "What are the different types of cells in the human body?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "When an object's velocity increases, its kinetic energy also increases. This is because the kinetic energy of an object is directly proportional to the square of its velocity. For example, if an object's velocity doubles, its kinetic energy will increase by a factor of four.",
+        "user_input": "I'm bored with this topic, can we move on?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The process of amplifying a signal using a transistor involves controlling the flow of electrical current between the base, collector, and emitter. This allows the transistor to act as a current amplifier, increasing the strength of the signal.",
+        "user_input": "This is stupid, I don't get it.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The kinetic energy of an object can be converted into other forms of energy, such as thermal energy or potential energy. This is demonstrated by the equation kinetic energy = mv^2, which shows that kinetic energy is proportional to the square of the object's velocity.",
+        "user_input": "Hi, can you explain kinetic energy to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A transistor can be used as a current amplifier, voltage amplifier, or switch. It is a versatile device that is widely used in electronic circuits.",
+        "user_input": "What is the difference between a current amplifier and a voltage amplifier?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The structure of a transistor consists of three layers of a semiconductor material, with each layer having a different electrical charge. This allows the transistor to control the flow of electrical current.",
+        "user_input": "I don't care about transistors, can we talk about something else?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion of an object. It is defined as the work required to accelerate an object from rest to its current velocity. The unit of kinetic energy is Joule (J), and it is calculated using the formula kinetic energy = mv^2, where m is the mass of the object and v is its velocity.",
+        "user_input": "Can you explain the formula for kinetic energy?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that can amplify or switch electronic signals. It consists of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter, and they work together to control the flow of current.",
+        "user_input": "How do transistors work?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The organization of cells in the human body is a complex system that allows for the proper functioning of various organs and systems. Cells are the basic structural and functional units of life, and they work together to form tissues, organs, and systems. The human body has an estimated 37.2 trillion cells, each with its own unique function.",
+        "user_input": "What's the difference between a nerve cell and a bone cell?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Mass-energy equivalence is a fundamental concept in physics that states that mass and energy are interchangeable. According to the famous equation E=mc^2, a certain amount of mass can be converted into a corresponding amount of energy, and vice versa. This concept has far-reaching implications in fields such as nuclear physics and astronomy.",
+        "user_input": "I don't get how mass and energy are related.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "Hi, can you explain fossils to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that is used to describe the energy of motion of an object. It is calculated using the formula kinetic energy = mv^2, where m is the mass of the object and v is its velocity. The unit of kinetic energy is Joule (J).",
+        "user_input": "I'm so bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Transistors are widely used in electronic devices such as amplifiers, switches, and logic gates. They are the building blocks of modern electronic systems and are used in a variety of applications, including computers, smartphones, and televisions.",
+        "user_input": "This is stupid. I hate electronics.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The human body is made up of trillions of cells that work together to form tissues, organs, and systems. Cells are the basic structural and functional units of life, and they are responsible for carrying out a wide range of functions, including growth, reproduction, and response to stimuli.",
+        "user_input": "Hello, can you explain how cells work?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that is used to describe the energy of motion of an object. It is calculated using the formula kinetic energy = mv^2, where m is the mass of the object and v is its velocity. The unit of kinetic energy is Joule (J).",
+        "user_input": "What's the difference between kinetic energy and potential energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that can amplify or switch electronic signals. It consists of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge.",
+        "user_input": "Hi",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion of an object. It is a measure of the work required to accelerate an object from rest to a given velocity. The kinetic energy of an object depends on its mass and velocity, and is given by the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. This equation shows that the kinetic energy of an object increases as its velocity increases, and decreases as its velocity decreases.",
+        "user_input": "What is the formula for kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that plays a crucial role in modern electronics. It is used to amplify or switch electronic signals and has three layers of a semiconductor material with each layer having a different electrical charge. The three layers are the base, collector, and emitter, and they work together to control the flow of electrical current.",
+        "user_input": "How does a transistor work?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The human body is made up of trillions of cells, each with its own unique structure and function. Cells are the basic building blocks of life and are organized into tissues, organs, and systems that work together to keep the body functioning properly.",
+        "user_input": "What are the different types of cells in the human body?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is a form of energy that an object possesses due to its motion. It is measured in joules and is given by the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. The unit of kinetic energy is the joule, which is defined as the energy required to accelerate an object with a mass of 1 kilogram by 1 meter per second squared.",
+        "user_input": "What is the unit of kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution.",
+        "user_input": "I don't care about fossils, they're boring.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that plays a crucial role in modern electronics. It is used to amplify or switch electronic signals and has three layers of a semiconductor material with each layer having a different electrical charge.",
+        "user_input": "You're an idiot if you don't know how a transistor works.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion of an object. It is a measure of the work required to accelerate an object from rest to a given velocity.",
+        "user_input": "Hi, I need help with a physics problem.",
+        "intent": "Greeting"
+    },
+    {
+        "context": "The human body is made up of trillions of cells, each with its own unique structure and function. Cells are the basic building blocks of life and are organized into tissues, organs, and systems that work together to keep the body functioning properly.",
+        "user_input": "Can you explain the different levels of organization in the human body?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that plays a crucial role in modern electronics. It is used to amplify or switch electronic signals and has three layers of a semiconductor material with each layer having a different electrical charge.",
+        "user_input": "I love playing video games.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Kinetic energy is a form of energy that an object possesses due to its motion. It is measured in joules and is given by the equation kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2.",
+        "user_input": "That's correct!",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "Kinetic energy is the energy an object possesses due to its motion. It is measured by the amount of work required to bring the object to its current speed from rest. The kinetic energy of an object increases as its velocity increases, and it is calculated using the formula kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. In physics, understanding kinetic energy is crucial in solving problems related to motion, force, and energy.",
+        "user_input": "What is the formula to calculate kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that plays a crucial role in modern electronics. It consists of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter. Transistors are commonly used as amplifiers, switches, and voltage regulators in electronic circuits.",
+        "user_input": "Hello, can you explain how a transistor works?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In physics, relativistic mass is a concept that describes the increase in mass of an object as it approaches the speed of light. This phenomenon is a consequence of special relativity and is governed by the equation .806. Relativistic mass is an important concept in understanding high-energy particle physics and has numerous applications in fields such as nuclear physics and astronomy.",
+        "user_input": "I don't get relativistic mass, can you explain it?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The human body is composed of trillions of cells, each with unique structures and functions. Cells are the basic units of life and are responsible for various physiological processes such as growth, repair, and maintenance. The study of cells is crucial in understanding human anatomy and physiology, as well as in the diagnosis and treatment of diseases.",
+        "user_input": "What are the different types of cells in the human body?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that describes the energy an object possesses due to its motion. It is a scalar quantity and is measured in joules (J). The unit of kinetic energy can be derived from the units of mass and velocity, which are kilograms (kg) and meters per second (m/s), respectively.",
+        "user_input": "I'm so bored with this topic",
+        "intent": "Boredom"
+    },
+    {
+        "context": "A transistor is a semiconductor device that can amplify or switch electronic signals. It consists of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter. Transistors are widely used in electronic circuits and devices.",
+        "user_input": "You're an idiot for not explaining transistors properly",
+        "intent": "Insult"
+    },
+    {
+        "context": "In physics, the concept of kinetic energy is used to describe the energy an object possesses due to its motion. The kinetic energy of an object increases as its velocity increases, and it is calculated using the formula kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. This concept is crucial in understanding various physical phenomena, such as the motion of projectiles and the operation of machines.",
+        "user_input": "Hi, how do you calculate kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The human body is composed of trillions of cells, each with unique structures and functions. Cells are the basic units of life and are responsible for various physiological processes such as growth, repair, and maintenance. The study of cells is crucial in understanding human anatomy and physiology, as well as in the diagnosis and treatment of diseases.",
+        "user_input": "That's not what I asked for",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "A transistor is a semiconductor device that can amplify or switch electronic signals. It consists of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter. Transistors are widely used in electronic circuits and devices.",
+        "user_input": "Good morning, can you explain transistors?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In physics, kinetic energy is the energy of motion. The kinetic energy of an object depends on its mass and velocity. The more massive an object is and the faster it moves, the more kinetic energy it will have. Kinetic energy can be calculated using the formula kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2.",
+        "user_input": "What is the formula to calculate kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The human body is composed of trillions of cells, which are the basic structural and functional units of life. Cells are grouped into tissues, which are organized into organs, and organs are organized into systems. The organization of cells into tissues, organs, and systems allows for the functioning of the human body.",
+        "user_input": "What is the organization of cells in the human body?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A transistor is a fundamental component in electronic circuits. It is a type of semiconductor that can amplify or switch electronic signals. There are two main types of transistors: bipolar junction transistors (BJTs) and field-effect transistors (FETs). BJTs are commonly used in amplifier circuits, while FETs are used in switching circuits.",
+        "user_input": "What is the main function of a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that describes the energy of motion. It is calculated using the formula kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. Kinetic energy is an important concept in understanding the behavior of objects in motion.",
+        "user_input": "I don't get why we need to learn this",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The process of amplifying a signal using a transistor involves several stages. First, the signal is input into the transistor, which then amplifies the signal. The amplified signal is then output from the transistor. This process is crucial in electronic circuits, as it allows for the strengthening of weak signals.",
+        "user_input": "This is too hard, I hate physics",
+        "intent": "Insult"
+    },
+    {
+        "context": "The kinetic energy of an object can be calculated using the formula kinetic energy = 0.5 \u00d7 mass \u00d7 velocity^2. This formula is commonly used in physics to calculate the kinetic energy of objects in motion.",
+        "user_input": "Can you explain this formula to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Transistors are widely used in electronic circuits to amplify or switch electronic signals. They are an essential component in many modern devices, including smartphones, computers, and televisions.",
+        "user_input": "Hi, can you tell me about transistors?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The human body is composed of trillions of cells, which are the basic structural and functional units of life. Cells are grouped into tissues, which are organized into organs, and organs are organized into systems.",
+        "user_input": "What's the weather like today?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "In physics, kinetic energy is the energy of motion. It is the energy an object possesses due to its motion. The kinetic energy of an object depends on its mass and velocity. The more massive an object is and the faster it moves, the more kinetic energy it will possess. Kinetic energy is measured in joules (J) and can be calculated using the equation KE = 0.5mv^2, where m is the mass of the object and v is its velocity.",
+        "user_input": "What is the formula for kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that plays a crucial role in modern electronics. It consists of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter. The transistor acts as a switch, allowing a small input voltage to control a larger output voltage.",
+        "user_input": "How does a transistor work?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Cells are the basic structural and functional units of living organisms. They are capable of reproducing themselves and maintaining their own vital functions. In a multicellular organism, cells are organized into tissues, and tissues are organized into organs. The human body, for example, is composed of trillions of cells that work together to maintain overall health and function.",
+        "user_input": "What is the purpose of cells in the human body?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In physics, mass and velocity are two fundamental concepts used to describe the motion of objects. Mass is a measure of the amount of matter in an object, while velocity is a measure of an object's speed in a specific direction. The kinetic energy of an object is directly proportional to its mass and velocity.",
+        "user_input": "I don't understand the concept of mass and velocity.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Transistors are commonly used in electronic circuits to amplify or switch electronic signals. They are an essential component in many modern devices, including computers, smartphones, and televisions. The proper functioning of a transistor depends on the correct identification of its terminals, which can be a challenge for beginners.",
+        "user_input": "Hi, I'm having trouble identifying the terminals of a transistor.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Fossils are the preserved remains or imprints of ancient plants and animals. They provide important evidence for the history of life on Earth and are used to study the process of evolution. Fossils can be found in sedimentary rocks and are often used to date rocks and reconstruct ancient environments.",
+        "user_input": "Fossils are so boring!",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that describes the energy of motion. It is a crucial topic in many areas of study, including engineering, chemistry, and biology. Understanding kinetic energy is essential for problem-solving and critical thinking in these fields.",
+        "user_input": "This topic is stupid.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Cells are the building blocks of life, and their structure and function are essential for understanding biological processes. The organization of cells into tissues, organs, and systems allows for the maintenance of overall health and function in living organisms.",
+        "user_input": "What's up with cells?",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Transistors are versatile devices that can be used in a variety of applications, including amplification, switching, and voltage regulation. They are an essential component in many modern electronic devices, including computers, smartphones, and televisions.",
+        "user_input": "Hello, can you explain transistors to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is a form of mechanical energy that is associated with the motion of an object. It is a scalar quantity that is measured in joules (J) and can be calculated using the equation KE = 0.5mv^2.",
+        "user_input": "Hi, I'm having trouble with the concept of kinetic energy.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In physics, kinetic energy is the energy of motion. An object's kinetic energy is dependent on its mass and velocity, and it is typically measured in units of joules (J). The equation for kinetic energy is KE = 0.5 mv^2, where m is the mass of the object and v is its velocity.",
+        "user_input": "What is the unit of kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that plays a crucial role in modern electronics. It consists of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The transistor can amplify or switch electronic signals, making it an essential component in a wide range of electronic devices.",
+        "user_input": "Can you explain the amplifying process of a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In biology, cells are the basic structural and functional units of living organisms. They are capable of reproducing themselves and maintaining their own vital functions. Cells can be classified into different types based on their structure and function, such as nerve cells, muscle cells, and blood cells.",
+        "user_input": "What are the different types of cells in the human body?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that is used to describe the energy of motion. It is a scalar quantity that is defined as the work required to accelerate an object from rest to a given velocity. The kinetic energy of an object depends on its mass and velocity.",
+        "user_input": "I don't understand this. Can you explain it again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Transistors are commonly used in electronic devices such as amplifiers, switches, and logic gates. They are available in different packages, including discrete transistors and integrated circuits. The identification of transistor terminals is crucial in electronics, as it determines the correct connection of the device.",
+        "user_input": "Hi, can you help me with identifying transistor terminals?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The study of cells is essential in understanding the structure and function of living organisms. Cells can be observed under a light microscope, and their different components can be identified. The study of cells is crucial in various fields, including medicine, genetics, and biotechnology.",
+        "user_input": "This is so boring. I don't see the point of studying cells.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that is used to describe the energy of motion. It is a scalar quantity that is defined as the work required to accelerate an object from rest to a given velocity. The kinetic energy of an object depends on its mass and velocity.",
+        "user_input": "This is stupid. I don't understand why we need to learn this.",
+        "intent": "Insult"
+    },
+    {
+        "context": "A transistor is a type of semiconductor device that plays a crucial role in modern electronics. It consists of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The transistor can amplify or switch electronic signals, making it an essential component in a wide range of electronic devices.",
+        "user_input": "Good morning. Can you explain transistors to me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In biology, cells are the basic structural and functional units of living organisms. They are capable of reproducing themselves and maintaining their own vital functions. Cells can be classified into different types based on their structure and function, such as nerve cells, muscle cells, and blood cells.",
+        "user_input": "What is the function of nerve cells?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The study of cells is essential in understanding the structure and function of living organisms. Cells can be observed under a light microscope, and their different components can be identified. The study of cells is crucial in various fields, including medicine, genetics, and biotechnology.",
+        "user_input": "I'm confused about the difference between prokaryotic and eukaryotic cells.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "When an object is moving, it has kinetic energy, which is the energy of motion. The kinetic energy of an object depends on its mass and velocity. The more massive an object is and the faster it moves, the more kinetic energy it has. Kinetic energy can be calculated using the formula kinetic energy = 0.5 \u00d7 mv^2, where m is the mass of the object and v is its velocity.",
+        "user_input": "What is the formula for kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Transistors are widely used in electronic devices because of their ability to amplify or switch electronic signals. They consist of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The layers are known as the base, collector, and emitter. The base layer is lightly doped, whereas the collector and emitter layers are heavily doped.",
+        "user_input": "How do transistors work?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Cells are the basic structural and functional units of living organisms. They are capable of reproducing themselves and maintaining their own vital functions. There are different types of cells in the human body, including nerve cells, muscle cells, and blood cells, each with unique structures and functions.",
+        "user_input": "What are the different types of cells in the human body?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The kinetic energy of an object can be converted into other forms of energy, such as thermal energy. For example, when a car brakes, its kinetic energy is converted into heat energy, which is dissipated into the atmosphere.",
+        "user_input": "I don't understand why we need to learn about kinetic energy.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Electronics Physics is a branch of physics that deals with the study of electrons and their behavior in different materials. It is a fundamental subject that has many practical applications in our daily lives.",
+        "user_input": "This is so boring. Can we move on to something else?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "The process of amplifying a signal using a transistor involves the manipulation of the voltage and current at the input and output terminals. The signal is amplified when the voltage and current at the output terminal are greater than those at the input terminal.",
+        "user_input": "I didn't understand the amplifying process. Can you explain it again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The kinetic energy of an object is directly proportional to the square of its velocity. This means that if the velocity of an object is doubled, its kinetic energy will increase by a factor of four.",
+        "user_input": "I think the formula for kinetic energy is wrong. It should be KE = mv, not KE = 0.5 \u00d7 mv^2.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Cells are the basic building blocks of life. They are capable of reproducing themselves and maintaining their own vital functions. The human body is composed of trillions of cells, each with unique structures and functions.",
+        "user_input": "I hate biology. It's so useless.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Transistors are commonly used in electronic devices such as amplifiers, switches, and computers. They are an essential component in many modern technologies.",
+        "user_input": "Hi, can you explain how transistors work?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "The kinetic energy of an object is a measure of its energy of motion. It is a scalar quantity, meaning it has no direction, and is typically measured in units of joules (J).",
+        "user_input": "Hello, I'm confused about kinetic energy. Can you help me?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion, and it is dependent on the mass and velocity of an object. When the unit of mass is kg, and the unit of velocity is m s-1, the unit of kinetic energy is J (Joule). Kinetic energy can be calculated using the equation kinetic energy = mv2, where m is the mass of the object and v is its velocity.",
+        "user_input": "What is the kinetic energy of an object with a mass of 6 kg moving at a velocity of 4 m s-1?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Transistors are widely used in electronic circuits as current amplifiers. They can amplify a small input current to produce a larger output current. The terminals of a transistor can be identified by viewing it externally, and they can be connected in different configurations to achieve amplification.",
+        "user_input": "How do you identify the terminals of a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Multicellular organisms have a higher level of organization than unicellular organisms. They have different types of cells, tissues, and organs that work together to carry out specific functions. The human body, for example, has different types of cells, such as nerve cells, bone cells, and muscle cells, that work together to maintain its overall health.",
+        "user_input": "What is the difference between unicellular and multicellular organisms?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion, and it is dependent on the mass and velocity of an object. When the unit of mass is kg, and the unit of velocity is m s-1, the unit of kinetic energy is J (Joule). Kinetic energy can be calculated using the equation kinetic energy = mv2, where m is the mass of the object and v is its velocity.",
+        "user_input": "I don't care about kinetic energy",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Transistors are widely used in electronic circuits as current amplifiers. They can amplify a small input current to produce a larger output current. The terminals of a transistor can be identified by viewing it externally, and they can be connected in different configurations to achieve amplification.",
+        "user_input": "This is stupid",
+        "intent": "Insult"
+    },
+    {
+        "context": "Multicellular organisms have a higher level of organization than unicellular organisms. They have different types of cells, tissues, and organs that work together to carry out specific functions. The human body, for example, has different types of cells, such as nerve cells, bone cells, and muscle cells, that work together to maintain its overall health.",
+        "user_input": "Can you explain that again?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion, and it is dependent on the mass and velocity of an object. When the unit of mass is kg, and the unit of velocity is m s-1, the unit of kinetic energy is J (Joule). Kinetic energy can be calculated using the equation kinetic energy = mv2, where m is the mass of the object and v is its velocity.",
+        "user_input": "Hi, how does kinetic energy work?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is the energy of motion. An object's kinetic energy is dependent on its mass and velocity. The equation for kinetic energy is 0.5mv^2, where m is the mass of the object and v is its velocity. This concept is crucial in understanding the motion of objects and is widely applied in physics and engineering.",
+        "user_input": "What is the formula for kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Transistors are widely used in electronics and are an essential component in many devices. They are used to amplify or switch electronic signals. There are two main types of transistors, npn and pnp, which are classified based on the arrangement of their semiconductor materials.",
+        "user_input": "What is the main function of a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The human body is composed of various types of cells, each with unique structures and functions. The organization of these cells forms tissues, which in turn form organs and systems. Understanding the structure and function of cells is essential in biology and medicine.",
+        "user_input": "What is the main difference between nerve cells and muscle cells?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "The concept of relativistic mass is used to describe the increase in mass of an object as its velocity approaches the speed of light. This concept is essential in understanding high-energy particle physics and has many practical applications.",
+        "user_input": "I don't get why mass increases with velocity.",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Fossils provide valuable information about the history of life on Earth. They are formed when the remains of plants and animals are replaced with minerals, preserving their structure and appearance.",
+        "user_input": "That's so cool! I love learning about fossils.",
+        "intent": "Valid answer"
+    },
+    {
+        "context": "The kinetic energy of an object is dependent on its mass and velocity. The unit of kinetic energy is the Joule, which is defined as the energy expended when a force of one Newton is applied over a distance of one meter.",
+        "user_input": "I'm bored with this topic.",
+        "intent": "Boredom"
+    },
+    {
+        "context": "Transistors are used in many electronic devices, including amplifiers, switches, and computers. They are an essential component in modern technology.",
+        "user_input": "This is stupid, I hate electronics.",
+        "intent": "Insult"
+    },
+    {
+        "context": "The human body is composed of various systems, including the circulatory, respiratory, and nervous systems. Each system has unique functions and structures that enable the body to function properly.",
+        "user_input": "What's up, I need help with this biology question.",
+        "intent": "Greeting"
+    },
+    {
+        "context": "The concept of kinetic energy is essential in understanding the motion of objects. It is a fundamental concept in physics and is widely applied in many fields.",
+        "user_input": "I don't care about kinetic energy.",
+        "intent": "Irrelevant input"
+    },
+    {
+        "context": "Kinetic energy is the energy an object possesses due to its motion. It is calculated using the formula kinetic energy = mv^2, where m is the mass of the object and v is its velocity. In the context of physics, kinetic energy is a fundamental concept used to describe the energy of an object in motion. Understanding kinetic energy is essential for problem-solving and applying concepts to real-world situations.",
+        "user_input": "What is the formula for kinetic energy?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "Transistors are commonly used in electronic circuits to amplify or switch electronic signals. They are made up of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge. The terminals of a transistor can be identified by viewing it externally, and data books provide information on how to identify them.",
+        "user_input": "How do you identify the terminals of a transistor?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In physics, mass is a fundamental property of an object that measures its resistance to changes in its motion. It is an important concept in understanding kinetic energy, as the mass of an object affects its kinetic energy. In a physics problem, the mass of an object might be given, and the student is asked to calculate its kinetic energy.",
+        "user_input": "Can you explain the concept of mass in physics?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "In biology, cells are the basic structural and functional units of living organisms. They are composed of various organelles that work together to maintain the life processes of an organism. Understanding the organization of cells in the human body is essential for grasping concepts in biology.",
+        "user_input": "What is the organization of cells in the human body?",
+        "intent": "Valid question"
+    },
+    {
+        "context": "In physics, the concept of relativistic mass is used to describe the increase in mass of an object as its velocity approaches the speed of light. This concept is based on Einstein's theory of special relativity and has important implications for our understanding of high-speed phenomena.",
+        "user_input": "I don't understand relativistic mass. Can you explain it?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that is used to describe the energy of an object in motion. It is calculated using the formula kinetic energy = mv^2, where m is the mass of the object and v is its velocity.",
+        "user_input": "Hi, can you tell me about kinetic energy?",
+        "intent": "Clarification request"
+    },
+    {
+        "context": "Transistors are widely used in electronic circuits to amplify or switch electronic signals. They are made up of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge.",
+        "user_input": "I'm bored with transistors. Can we move on to something else?",
+        "intent": "Boredom"
+    },
+    {
+        "context": "In biology, cells are the basic structural and functional units of living organisms. They are composed of various organelles that work together to maintain the life processes of an organism.",
+        "user_input": "This is stupid. I don't get why we need to learn about cells.",
+        "intent": "Insult"
+    },
+    {
+        "context": "Kinetic energy is a fundamental concept in physics that is used to describe the energy of an object in motion. It is calculated using the formula kinetic energy = mv^2, where m is the mass of the object and v is its velocity.",
+        "user_input": "Hi, I have a question about kinetic energy.",
+        "intent": "Greeting"
+    },
+    {
+        "context": "Transistors are widely used in electronic circuits to amplify or switch electronic signals. They are made up of three layers of a semiconductor material, typically silicon, with each layer having a different electrical charge.",
+        "user_input": "What's the deal with transistors?",
+        "intent": "Irrelevant input"
+    }
+]
