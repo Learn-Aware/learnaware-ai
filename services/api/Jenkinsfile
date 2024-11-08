@@ -1,0 +1,147 @@
+pipeline {
+    agent any
+
+    environment {
+        DOCKER_IMAGE = 'learnaware-ai-agent'
+        DOCKER_TAG = "${env.BUILD_NUMBER}"
+        OPENAI_API_KEY = credentials('openai-api-key')
+    }
+
+    stages {
+        stage('Checkout') {
+            steps {
+                checkout scm
+            }
+        }
+
+        stage('Install Dependencies') {
+            steps {
+                sh '''
+                    python -m venv venv
+                    . venv/bin/activate
+                    pip install -r requirements.txt
+                '''
+            }
+        }
+
+        stage('Lint') {
+            steps {
+                sh '''
+                    . venv/bin/activate
+                    pip install flake8
+                    flake8 src/ --max-line-length=100 --exclude=venv/
+                '''
+            }
+        }
+
+        stage('Test') {
+            steps {
+                sh '''
+                    . venv/bin/activate
+                    pip install pytest pytest-cov
+                    pytest tests/ --cov=src/ --cov-report=xml
+                '''
+            }
+            post {
+                always {
+                    junit 'test-results/*.xml'
+                    cobertura coberturaReportFile: 'coverage.xml'
+                }
+            }
+        }
+
+        stage('Build Docker Images') {
+            steps {
+                script {
+                    // Build the Docker images
+                    docker.build("${DOCKER_IMAGE}-api:${DOCKER_TAG}", "-f Dockerfile --target api .")
+                    docker.build("${DOCKER_IMAGE}-web:${DOCKER_TAG}", "-f Dockerfile --target web .")
+                    docker.build("${DOCKER_IMAGE}-cli:${DOCKER_TAG}", "-f Dockerfile --target cli .")
+                }
+            }
+        }
+
+        stage('Security Scan') {
+            steps {
+                sh '''
+                    . venv/bin/activate
+                    pip install bandit
+                    bandit -r src/ -f xml -o security-report.xml
+                '''
+            }
+            post {
+                always {
+                    publishHTML([
+                        allowMissing: false,
+                        alwaysLinkToLastBuild: true,
+                        keepAll: true,
+                        reportDir: '.',
+                        reportFiles: 'security-report.xml',
+                        reportName: 'Security Scan Report'
+                    ])
+                }
+            }
+        }
+
+        stage('Deploy to Staging') {
+            when {
+                branch 'develop'
+            }
+            steps {
+                script {
+                    // Deploy to staging environment
+                    withCredentials([file(credentialsId: 'staging-kubeconfig', variable: 'KUBECONFIG')]) {
+                        sh '''
+                            kubectl apply -f k8s/staging/
+                            kubectl set image deployment/learnaware-ai-agent-api learnaware-ai-agent-api=${DOCKER_IMAGE}-api:${DOCKER_TAG}
+                            kubectl set image deployment/learnaware-ai-agent-web learnaware-ai-agent-web=${DOCKER_IMAGE}-web:${DOCKER_TAG}
+                        '''
+                    }
+                }
+            }
+        }
+
+        stage('Deploy to Production') {
+            when {
+                branch 'main'
+            }
+            steps {
+                input message: 'Deploy to production?'
+                script {
+                    // Deploy to production environment
+                    withCredentials([file(credentialsId: 'prod-kubeconfig', variable: 'KUBECONFIG')]) {
+                        sh '''
+                            kubectl apply -f k8s/production/
+                            kubectl set image deployment/learnaware-ai-agent-api learnaware-ai-agent-api=${DOCKER_IMAGE}-api:${DOCKER_TAG}
+                            kubectl set image deployment/learnaware-ai-agent-web learnaware-ai-agent-web=${DOCKER_IMAGE}-web:${DOCKER_TAG}
+                        '''
+                    }
+                }
+            }
+        }
+    }
+
+    post {
+        always {
+            // Clean up
+            sh '''
+                docker rmi ${DOCKER_IMAGE}-api:${DOCKER_TAG} || true
+                docker rmi ${DOCKER_IMAGE}-web:${DOCKER_TAG} || true
+                docker rmi ${DOCKER_IMAGE}-cli:${DOCKER_TAG} || true
+                rm -rf venv/
+            '''
+        }
+        success {
+            slackSend(
+                color: 'good',
+                message: "Build #${env.BUILD_NUMBER} succeeded! \n${env.BUILD_URL}"
+            )
+        }
+        failure {
+            slackSend(
+                color: 'danger',
+                message: "Build #${env.BUILD_NUMBER} failed! \n${env.BUILD_URL}"
+            )
+        }
+    }
+} 

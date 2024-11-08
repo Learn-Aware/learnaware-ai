@@ -69,7 +69,7 @@ const ChatContent: React.FC = () => {
             onClick={handleSendMessage}
             style={{ marginLeft: 8 }}
           >
-            Send
+            Send to Agent
           </Button>
         </div>
       </Content>

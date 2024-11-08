@@ -1,0 +1,8 @@
+myenv
+__pycache__/
+*.pyc
+data/profiles/*
+!data/profiles/.gitkeep
+.docker/
+.DS_Store
+.env

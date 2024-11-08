@@ -1,0 +1,16 @@
+{
+  "0": {
+    "content": "Python functions are blocks of reusable code that perform specific tasks...",
+    "metadata": {
+      "topic": "python_functions",
+      "difficulty": "beginner"
+    }
+  },
+  "1": {
+    "content": "Object-oriented programming (OOP) is a programming paradigm...",
+    "metadata": {
+      "topic": "oop",
+      "difficulty": "intermediate"
+    }
+  }
+}
