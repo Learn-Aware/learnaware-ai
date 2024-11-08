@@ -1,20 +1,49 @@
-# Use an official Python runtime as a parent image
-FROM python:3.10-slim
+# Stage 1: Base image with Python dependencies
+FROM python:3.10-slim as builder
 
-# Set the working directory in the container
-WORKDIR /api
+# Set working directory
+WORKDIR /app
 
-# Copy the requirements file into the container
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    curl \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements file
 COPY requirements.txt .
 
-# Install dependencies
+# Create virtual environment and install dependencies
+RUN python -m venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application code into the container
+# Stage 2: Runtime image
+FROM python:3.10-slim
+
+# Set working directory
+WORKDIR /app
+
+# Copy virtual environment from builder stage
+COPY --from=builder /opt/venv /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+
+# Copy application code
 COPY . .
 
-# Expose the port that FastAPI will run on
-EXPOSE 8000
+# Create necessary directories
+RUN mkdir -p data/profiles
 
-# Command to run the FastAPI app using Uvicorn
-CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Set environment variables
+ENV PYTHONPATH=/app
+ENV PYTHONUNBUFFERED=1
+
+# Expose ports
+EXPOSE 4000  
+EXPOSE 8501  
+
+# Set the entrypoint script
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
+ENTRYPOINT ["docker-entrypoint.sh"]
