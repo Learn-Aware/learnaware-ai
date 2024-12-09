@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 import { 
   BookOpen, 
   Calendar, 
@@ -30,6 +31,7 @@ const menuItems = [
 
 export function Sidebar() {
   const [isCollapsed, setIsCollapsed] = useState(false);
+  const router = useRouter();
 
   return (
     <>
@@ -47,7 +49,14 @@ export function Sidebar() {
         isCollapsed ? "-translate-x-full md:translate-x-0 md:w-16" : "w-64"
       )}>
         <div className="p-6 border-b flex items-center justify-between">
-          {!isCollapsed && <h2 className="text-2xl font-bold text-[hsl(var(--laai-blue))]">LAAI</h2>}
+          {!isCollapsed && (
+            <h2 
+              onClick={() => router.push('/')}
+              className="text-2xl font-bold text-[hsl(var(--laai-blue))] cursor-pointer hover:opacity-80 transition-opacity"
+            >
+              LAAI
+            </h2>
+          )}
           <Button
             variant="ghost"
             size="icon"
