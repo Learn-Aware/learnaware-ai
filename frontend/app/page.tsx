@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-[hsl(var(--gradient-start))] to-[hsl(var(--gradient-end))]">
       <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-        <main className="flex flex-col gap-12 row-start-2 items-center w-full max-w-5xl">
+        <main className="flex flex-col gap-12 row-start-2 items-center w-full max-w-4xl">
           <div className="text-center space-y-4">
             <h1 className="text-4xl font-bold text-foreground md:text-5xl">
               Welcome to{" "}
@@ -17,8 +17,8 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full">
-            <div className="rounded-lg border bg-card/80 backdrop-blur-sm text-card-foreground shadow-sm h-[320px]">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 w-full">
+            <div className="rounded-lg border bg-card/80 backdrop-blur-sm text-card-foreground shadow-sm h-[320px] max-w-[280px] mx-auto w-full">
               <div className="p-8 flex flex-col items-center gap-6 h-full">
                 <h3 className="text-2xl font-semibold leading-none tracking-tight">Join as a Guest</h3>
                 <div className="relative w-40 h-40">
@@ -38,7 +38,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="rounded-lg border bg-card/80 backdrop-blur-sm text-card-foreground shadow-sm h-[320px]">
+            <div className="rounded-lg border bg-card/80 backdrop-blur-sm text-card-foreground shadow-sm h-[320px] max-w-[280px] mx-auto w-full">
               <div className="p-8 flex flex-col items-center gap-6 h-full">
                 <h3 className="text-2xl font-semibold leading-none tracking-tight">Join as a Student</h3>
                 <div className="relative w-40 h-40">
@@ -58,7 +58,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="rounded-lg border bg-card/80 backdrop-blur-sm text-card-foreground shadow-sm h-[320px]">
+            <div className="rounded-lg border bg-card/80 backdrop-blur-sm text-card-foreground shadow-sm h-[320px] max-w-[280px] mx-auto w-full">
               <div className="p-8 flex flex-col items-center gap-6 h-full">
                 <h3 className="text-2xl font-semibold leading-none tracking-tight">Join as a Teacher</h3>
                 <div className="relative w-40 h-40">
