@@ -1,7 +1,19 @@
+"use client";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter();
+
+  const handleNavigation = (role: 'guest' | 'student' | 'teacher') => {
+    if (role === 'teacher') {
+      router.push('/teacher-dashboard');
+    } else {
+      router.push('/dashboard');
+    }
+  };
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-[hsl(var(--gradient-start))] to-[hsl(var(--gradient-end))]">
       <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
@@ -32,6 +44,7 @@ export default function Home() {
                 <div className="flex-grow" />
                 <Button 
                   className="bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] text-white w-full transition-colors"
+                  onClick={() => handleNavigation('guest')}
                 >
                   Get Started
                 </Button>
@@ -52,6 +65,7 @@ export default function Home() {
                 <div className="flex-grow" />
                 <Button 
                   className="bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] text-white w-full transition-colors"
+                  onClick={() => handleNavigation('student')}
                 >
                   Sign In
                 </Button>
@@ -72,6 +86,7 @@ export default function Home() {
                 <div className="flex-grow" />
                 <Button 
                   className="bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] text-white w-full transition-colors"
+                  onClick={() => handleNavigation('teacher')}
                 >
                   Join Now
                 </Button>
