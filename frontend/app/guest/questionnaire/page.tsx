@@ -82,9 +82,11 @@ const QuizPage = () => {
             </CardHeader>
             <CardContent>
                 <p className="mb-4">{currentQuestion.text}</p>
-                <div className="flex gap-4">
-                    <Button onClick={() => handleAnswer("a")}>{currentQuestion.options.a}</Button>
-                    <Button onClick={() => handleAnswer("b")}>{currentQuestion.options.b}</Button>
+                <div className="flex-row gap-4 pt-10">
+                    <Button className="p-5 mx-10 mb-5 bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] w-2/3 text-white transition-colors"
+                        onClick={() => handleAnswer("a")}>{currentQuestion.options.a}</Button>
+                    <Button className="p-5 mx-10 bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] w-2/3 text-white transition-colors"
+                        onClick={() => handleAnswer("b")}>{currentQuestion.options.b}</Button>
                 </div>
             </CardContent>
         </Card>
