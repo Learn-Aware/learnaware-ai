@@ -19,7 +19,7 @@ import { cn } from "@/lib/utils";
 
 const menuItems = [
     { icon: Home, label: "Dashboard", href: "/guest" },
-    { icon: BookOpen, label: "Courses", href: "/guest/courses" },
+    { icon: BookOpen, label: "Questionnaire", href: "/guest/questionnaire" },
     { icon: MessageSquare, label: "Chat", href: "/guest/chat" },
     { icon: Calendar, label: "Schedule", href: "/guest/schedule" },
     { icon: GraduationCap, label: "Progress", href: "/guest/progress" },
@@ -52,7 +52,7 @@ export function Sidebar() {
                             onClick={() => router.push('/')}
                             className="text-2xl font-bold text-[hsl(var(--laai-blue))] cursor-pointer hover:opacity-80 transition-opacity"
                         >
-                            LAAI
+                            GUEST
                         </h2>
                     )}
                     <Button
@@ -98,7 +98,7 @@ export function Sidebar() {
                         </div>
                         {!isCollapsed && (
                             <div>
-                                <p className="text-sm font-medium">guest Name</p>
+                                <p className="text-sm font-medium">Guest Name</p>
                                 <p className="text-xs text-muted-foreground">guest@email.com</p>
                             </div>
                         )}

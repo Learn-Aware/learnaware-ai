@@ -7,7 +7,7 @@ export default function TeacherDashboardPage() {
     <div className="space-y-8">
       <div>
         <h1 className="text-3xl font-bold">Welcome back, Teacher!</h1>
-        <p className="text-muted-foreground">Here's an overview of your teaching activities</p>
+        <p className="text-muted-foreground">Here&apos;s an overview of your teaching activities</p>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">

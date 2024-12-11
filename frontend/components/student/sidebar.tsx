@@ -52,7 +52,7 @@ export function Sidebar() {
               onClick={() => router.push('/')}
               className="text-2xl font-bold text-[hsl(var(--laai-blue))] cursor-pointer hover:opacity-80 transition-opacity"
             >
-              LAAI
+              STUDENT
             </h2>
           )}
           <Button
