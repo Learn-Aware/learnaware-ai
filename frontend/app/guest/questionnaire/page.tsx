@@ -1,95 +1,128 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { questions } from "@/data/questions";
 
-const CATEGORY_COUNT = 4;
-const QUESTIONS_PER_CATEGORY = 11;
+interface IAnswers {
+    a: number;
+    b: number;
+}
 
 const QuizPage = () => {
-    const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
-    const [answers, setAnswers] = useState<string[]>([]);
-    const [categoryProgress, setCategoryProgress] = useState<number[]>(
-        Array(CATEGORY_COUNT).fill(0)
+    const [selectedAnswers, setSelectedAnswers] = useState<IAnswers[][]>(
+        Array(4)
+            .fill(null)
+            .map((_, subcategoryIndex) =>
+                questions.slice(subcategoryIndex * 11, (subcategoryIndex + 1) * 11).map(() => ({ a: 0, b: 0 }))
+            )
     );
-    const [completedCategories, setCompletedCategories] = useState<boolean[]>(
-        Array(CATEGORY_COUNT).fill(false)
-    );
 
-    const handleAnswer = (answer: string) => {
-        const categoryIndex = Math.floor(currentQuestionIndex / QUESTIONS_PER_CATEGORY);
-        const updatedAnswers = [...answers, answer];
-        setAnswers(updatedAnswers);
+    const [skippedCategories, setSkippedCategories] = useState<boolean[]>([false, false, false, false]);
 
-        const updatedProgress = [...categoryProgress];
-        updatedProgress[categoryIndex] += 1;
+    const [currentCategoryIndex, setCurrentCategoryIndex] = useState<number>(0);
+    const [currentQuestionIndex, setCurrentQuestionIndex] = useState<number>(0);
 
-        if (updatedProgress[categoryIndex] >= 6) {
-            const updatedCompleted = [...completedCategories];
-            updatedCompleted[categoryIndex] = true;
-            setCompletedCategories(updatedCompleted);
+    const [isQuizCompleted, setIsQuizCompleted] = useState<boolean>(false);
 
-            const nextCategoryIndex = (categoryIndex + 1) * QUESTIONS_PER_CATEGORY;
-            setCurrentQuestionIndex(nextCategoryIndex);
-            setCategoryProgress(updatedProgress);
-            return;
+    const handleAnswer = (selectedAnswer: "a" | "b") => {
+        const updatedAnswers = [...selectedAnswers];
+        const answersForCategory = updatedAnswers[currentCategoryIndex];
+
+        if (selectedAnswer === "a") {
+            answersForCategory[currentQuestionIndex].a += 1;
+        } else {
+            answersForCategory[currentQuestionIndex].b += 1;
         }
 
-        setCategoryProgress(updatedProgress);
+        const selectedCountA = answersForCategory.reduce((count, answer) => count + answer.a, 0);
+        const selectedCountB = answersForCategory.reduce((count, answer) => count + answer.b, 0);
 
-        if (currentQuestionIndex < questions.length - 1) {
-            setCurrentQuestionIndex(currentQuestionIndex + 1);
+        if (selectedCountA >= 6 || selectedCountB >= 6) {
+            const newSkippedCategories = [...skippedCategories];
+            newSkippedCategories[currentCategoryIndex] = true;
+            setSkippedCategories(newSkippedCategories);
+
+            if (currentCategoryIndex < 3) {
+                setCurrentCategoryIndex(currentCategoryIndex + 1);
+                setCurrentQuestionIndex(0);
+            }
+        } else {
+            if (currentQuestionIndex < 10 && !skippedCategories[currentCategoryIndex]) {
+                setCurrentQuestionIndex(currentQuestionIndex + 1);
+            }
         }
+
+        setSelectedAnswers(updatedAnswers);
     };
 
-    const calculateResult = () => {
-        return categoryProgress.map((count, index) => ({
-            category: `Category ${index + 1}`,
-            selectedA: count,
-            selectedB: QUESTIONS_PER_CATEGORY - count,
-        }));
+    const getCurrentQuestion = (categoryIndex: number, currentQuestionIndex: number) => {
+        if (skippedCategories[categoryIndex]) return null;
+        return questions.slice(categoryIndex * 11, (categoryIndex + 1) * 11)[currentQuestionIndex];
     };
 
-    if (completedCategories.every((status) => status)) {
-        const result = calculateResult();
-        return (
-            <Card className="m-8 p-4">
-                <CardHeader>
-                    <CardTitle>Quiz Result</CardTitle>
-                </CardHeader>
-                <CardContent>
-                    <ul>
-                        {result.map((res, index) => (
-                            <li key={index}>
-                                {res.category}: {res.selectedA} &quot;A&quot; answers, {res.selectedB} &quot;B&quot; answers
-                            </li>
-                        ))}
-                    </ul>
-                </CardContent>
-            </Card>
-        );
-    }
+    const getResults = () => {
+        return selectedAnswers.map((answersForCategory, categoryIndex) => {
+            const totalA = answersForCategory.reduce((sum, answer) => sum + answer.a, 0);
+            const totalB = answersForCategory.reduce((sum, answer) => sum + answer.b, 0);
+            return {
+                category: `Category ${categoryIndex + 1}`,
+                totalA,
+                totalB,
+                passed: skippedCategories[categoryIndex] ? "Passed" : "Not Passed",
+            };
+        });
+    };
 
-    const currentQuestion = questions[currentQuestionIndex];
-    const categoryIndex = Math.floor(currentQuestionIndex / QUESTIONS_PER_CATEGORY);
+    useEffect(() => {
+        if (skippedCategories.every((skipped) => skipped)) {
+            setIsQuizCompleted(true);
+        }
+    }, [skippedCategories]);
+
+    const currentQuestion = getCurrentQuestion(currentCategoryIndex, currentQuestionIndex);
 
     return (
-        <Card className="m-8 p-4">
-            <CardHeader>
-                <CardTitle>Category {categoryIndex + 1}</CardTitle>
-            </CardHeader>
-            <CardContent>
-                <p className="my-4 text-black text-2xl">Question {currentQuestionIndex + 1}</p>
-                <p className="mb-4 text-gray-500 text-lg">{currentQuestion.text}</p>
-                <div className="flex-row w-full">
-                    <Button className="p-5 mx-10 mb-5 bg-white hover:bg-gray-100 w-[90%] text-gray-600 transition-colors border border-solid border-[hsl(var(--laai-blue))]"
-                        onClick={() => handleAnswer("a")}>{currentQuestion.options.a}</Button>
-                    <Button className="p-5 mx-10 bg-white hover:bg-gray-100 w-[90%] text-gray-600 transition-colors border border-solid border-[hsl(var(--laai-blue))]"
-                        onClick={() => handleAnswer("b")}>{currentQuestion.options.b}</Button>
-                </div>
-            </CardContent>
+        <Card className="m-8 p-4 bg-white shadow-lg rounded-lg">
+            {isQuizCompleted ? (
+                <CardContent>
+                    <CardTitle className="text-2xl font-semibold text-center mb-6">Quiz Results</CardTitle>
+                    <div className="space-y-6">
+                        {getResults().map((result, index) => (
+                            <div key={index} className="p-6 bg-gray-50 rounded-lg shadow-md border border-gray-200">
+                                <h3 className="text-xl font-bold text-gray-800">{result.category}</h3>
+                                <p className="text-gray-600">Answers A: <span className="font-semibold">{result.totalA}</span></p>
+                                <p className="text-gray-600">Answers B: <span className="font-semibold">{result.totalB}</span></p>
+                            </div>
+                        ))}
+                    </div>
+                </CardContent>
+            ) : (
+                <CardContent>
+                    <CardHeader>
+                        <CardTitle className="text-2xl font-semibold text-gray-800">
+                            Category {currentCategoryIndex + 1}
+                        </CardTitle>
+                    </CardHeader>
+                    <p className="my-4 text-gray-800 text-2xl font-medium">Question {currentQuestionIndex + 1}</p>
+                    <p className="mb-4 text-gray-500 text-lg">{currentQuestion?.text}</p>
+                    <div className="flex flex-col space-y-4">
+                        <Button
+                            className="p-5 bg-white hover:bg-gray-100  text-gray-600 transition-colors border border-solid border-[hsl(var(--laai-blue))]"
+                            onClick={() => handleAnswer("a")}
+                        >
+                            {currentQuestion?.options.a}
+                        </Button>
+                        <Button
+                            className="p-5 bg-white hover:bg-gray-100 text-gray-600 transition-colors border border-solid border-[hsl(var(--laai-blue))]"
+                            onClick={() => handleAnswer("b")}
+                        >
+                            {currentQuestion?.options.b}
+                        </Button>
+                    </div>
+                </CardContent>
+            )}
         </Card>
     );
 };
