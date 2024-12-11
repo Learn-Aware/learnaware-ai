@@ -94,9 +94,6 @@ const QuizPage = () => {
                                 <h3 className="text-xl font-bold text-gray-800">{result.category}</h3>
                                 <p className="text-gray-600">Answers A: <span className="font-semibold">{result.totalA}</span></p>
                                 <p className="text-gray-600">Answers B: <span className="font-semibold">{result.totalB}</span></p>
-                                <p className={`text-lg ${result.passed === 'Passed' ? 'text-green-500' : 'text-red-500'}`}>
-                                    Status: {result.passed}
-                                </p>
                             </div>
                         ))}
                     </div>
