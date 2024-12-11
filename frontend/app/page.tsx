@@ -7,10 +7,12 @@ export default function Home() {
   const router = useRouter();
 
   const handleNavigation = (role: 'guest' | 'student' | 'teacher') => {
-    if (role === 'teacher') {
-      router.push('/teacher-dashboard');
+    if (role === 'student') {
+      router.push('/student');
+    } else if (role === 'teacher') {
+      router.push('/teacher');
     } else {
-      router.push('/dashboard');
+      router.push('/guest');
     }
   };
 
@@ -42,7 +44,7 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex-grow" />
-                <Button 
+                <Button
                   className="bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] text-white w-full transition-colors"
                   onClick={() => handleNavigation('guest')}
                 >
@@ -63,7 +65,7 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex-grow" />
-                <Button 
+                <Button
                   className="bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] text-white w-full transition-colors"
                   onClick={() => handleNavigation('student')}
                 >
@@ -84,7 +86,7 @@ export default function Home() {
                   />
                 </div>
                 <div className="flex-grow" />
-                <Button 
+                <Button
                   className="bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] text-white w-full transition-colors"
                   onClick={() => handleNavigation('teacher')}
                 >
@@ -95,7 +97,7 @@ export default function Home() {
           </div>
         </main>
         <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-          
+
         </footer>
       </div>
     </div>

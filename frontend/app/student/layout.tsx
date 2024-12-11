@@ -1,6 +1,6 @@
-import { Sidebar } from "@/components/teacher-dashboard/sidebar";
+import { Sidebar } from "@/components/student/sidebar";
 
-export default function TeacherDashboardLayout({
+export default function DashboardLayout({
   children,
 }: {
   children: React.ReactNode;
