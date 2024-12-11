@@ -94,6 +94,9 @@ const QuizPage = () => {
                                 <h3 className="text-xl font-bold text-gray-800">{result.category}</h3>
                                 <p className="text-gray-600">Answers A: <span className="font-semibold">{result.totalA}</span></p>
                                 <p className="text-gray-600">Answers B: <span className="font-semibold">{result.totalB}</span></p>
+                                <p className={`text-lg ${result.passed === 'Passed' ? 'text-green-500' : 'text-red-500'}`}>
+                                    Status: {result.passed}
+                                </p>
                             </div>
                         ))}
                     </div>
@@ -101,15 +104,15 @@ const QuizPage = () => {
             ) : (
                 <CardContent>
                     <CardHeader>
-                        <CardTitle className="text-2xl font-semibold text-gray-800">
-                            Category {currentCategoryIndex + 1}
+                        <CardTitle className="text-2xl font-semibold text-gray-500">
+                            Step {currentCategoryIndex + 1} of 4
                         </CardTitle>
                     </CardHeader>
-                    <p className="my-4 text-gray-800 text-2xl font-medium">Question {currentQuestionIndex + 1}</p>
+                    <p className="my-4 text-gray-800 text-2xl font-medium">Question {currentQuestionIndex + 1} of 11</p>
                     <p className="mb-4 text-gray-500 text-lg">{currentQuestion?.text}</p>
                     <div className="flex flex-col space-y-4">
                         <Button
-                            className="p-5 bg-white hover:bg-gray-100  text-gray-600 transition-colors border border-solid border-[hsl(var(--laai-blue))]"
+                            className="p-5 bg-white hover:bg-gray-100 text-gray-600 transition-colors border border-solid border-[hsl(var(--laai-blue))]"
                             onClick={() => handleAnswer("a")}
                         >
                             {currentQuestion?.options.a}
