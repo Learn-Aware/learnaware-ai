@@ -44,3 +44,5 @@ docker-compose.yml
 *.bak
 *.swp
 *.lock
+api/.env
+api/test/*.sqlite
