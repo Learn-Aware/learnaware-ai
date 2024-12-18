@@ -116,7 +116,7 @@ const ChatPage = () => {
         </div>
 
         <div className="flex items-center justify-between">
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center space-x-4 ml-2">
             <div className="relative w-5 h-5">
               <Image
                 src="/images/Grid.svg"
