@@ -2,11 +2,11 @@
 import React, { useState } from "react";
 import Image from "next/image";
 
-import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Textarea } from "@/components/ui/textarea";
 
 const ChatPage = () => {
   const [messages, setMessages] = useState([
@@ -105,17 +105,15 @@ const ChatPage = () => {
         ))}
       </ScrollArea>
 
-      <div className="flex flex-col p-4 bg-gray-50 border border-gray-200 shadow-lg rounded-lg space-y-4">
+      <div className="flex flex-col px-4 py-6 bg-gray-50 border border-gray-200 shadow-md rounded-2xl space-y-4">
         <div>
-          <Input
+          <Textarea
             placeholder="How can I assist you today?"
-            className="w-full border border-gray-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 rounded-lg p-2"
+            className="w-full border-none p-6 focus:ring-2 focus:ring-blue-500 rounded-lg"
             value={userInput}
             onChange={(e) => setUserInput(e.target.value)}
           />
         </div>
-
-        <hr className="border-gray-200" />
 
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4">
