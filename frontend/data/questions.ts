@@ -7,10 +7,6 @@ interface IQuestions {
   };
 }
 
-interface ISteps {
-  title: string;
-  description: string;
-}
 
 export const questions: IQuestions[] = [
   {
@@ -98,7 +94,7 @@ export const questions: IQuestions[] = [
     text: "I would rather first:",
     options: {
       a: "try things out.",
-      b: "think about how I’m going to do it.",
+      b: "think about how I'm going to do it.",
     },
   },
   {
@@ -257,8 +253,8 @@ export const questions: IQuestions[] = [
     id: 31,
     text: "I learn:",
     options: {
-      a: "at a fairly regular pace. If I study hard, I’ll “get it.”",
-      b: "in fits and starts. I’ll be totally confused and then suddenly it all “clicks.”",
+      a: "at a fairly regular pace. If I study hard, I'll “get it.”",
+      b: "in fits and starts. I'll be totally confused and then suddenly it all “clicks.”",
     },
   },
   {
@@ -364,24 +360,5 @@ export const questions: IQuestions[] = [
       a: "watch television.",
       b: "read a book.",
     },
-  },
-];
-
-export const steps: ISteps[] = [
-  {
-    title: "Information Input",
-    description: "Gathering data from various sources.",
-  },
-  {
-    title: "Information Perception",
-    description: "Understanding the meaning of the data.",
-  },
-  {
-    title: "Information Understanding",
-    description: "Interpreting the data in context.",
-  },
-  {
-    title: "Information Processing",
-    description: "Making decisions based on the understood data.",
   },
 ];
