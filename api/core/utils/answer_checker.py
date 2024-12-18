@@ -1,5 +1,5 @@
 import json
-from api.core.prompt.check_answer import CheckAnswerPrompt
+from core.prompt.check_answer import CheckAnswerPrompt
 from core.utils.api_utils import APIUtils
 
 
@@ -8,7 +8,7 @@ class AnswerChecker:
     Class to check if a user's answer is correct compared to the expected answer.
     """
 
-    def __init__(self, model_name: str = "mistral"):
+    def __init__(self, model_name: str = "mistral-7b"):
         """
         Initialize the AnswerChecker with the specified model.
         """
