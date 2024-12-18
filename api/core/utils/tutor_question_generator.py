@@ -6,7 +6,7 @@ class TutorQuestionGenerator:
     Class to generate questions in a tutor-like tone.
     """
 
-    def __init__(self, model_name: str = "phi"):
+    def __init__(self, model_name: str = "phi3-mini"):
         """
         Initialize the TutorQuestionGenerator with a specific model.
         :param model_name: The name of the model to use for generating questions.
