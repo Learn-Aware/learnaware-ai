@@ -6,12 +6,12 @@ class TutorGuidanceGenerator:
     Class to generate questions in a tutor-like tone.
     """
 
-    def __init__(self, model_name: str = "phi3-mini"):
+    def __init__(self, model_name: str = "phi3-mini", api_type: str = 'openrouter'):
         """
         Initialize the TutorQuestionGenerator with a specific model.
         :param model_name: The name of the model to use for generating questions.
         """
-        self.api_utils = APIUtils(model_name=model_name)
+        self.api_utils = APIUtils(model_name=model_name, api_type=api_type)
 
     def generate_guidance(self, correct_answer: str, student_answer: str) -> str:
         """

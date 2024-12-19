@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from controllers.socratic_tutor_controller import router as socratic_tutor_router
+import uvicorn
 
 app = FastAPI(
     title="Socratic Tutor API",
@@ -13,3 +14,7 @@ app.include_router(socratic_tutor_router)
 @app.get("/")
 def root():
     return {"message": "Welcome to the Socratic Tutor API!"}
+
+# Run the app with Uvicorn and reload
+if __name__ == "__main__":
+    uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
