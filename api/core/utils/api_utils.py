@@ -3,7 +3,7 @@ import openai
 from typing import Dict
 from models.model_registry import ModelRegistry
 import json
-from models.llm_factory import LLMFactory
+from core.llm_services.llm_factory import LLMFactory
 
 class APIUtils:
     """

@@ -1,7 +1,7 @@
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from core.utils.answer_checker import AnswerChecker
+from api.core.services.answer_checker import AnswerChecker
 
 if __name__ == "__main__":
     # Initialize the AnswerChecker

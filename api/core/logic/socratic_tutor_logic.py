@@ -1,8 +1,8 @@
 import uuid
-from core.utils.followup_question import FollowUpQuestionGenerator
-from core.utils.tutor_question_generator import TutorQuestionGenerator
-from core.utils.tutor_guidance_generator import TutorGuidanceGenerator
-from core.utils.answer_checker import AnswerChecker
+from core.services.followup_question import FollowUpQuestionGenerator
+from core.services.tutor_question_generator import TutorQuestionGenerator
+from core.services.tutor_guidance_generator import TutorGuidanceGenerator
+from core.services.answer_checker import AnswerChecker
 from schemas.socratic_tutor_schemas import QuestionResponse
 
 def generate_socratic_response(student_question: str) -> list[dict]:
