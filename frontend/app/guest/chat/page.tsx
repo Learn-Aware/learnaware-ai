@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -24,6 +24,15 @@ const ChatPage = () => {
   const [userInput, setUserInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [sessionID, setSessionID] = useState("");
+  const messagesEndRef = useRef<HTMLDivElement>(null);
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages]);
 
   const handleSendMessage = async () => {
     if (!userInput.trim()) return;
@@ -158,6 +167,7 @@ const ChatPage = () => {
             )}
           </div>
         ))}
+        <div ref={messagesEndRef} />
       </ScrollArea>
 
       <div className="flex flex-col px-4 py-6 bg-gray-50 border border-gray-200 shadow-md rounded-2xl space-y-4">
@@ -195,7 +205,6 @@ const ChatPage = () => {
               ))}
             </div>
           </div>
-
           <button
             onClick={handleSendMessage}
             className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${
