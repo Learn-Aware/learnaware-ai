@@ -51,22 +51,31 @@ const ChatPage = () => {
         };
 
         setSessionID(response.session_id);
-
         setMessages((prevMessages) => [...prevMessages, botMessage]);
       } else {
         const response = await submitAnswer({
           session_id: sessionID,
           user_answer: userInput,
         });
+        if (!response?.correct) {
+          const botMessage = {
+            id: Date.now() + 1,
+            sender: "bot",
+            text: response.guidance,
+            time: getCurrentTime(),
+          };
 
-        const botMessage = {
-          id: Date.now() + 1,
-          sender: "bot",
-          text: response.question || "I'm here to help!",
-          time: getCurrentTime(),
-        };
+          setMessages((prevMessages) => [...prevMessages, botMessage]);
+        } else {
+          const botMessage = {
+            id: Date.now() + 1,
+            sender: "bot",
+            text: response.question || "I'm here to help!",
+            time: getCurrentTime(),
+          };
 
-        setMessages((prevMessages) => [...prevMessages, botMessage]);
+          setMessages((prevMessages) => [...prevMessages, botMessage]);
+        }
       }
     } catch (error) {
       console.error("Error fetching bot response:", error);
@@ -98,52 +107,54 @@ const ChatPage = () => {
 
   return (
     <div className="flex flex-col h-full bg-gray-50 my-1 mx-0 p-8 shadow-lg rounded-lg">
-      <div className="flex items-center justify-end space-x-4 mb-4">
-        {["Science", "Maths", "History"].map((category) => (
-          <Button
-            key={category}
-            className="bg-gray-100 text-gray-800 hover:bg-gray-200 px-4 py-2 rounded-lg"
-            onClick={() => handleCategoryClick(category)}
-          >
-            {category}
-          </Button>
-        ))}
-      </div>
 
-      <ScrollArea className="flex-1 px-2 space-y-2">
+
+      <ScrollArea className="flex-1 px-2 space-y-2 py-4">
         {messages.map((message) => (
           <div
             key={message.id}
-            className={`flex ${
-              message.sender === "user" ? "justify-end" : "justify-start"
-            }`}
+            className={`flex w-full items-end ${message.sender === "user" ? "justify-end" : "justify-start"
+              }`}
           >
             {message.sender === "bot" && (
               <Avatar className="mr-2">
-                <AvatarImage src="/bot-avatar.png" alt="Bot" />
+                <AvatarImage
+                  src="/images/BotAvatar.svg"
+                  alt="Bot"
+                  className="w-8 h-8 object-cover"
+                />
                 <AvatarFallback>🤖</AvatarFallback>
               </Avatar>
             )}
-            <div className="flex flex-col">
+
+            <div className="flex flex-col max-w-md">
               <Card
-                className={`max-w-md px-4 py-2 shadow ${
-                  message.sender === "user"
-                    ? "bg-blue-500 text-white rounded-lg rounded-br-none"
-                    : "bg-gray-200 text-gray-800 rounded-lg rounded-bl-none"
-                }`}
+                className={`px-4 py-2 shadow ${message.sender === "user"
+                    ? "bg-blue-500 text-white rounded-lg rounded-br-none ml-2"
+                    : "bg-gray-200 text-gray-800 rounded-lg rounded-bl-none mr-2"
+                  }`}
               >
                 {message.text}
               </Card>
               <span
-                className={`text-xs mt-1 ${
-                  message.sender === "user"
+                className={`text-xs mt-1 ${message.sender === "user"
                     ? "text-right text-gray-400"
                     : "text-left text-gray-500"
-                }`}
+                  }`}
               >
                 {message.time}
               </span>
             </div>
+
+            {message.sender === "user" && (
+              <Avatar className="ml-2">
+                <AvatarImage
+                  src="/images/userAvatar.svg"
+                  alt="User"
+                  className="w-8 h-8 object-cover"
+                />
+              </Avatar>
+            )}
           </div>
         ))}
       </ScrollArea>
@@ -151,7 +162,7 @@ const ChatPage = () => {
       <div className="flex flex-col px-4 py-6 bg-gray-50 border border-gray-200 shadow-md rounded-2xl space-y-4">
         <Textarea
           placeholder="Type your message here..."
-          className="w-full border-none p-6 focus:ring-2 focus:ring-blue-500 rounded-lg"
+          className="w-full border-none p-4 focus:ring-2 focus:ring-blue-500 rounded-lg"
           value={userInput}
           onChange={(e) => setUserInput(e.target.value)}
           disabled={loading}
@@ -171,15 +182,25 @@ const ChatPage = () => {
                 />
               </div>
             ))}
+            <div className="flex items-center justify-end space-x-4">
+              {["Science", "Maths", "History"].map((category) => (
+                <Button
+                  key={category}
+                  className="bg-gray-100 text-gray-800 hover:bg-gray-200 px-4 py-2 rounded-lg"
+                  onClick={() => handleCategoryClick(category)}
+                >
+                  {category}
+                </Button>
+              ))}
+            </div>
           </div>
 
           <button
             onClick={handleSendMessage}
-            className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${
-              loading
+            className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${loading
                 ? "bg-gray-400 text-gray-800 cursor-not-allowed"
                 : "bg-blue-600 text-white hover:bg-blue-700"
-            }`}
+              }`}
             disabled={loading}
             aria-label="Send message"
           >
