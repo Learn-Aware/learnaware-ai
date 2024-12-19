@@ -1,7 +1,7 @@
 import sys
 import os
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-from core.utils.followup_question import FollowUpQuestionGenerator
+from api.core.services.followup_question import FollowUpQuestionGenerator
 
 if __name__ == "__main__":
     # Initialize generator for different models
