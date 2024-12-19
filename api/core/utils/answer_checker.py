@@ -8,11 +8,11 @@ class AnswerChecker:
     Class to check if a user's answer is correct compared to the expected answer.
     """
 
-    def __init__(self, model_name: str = "mistral-7b"):
+    def __init__(self, model_name: str = "mistral-7b", api_type: str = 'openrouter'):
         """
         Initialize the AnswerChecker with the specified model.
         """
-        self.api_utils = APIUtils(model_name=model_name)
+        self.api_utils = APIUtils(model_name=model_name, api_type=api_type)
 
     def check_answer(self, question: str, expected_answer: str, user_answer: str):
         """

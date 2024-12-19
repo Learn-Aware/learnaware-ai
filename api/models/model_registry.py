@@ -1,9 +1,9 @@
-from dotenv import load_dotenv
-import os
+# from dotenv import load_dotenv
+# import os
 
-load_dotenv()
+# load_dotenv()
 
-openrouter_api_key = os.environ["OPENROUTER_API_KEY"]
+# openrouter_api_key = os.environ["OPENROUTER_API_KEY"]
 
 class ModelRegistry:
     """
@@ -13,28 +13,18 @@ class ModelRegistry:
     MODELS = {
         "gemini": {
             "name": "google/gemini-2.0-flash-exp:free",
-            "base_url": "https://openrouter.ai/api/v1",
-            "api_key": openrouter_api_key
         },
         "mistral-7b": {
             "name": "mistralai/mistral-7b-instruct:free",
-            "base_url": "https://openrouter.ai/api/v1",
-            "api_key": openrouter_api_key  # Replace with OpenAI key
         },
         "phi3-mini": {
             "name": "microsoft/phi-3-mini-128k-instruct:free",
-            "base_url": "https://openrouter.ai/api/v1",
-            "api_key": openrouter_api_key
         },
         "phi3-medium": {
             "name": "microsoft/phi-3-medium-128k-instruct:free",
-            "base_url": "https://openrouter.ai/api/v1",
-            "api_key": openrouter_api_key
         },
         "learnlm": {
             "name": "google/learnlm-1.5-pro-experimental:free",
-            "base_url": "https://openrouter.ai/api/v1",
-            "api_key": openrouter_api_key
         },
     }
 

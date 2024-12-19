@@ -8,3 +8,5 @@ requests  # For making API calls (if needed)
 jsonschema  # For validating JSON responses
 fastapi
 openai 
+mistralai
+uvicorn
