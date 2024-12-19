@@ -137,14 +137,15 @@ const ChatPage = () => {
 
             <div className="flex flex-col max-w-md">
               <Card
-                className={`px-4 py-2 shadow ${
+                className={`px-4 py-2 shadow-lg ${
                   message.sender === "user"
-                    ? "bg-blue-500 text-white rounded-lg rounded-br-none ml-2"
-                    : "bg-gray-200 text-gray-800 rounded-lg rounded-bl-none mr-2"
+                    ? "bg-gradient-to-r from-blue-500 to-blue-400 text-white rounded-3xl rounded-br-sm ml-2"
+                    : "bg-gradient-to-r from-gray-200 to-gray-100 text-gray-800 rounded-3xl rounded-bl-sm mr-2"
                 }`}
               >
                 {message.text}
               </Card>
+
               <span
                 className={`text-xs mt-1 ${
                   message.sender === "user"
