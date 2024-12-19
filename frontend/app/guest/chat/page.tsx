@@ -107,14 +107,13 @@ const ChatPage = () => {
 
   return (
     <div className="flex flex-col h-full bg-gray-50 my-1 mx-0 p-8 shadow-lg rounded-lg">
-
-
       <ScrollArea className="flex-1 px-2 space-y-2 py-4">
         {messages.map((message) => (
           <div
             key={message.id}
-            className={`flex w-full items-end ${message.sender === "user" ? "justify-end" : "justify-start"
-              }`}
+            className={`flex w-full items-end ${
+              message.sender === "user" ? "justify-end" : "justify-start"
+            }`}
           >
             {message.sender === "bot" && (
               <Avatar className="mr-2">
@@ -129,18 +128,20 @@ const ChatPage = () => {
 
             <div className="flex flex-col max-w-md">
               <Card
-                className={`px-4 py-2 shadow ${message.sender === "user"
+                className={`px-4 py-2 shadow ${
+                  message.sender === "user"
                     ? "bg-blue-500 text-white rounded-lg rounded-br-none ml-2"
                     : "bg-gray-200 text-gray-800 rounded-lg rounded-bl-none mr-2"
-                  }`}
+                }`}
               >
                 {message.text}
               </Card>
               <span
-                className={`text-xs mt-1 ${message.sender === "user"
+                className={`text-xs mt-1 ${
+                  message.sender === "user"
                     ? "text-right text-gray-400"
                     : "text-left text-gray-500"
-                  }`}
+                }`}
               >
                 {message.time}
               </span>
@@ -197,10 +198,11 @@ const ChatPage = () => {
 
           <button
             onClick={handleSendMessage}
-            className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${loading
+            className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${
+              loading
                 ? "bg-gray-400 text-gray-800 cursor-not-allowed"
                 : "bg-blue-600 text-white hover:bg-blue-700"
-              }`}
+            }`}
             disabled={loading}
             aria-label="Send message"
           >
