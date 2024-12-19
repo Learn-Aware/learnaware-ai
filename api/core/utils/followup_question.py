@@ -7,12 +7,12 @@ class FollowUpQuestionGenerator:
     Main class for generating follow-up questions.
     """
 
-    def __init__(self, model_name: str = "gemini"):
+    def __init__(self, model_name: str = "gemini", api_type: str = 'openrouter'):
         """
         Initialize the FollowUpQuestionGenerator with a model.
         :param model_name: The name of the model to use (default: gemini).
         """
-        self.api_utils = APIUtils(model_name=model_name)
+        self.api_utils = APIUtils(model_name=model_name, api_type=api_type)
 
     def generate(self, student_question: str, max_questions: int = 10):
         """
