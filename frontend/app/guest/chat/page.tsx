@@ -1,12 +1,16 @@
 "use client";
+
 import React, { useState } from "react";
 import Image from "next/image";
-
 import { Button } from "@/components/ui/button";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Textarea } from "@/components/ui/textarea";
+import { startSession, submitAnswer } from "@/services/socraticServices";
+
+const getCurrentTime = () =>
+  new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 
 const ChatPage = () => {
   const [messages, setMessages] = useState([
@@ -14,57 +18,96 @@ const ChatPage = () => {
       id: 1,
       sender: "bot",
       text: "Hello! How can I assist you today?",
-      time: "2:45 PM",
-    },
-    {
-      id: 2,
-      sender: "user",
-      text: "I want to learn more about your services.",
-      time: "10:32 AM",
+      time: getCurrentTime(),
     },
   ]);
-
   const [userInput, setUserInput] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [sessionID, setSessionID] = useState("");
 
-  const handleSendMessage = () => {
+  const handleSendMessage = async () => {
     if (!userInput.trim()) return;
 
+    const userMessage = {
+      id: Date.now(),
+      sender: "user",
+      text: userInput,
+      time: getCurrentTime(),
+    };
+
+    setMessages((prevMessages) => [...prevMessages, userMessage]);
+    setUserInput("");
+    setLoading(true);
+
+    try {
+      if (sessionID === "") {
+        const response = await startSession(userInput);
+
+        const botMessage = {
+          id: Date.now() + 1,
+          sender: "bot",
+          text: response.question || "I'm here to help!",
+          time: getCurrentTime(),
+        };
+
+        setSessionID(response.session_id);
+
+        setMessages((prevMessages) => [...prevMessages, botMessage]);
+      } else {
+        const response = await submitAnswer({
+          session_id: sessionID,
+          user_answer: userInput,
+        });
+
+        const botMessage = {
+          id: Date.now() + 1,
+          sender: "bot",
+          text: response.question || "I'm here to help!",
+          time: getCurrentTime(),
+        };
+
+        setMessages((prevMessages) => [...prevMessages, botMessage]);
+      }
+    } catch (error) {
+      console.error("Error fetching bot response:", error);
+      setMessages((prevMessages) => [
+        ...prevMessages,
+        {
+          id: Date.now() + 2,
+          sender: "bot",
+          text: "Oops! Something went wrong. Please try again.",
+          time: getCurrentTime(),
+        },
+      ]);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleCategoryClick = (category: string) => {
     setMessages((prevMessages) => [
       ...prevMessages,
       {
         id: Date.now(),
-        sender: "user",
-        text: userInput,
-        time: new Date().toLocaleTimeString([], {
-          hour: "2-digit",
-          minute: "2-digit",
-        }),
-      },
-      {
-        id: Date.now() + 1,
         sender: "bot",
-        text: "Thank you! We'll get back to you soon.",
-        time: new Date().toLocaleTimeString([], {
-          hour: "2-digit",
-          minute: "2-digit",
-        }),
+        text: `You selected ${category}. How can I help you with it?`,
+        time: getCurrentTime(),
       },
     ]);
-    setUserInput("");
   };
 
   return (
     <div className="flex flex-col h-full bg-gray-50 my-1 mx-0 p-8 shadow-lg rounded-lg">
-      <div className="flex items-center justify-end space-x-4">
-        <Button className="bg-gray-100 text-gray-800 hover:bg-gray-200 px-4 py-2 rounded-lg">
-          Science
-        </Button>
-        <Button className="bg-gray-100 text-gray-800 hover:bg-gray-200 px-4 py-2 rounded-lg">
-          Maths
-        </Button>
-        <Button className="bg-gray-100 text-gray-800 hover:bg-gray-200 px-4 py-2 rounded-lg">
-          History
-        </Button>
+      <div className="flex items-center justify-end space-x-4 mb-4">
+        {["Science", "Maths", "History"].map((category) => (
+          <Button
+            key={category}
+            className="bg-gray-100 text-gray-800 hover:bg-gray-200 px-4 py-2 rounded-lg"
+            onClick={() => handleCategoryClick(category)}
+          >
+            {category}
+          </Button>
+        ))}
       </div>
 
       <ScrollArea className="flex-1 px-2 space-y-2">
@@ -106,66 +149,50 @@ const ChatPage = () => {
       </ScrollArea>
 
       <div className="flex flex-col px-4 py-6 bg-gray-50 border border-gray-200 shadow-md rounded-2xl space-y-4">
-        <div>
-          <Textarea
-            placeholder="How can I assist you today?"
-            className="w-full border-none p-6 focus:ring-2 focus:ring-blue-500 rounded-lg"
-            value={userInput}
-            onChange={(e) => setUserInput(e.target.value)}
-          />
-        </div>
+        <Textarea
+          placeholder="Type your message here..."
+          className="w-full border-none p-6 focus:ring-2 focus:ring-blue-500 rounded-lg"
+          value={userInput}
+          onChange={(e) => setUserInput(e.target.value)}
+          disabled={loading}
+          aria-label="Type your message"
+          onKeyDown={(e) => e.key === "Enter" && handleSendMessage()}
+        />
 
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4 ml-2">
-            <div className="relative w-5 h-5">
-              <Image
-                src="/images/Grid.svg"
-                alt="Teacher"
-                fill
-                className="w-full h-full object-contain"
-              />
-            </div>
-
-            <div className="relative w-5 h-5">
-              <Image
-                src="/images/Paperclip.svg"
-                alt="Teacher"
-                fill
-                className="w-full h-full object-contain"
-              />
-            </div>
-            <div className="relative w-5 h-5">
-              <Image
-                src="/images/Microphone.svg"
-                alt="Teacher"
-                fill
-                className="w-full h-full object-contain"
-              />
-            </div>
-            <div className="relative w-5 h-5">
-              <Image
-                src="/images/Element.svg"
-                alt="Teacher"
-                fill
-                className="w-full h-full object-contain"
-              />
-            </div>
+            {["Grid", "Paperclip", "Microphone", "Element"].map((icon) => (
+              <div key={icon} className="relative w-5 h-5">
+                <Image
+                  src={`/images/${icon}.svg`}
+                  alt={icon}
+                  fill
+                  className="w-full h-full object-contain"
+                />
+              </div>
+            ))}
           </div>
 
-          <div
+          <button
             onClick={handleSendMessage}
-            className="flex items-center space-x-4 bg-blue-600 text-white hover:bg-blue-700 focus:ring-2 focus:ring-blue-500 px-4 py-2 rounded-lg shadow-md"
+            className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${
+              loading
+                ? "bg-gray-400 text-gray-800 cursor-not-allowed"
+                : "bg-blue-600 text-white hover:bg-blue-700"
+            }`}
+            disabled={loading}
+            aria-label="Send message"
           >
             <div className="relative w-5 h-5">
               <Image
                 src="/images/Send.svg"
-                alt="Teacher"
+                alt="Send"
                 fill
                 className="w-full h-full object-contain"
               />
             </div>
-            <div>Send message</div>
-          </div>
+            <span>{loading ? "Sending..." : "Send message"}</span>
+          </button>
         </div>
       </div>
     </div>
