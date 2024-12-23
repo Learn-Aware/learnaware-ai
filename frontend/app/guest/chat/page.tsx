@@ -140,6 +140,7 @@ const ChatPage = () => {
     ]);
     setSessionID("");
     setIsNewSession(true);
+    setIsSidebarOpen(false);
   };
 
   return (
