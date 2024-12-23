@@ -1,5 +1,5 @@
-# Use the official Node.js image as a base image for the builder stage
-FROM node:18
+# Stage 1: Builder
+FROM node:18 AS builder
 
 # Set the working directory
 WORKDIR /app
@@ -10,13 +10,27 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
-# Copy the rest of your application code
+# Copy the rest of the application code
 COPY . .
 
 # Build the Next.js application
-RUN npm run build 
+RUN npm run build
 
-# Expose the port the app runs on
+# Stage 2: Production
+FROM node:18-slim AS production
+
+# Set the working directory
+WORKDIR /app
+
+# Copy only the built assets and package files from the builder stage
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/.next ./.next
+COPY --from=builder /app/public ./public
+
+# Install only production dependencies
+RUN npm install --production
+
+# Expose the application port
 EXPOSE 3000
 
 # Start the Next.js application
