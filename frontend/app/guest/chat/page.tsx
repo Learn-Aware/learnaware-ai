@@ -115,7 +115,7 @@ const ChatPage = () => {
   };
 
   return (
-    <div className="flex flex-col h-full bg-gray-50 sm:my-2 sm:mx-4 sm:p-4 lg:p-8 shadow-lg rounded-lg">
+    <div className="flex flex-col h-full bg-gray-50 sm:my-2 sm:mx-2 sm:p-2 lg:p-8 shadow-lg rounded-lg">
       <ScrollArea className="flex-1 px-2 space-y-2 py-4">
         <div className="flex items-center justify-end space-x-4 mb-4">
           {["Science", "Maths", "History"].map((category) => (
@@ -196,16 +196,20 @@ const ChatPage = () => {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-4 ml-2">
             {["Grid", "Paperclip", "Microphone", "Element"].map((icon) => (
-              <div key={icon} className="relative w-5 h-5">
+              <button
+                key={icon}
+                className="relative w-5 h-5 rounded-full flex items-center justify-center transition-all duration-200 hover:bg-gray-200 active:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-300"
+              >
                 <Image
                   src={`/images/${icon}.svg`}
                   alt={icon}
                   fill
                   className="w-full h-full object-contain"
                 />
-              </div>
+              </button>
             ))}
           </div>
+
           <Button
             onClick={handleSendMessage}
             className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${
