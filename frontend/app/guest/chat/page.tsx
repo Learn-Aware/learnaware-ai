@@ -115,7 +115,7 @@ const ChatPage = () => {
   };
 
   return (
-    <div className="flex flex-col h-full bg-gray-50 my-1 mx-0 p-8 shadow-lg rounded-lg">
+    <div className="flex flex-col h-full bg-gray-50 sm:my-2 sm:mx-4 sm:p-4 lg:p-8 shadow-lg rounded-lg">
       <ScrollArea className="flex-1 px-2 space-y-2 py-4">
         <div className="flex items-center justify-end space-x-4 mb-4">
           {["Science", "Maths", "History"].map((category) => (
@@ -211,7 +211,7 @@ const ChatPage = () => {
             className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${
               loading
                 ? "bg-gray-400 text-gray-800 cursor-not-allowed"
-                : "bg-blue-600 text-white hover:bg-blue-700"
+                : "bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] text-white transition-colors"
             }`}
             disabled={loading}
             aria-label="Send message"
