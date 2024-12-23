@@ -117,6 +117,17 @@ const ChatPage = () => {
   return (
     <div className="flex flex-col h-full bg-gray-50 my-1 mx-0 p-8 shadow-lg rounded-lg">
       <ScrollArea className="flex-1 px-2 space-y-2 py-4">
+        <div className="flex items-center justify-end space-x-4 mb-4">
+          {["Science", "Maths", "History"].map((category) => (
+            <Button
+              key={category}
+              className="bg-gray-100 text-gray-800 hover:bg-gray-200 px-4 py-2 rounded-lg"
+              onClick={() => handleCategoryClick(category)}
+            >
+              {category}
+            </Button>
+          ))}
+        </div>
         {messages.map((message) => (
           <div
             key={message.id}
@@ -194,19 +205,8 @@ const ChatPage = () => {
                 />
               </div>
             ))}
-            <div className="flex items-center justify-end space-x-4">
-              {["Science", "Maths", "History"].map((category) => (
-                <Button
-                  key={category}
-                  className="bg-gray-100 text-gray-800 hover:bg-gray-200 px-4 py-2 rounded-lg"
-                  onClick={() => handleCategoryClick(category)}
-                >
-                  {category}
-                </Button>
-              ))}
-            </div>
           </div>
-          <button
+          <Button
             onClick={handleSendMessage}
             className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${
               loading
@@ -224,8 +224,10 @@ const ChatPage = () => {
                 className="w-full h-full object-contain"
               />
             </div>
-            <span>{loading ? "Sending..." : "Send message"}</span>
-          </button>
+            <span className="hidden md:inline">
+              {loading ? "Sending..." : "Send message"}
+            </span>
+          </Button>
         </div>
       </div>
     </div>
