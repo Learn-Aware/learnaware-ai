@@ -153,9 +153,8 @@ const ChatPage = () => {
       </button>
 
       <div
-        className={`fixed sm:static z-40 h-full sm:h-auto bg-white border-r shadow-lg flex flex-col transform ${
-          isSidebarOpen ? "translate-x-0" : "-translate-x-full"
-        } transition-transform duration-300 sm:translate-x-0 w-64`}
+        className={`fixed sm:static z-40 h-full sm:h-auto bg-white border-r shadow-lg flex flex-col transform ${isSidebarOpen ? "translate-x-0" : "-translate-x-full"
+          } transition-transform duration-300 sm:translate-x-0 w-64`}
       >
         <h3 className="text-lg font-semibold p-4 border-b bg-gray-50 text-gray-800">
           Chat History
@@ -173,7 +172,7 @@ const ChatPage = () => {
           ))}
         </div>
 
-        <ScrollArea className="flex-1 p-2 space-y-3">
+        <ScrollArea className="flex-1 p-3 space-y-2">
           {history.length === 0 ? (
             <p className="text-sm text-gray-500 text-center">
               No history yet. Start a conversation!
@@ -182,13 +181,13 @@ const ChatPage = () => {
             history.map((session, index) => (
               <Card
                 key={index}
-                className="px-2 py-1 bg-gray-50 hover:bg-gray-100 cursor-pointer rounded-lg shadow-md mb-2"
+                className="px-4 py-2 bg-gray-50 hover:bg-gray-100 cursor-pointer rounded-md shadow-sm transition duration-150 ease-in-out mb-2"
                 onClick={() => {
                   setMessages(session);
                   setIsSidebarOpen(false);
                 }}
               >
-                <span className="font-sans font-medium text-gray-800 text-sm">
+                <span className="font-sans font-semibold text-gray-700 text-sm">
                   {session.find((msg) => msg.sender === "user")?.text}
                 </span>
               </Card>
@@ -211,9 +210,8 @@ const ChatPage = () => {
           {messages.map((message) => (
             <div
               key={message.id}
-              className={`flex w-full items-end ${
-                message.sender === "user" ? "justify-end" : "justify-start"
-              }`}
+              className={`flex w-full items-end ${message.sender === "user" ? "justify-end" : "justify-start"
+                }`}
             >
               {message.sender === "bot" && (
                 <Avatar className="mr-2">
@@ -228,21 +226,19 @@ const ChatPage = () => {
 
               <div className="flex flex-col max-w-md">
                 <Card
-                  className={`px-4 py-2 shadow-lg ${
-                    message.sender === "user"
+                  className={`px-4 py-2 shadow-lg ${message.sender === "user"
                       ? "bg-gradient-to-r from-blue-500 to-blue-400 text-white rounded-3xl rounded-br-sm ml-2"
                       : "bg-gradient-to-r from-gray-200 to-gray-100 text-gray-800 rounded-3xl rounded-bl-sm mr-2"
-                  }`}
+                    }`}
                 >
                   {message.text}
                 </Card>
 
                 <span
-                  className={`text-xs mt-1 ${
-                    message.sender === "user"
+                  className={`text-xs mt-1 ${message.sender === "user"
                       ? "text-right text-gray-400"
                       : "text-left text-gray-500"
-                  }`}
+                    }`}
                 >
                   {message.time}
                 </span>
@@ -291,11 +287,10 @@ const ChatPage = () => {
             </div>
             <Button
               onClick={handleSendMessage}
-              className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${
-                loading
+              className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${loading
                   ? "bg-gray-400 text-gray-800 cursor-not-allowed"
                   : "bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] text-white transition-colors"
-              }`}
+                }`}
               disabled={loading}
               aria-label="Send message"
             >
