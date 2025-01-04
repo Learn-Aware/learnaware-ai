@@ -22,7 +22,8 @@ class FollowUpQuestionGenerator:
         prompt = FollowUpPrompt.construct(student_question, max_questions)
 
         # Step 2: Get the response from the selected model
-        response = self.api_utils.generate_response(prompt)
+        response = self.api_utils.generate_response([{"role": "user", "content": prompt}])
 
+        print(response)
         # Step 3: Parse the response into JSON
         return self.api_utils.parse_json_response(response)

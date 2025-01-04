@@ -19,5 +19,5 @@ class TutorGuidanceGenerator:
 
         """
         prompt = TutorGuidanceGeneratorPrompt.construct(correct_answer, student_answer)
-        response = self.api_utils.generate_response(prompt)
-        return response.strip()
+        response = self.api_utils.generate_response([{"role": "user", "content": prompt}])
+        return response.message.content.strip()

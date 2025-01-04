@@ -1,5 +1,5 @@
+from typing import Dict, List
 import openai
-from .llm_interfaces import LLMBase
 from dotenv import load_dotenv
 import os
 
@@ -7,7 +7,7 @@ load_dotenv()
 
 openrouter_api_key = os.environ["OPENROUTER_API_KEY"]
 
-class OpenRouterAPI(LLMBase):
+class OpenRouterAPI():
     """
     Implementation of the OpenAI API.
     """
@@ -20,9 +20,9 @@ class OpenRouterAPI(LLMBase):
         openai.api_key = self.api_key
         openai.api_base = self.base_url
 
-    def generate_response(self, prompt: str) -> str:
+    def generate_completion(self, messages: List[Dict]) -> str:
         response = openai.ChatCompletion.create(
             model=self.model_name,
-            messages=[{"role": "user", "content": prompt}]
+            messages=messages
         )
         return response.choices[0].message.content
