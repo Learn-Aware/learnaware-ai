@@ -19,7 +19,7 @@ class AnswerChecker:
         Check if the user's answer is correct compared to the expected answer.
         """
         prompt = CheckAnswerPrompt.construct(question, expected_answer, user_answer)
-        response = self.api_utils.generate_response(prompt)
+        response = self.api_utils.generate_response([{"role": "user", "content": prompt}])
         return self.api_utils.parse_json_response(response)
 
 

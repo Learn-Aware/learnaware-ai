@@ -1,19 +1,11 @@
 from http.client import HTTPException
 import uuid
 import json
-import os
-from dotenv import load_dotenv
 from mistralai import Mistral, Optional
 
+from core.utils.api_utils import APIUtils
 from core.logic.socratic_tutor_logic import start_tutoring_session, submit_tutor_answer
 from schemas.socratic_tutor_schemas import QuestionResponse
-
-load_dotenv()
-api_key = os.environ["MISTRAL_API_KEY"]
-openrouter_api_key = os.environ["OPENROUTER_API_KEY"]
-
-mistral_client = Mistral(api_key=api_key)
-model = "mistral-large-latest"
 
 socratic_tutor_description = "Act as a Socratic tutor"
 
@@ -65,14 +57,19 @@ def main_chat_flow(user_request: str, session_file: str, session_id: Optional[st
         messages = [{"role": "system", "content": system_prompt}]
         messages.append({"role": "user", "content": user_request})
 
-        chat_completion = mistral_client.chat.complete(
-            model=model,
-            messages=messages,
-            tools=tool_metadata
-        )
-        response = chat_completion.choices[0]
+        model_name = 'mistral-large-latest'
+        api_type = 'mistral'
+        api_utils = APIUtils(model_name=model_name, api_type=api_type, tool_metadata= tool_metadata, use_tools= True)
 
+        response = api_utils.generate_response(messages=messages)
+        # chat_completion = mistral_client.chat.complete(
+        #     model=model,
+        #     messages=messages,
+        #     tools=tool_metadata
+        # )
+        # response = chat_completion.choices[0]
         if response.message.tool_calls:
+            
             tool_call = response.message.tool_calls[0]
             tool_name = tool_call.function.name
             arguments = json.loads(tool_call.function.arguments)

@@ -1,6 +1,4 @@
-# from openai import OpenAI
-import openai
-from typing import Dict
+from typing import Dict, List
 from models.model_registry import ModelRegistry
 import json
 from core.llm_services.llm_factory import LLMFactory
@@ -10,14 +8,23 @@ class APIUtils:
     Utility class for interacting with different LLM APIs.
     """
 
-    def __init__(self, model_name: str, api_type: str):
+    def __init__(
+            self, 
+            model_name: str = None, 
+            api_type: str = None,
+            tool_metadata: Dict = None,
+            use_tools: bool = False):
         """
         Initialize APIUtils for a specific model.
         """
-        self.model_config = ModelRegistry.get_model_config(model_name)
+        
         self.api_type = api_type
+        self.tool_metadata = tool_metadata  # For tools, if applicable
+        self.use_tools = use_tools
+        self.model_name = model_name
+        self.model_config = ModelRegistry.get_model_config(model_name) if self.api_type == "openrouter" else None
 
-    def generate_response(self, prompt: str) -> str:
+    def generate_response(self, messages: List[Dict],) -> str:
         """
         Call the LLM API to get a response for the given prompt.
         """
@@ -25,8 +32,14 @@ class APIUtils:
         #     model=self.model_config["name"],
         #     messages=[{"role": "user", "content": prompt}]
         # )
-        llm = LLMFactory.get_llm(self.api_type, self.model_config if self.api_type=="openrouter" else None)
-        response = llm.generate_response(prompt)
+        llm = LLMFactory.get_llm(
+            api_type=self.api_type, 
+            config=self.model_config if self.api_type == "openrouter" else None,
+            model=self.model_name,
+            tool_metadata=self.tool_metadata,
+            use_tools=self.use_tools
+        )
+        response = llm.generate_completion(messages=messages)
         return response
 
     @staticmethod
