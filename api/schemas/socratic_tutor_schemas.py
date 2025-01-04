@@ -17,7 +17,8 @@ class TutorResponse(BaseModel):
 
 
 class StartSessionRequest(BaseModel):
-    student_question: str
+    user_request: str
+    session_id: Optional[str] = None
 
 class SubmitAnswerRequest(BaseModel):
     session_id: str
@@ -28,3 +29,7 @@ class QuestionResponse(BaseModel):
     question: str
     guidance: Optional[str] = None
     correct: Optional[bool] = None
+
+class TutorAnswerRequest(BaseModel):
+    session_id: str
+    user_answer: str

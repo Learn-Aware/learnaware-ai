@@ -10,3 +10,4 @@ fastapi
 openai 
 mistralai
 uvicorn
+google-generativeai
