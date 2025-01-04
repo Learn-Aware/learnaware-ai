@@ -40,16 +40,16 @@ def generate_socratic_response(student_question: str) -> list[dict]:
 
     return tutor_data
 
-def start_tutoring_session(student_question: str, conversations: dict):
+def start_tutoring_session(student_question: str, sessions: dict, session_id: str):
     """Generate follow-up questions and start a new session."""
     followup_qa = FollowUpQuestionGenerator().generate(student_question)
     if not followup_qa or "questions_and_answers" not in followup_qa:
         raise ValueError("Error generating follow-up questions.")
 
-    session_id = str(uuid.uuid4())
+    # session_id = str(uuid.uuid4())
     questions_and_answers = followup_qa["questions_and_answers"]
 
-    conversations[session_id] = {
+    sessions[session_id] = {
         "questions_and_answers": questions_and_answers,
         "current_question_index": 0,
         "attempts": 0
@@ -58,11 +58,11 @@ def start_tutoring_session(student_question: str, conversations: dict):
     first_question = questions_and_answers[0]["question"]
     return QuestionResponse(session_id=session_id, question=first_question)
 
-def submit_tutor_answer(session_id: str, user_answer: str, conversations: dict):
+def submit_tutor_answer(user_answer: str, sessions: dict, session_id: str):
     """Evaluate the student's answer and provide feedback."""
-    session = conversations[session_id]
-    current_index = session["current_question_index"]
-    questions_and_answers = session["questions_and_answers"]
+    session_data = sessions[session_id]
+    current_index = session_data["current_question_index"]
+    questions_and_answers = session_data["questions_and_answers"]
 
     current_question = questions_and_answers[current_index]["question"]
     expected_answer = questions_and_answers[current_index]["answer"]
@@ -71,19 +71,22 @@ def submit_tutor_answer(session_id: str, user_answer: str, conversations: dict):
     is_correct = result.get("result") == "correct"
 
     if is_correct:
-        session["current_question_index"] += 1
-        session["attempts"] = 0
-        if session["current_question_index"] < len(questions_and_answers):
-            next_question = questions_and_answers[session["current_question_index"]]["question"]
+        session_data["current_question_index"] += 1
+        session_data["attempts"] = 0
+        if session_data["current_question_index"] < len(questions_and_answers):
+            next_question = questions_and_answers[session_data["current_question_index"]]["question"]
             return QuestionResponse(session_id=session_id, question=next_question, correct=True)
         else:
-            del conversations[session_id]
+            # del conversations[session_id]
             return QuestionResponse(session_id=session_id, question="Session complete!", correct=True)
     else:
-        session["attempts"] += 1
-        if session["attempts"] < 3:
+        session_data["attempts"] += 1
+        if session_data["attempts"] < 3:
             guidance = TutorGuidanceGenerator().generate_guidance(expected_answer, user_answer)
             return QuestionResponse(session_id=session_id, question=current_question, guidance=guidance, correct=False)
         else:
-            del conversations[session_id]
+            del session_data[session_id]
             return QuestionResponse(session_id=session_id, question=f"The correct answer was: {expected_answer}. Session ended.", correct=False)
+        
+
+
