@@ -53,6 +53,16 @@ def main_chat_flow(user_request: str, session_file: str, session_id: Optional[st
         session_data = sessions[session_id]
         flow_status = "general"
 
+    # Ensure conversation_flow exists
+    if "conversation_flow" not in session_data:
+        session_data["conversation_flow"] = []
+
+    # Append the new user message
+    session_data["conversation_flow"].append({"role": "user", "content": user_request})
+
+    save_session_data(session_file, sessions)
+
+    
     if flow_status == "general":
         messages = [{"role": "system", "content": system_prompt}]
         messages.append({"role": "user", "content": user_request})
@@ -62,12 +72,9 @@ def main_chat_flow(user_request: str, session_file: str, session_id: Optional[st
         api_utils = APIUtils(model_name=model_name, api_type=api_type, tool_metadata= tool_metadata, use_tools= True)
 
         response = api_utils.generate_response(messages=messages)
-        # chat_completion = mistral_client.chat.complete(
-        #     model=model,
-        #     messages=messages,
-        #     tools=tool_metadata
-        # )
-        # response = chat_completion.choices[0]
+
+        
+
         if response.message.tool_calls:
             
             tool_call = response.message.tool_calls[0]
@@ -80,6 +87,7 @@ def main_chat_flow(user_request: str, session_file: str, session_id: Optional[st
                 flow_status = "socratic"
 
                 sessions[session_id]["flow_status"] = flow_status
+                session_data["conversation_flow"].append({"role": "assistant", "content": first_question})
                 save_session_data(session_file, sessions)
 
                 return QuestionResponse(
@@ -89,6 +97,7 @@ def main_chat_flow(user_request: str, session_file: str, session_id: Optional[st
             else:
                 raise HTTPException(status_code=400, detail=f"Unknown tool called: {tool_name}")
         else:
+            session_data["conversation_flow"].append({"role": "assistant", "content": response.message.content})
             save_session_data(session_file, sessions)
 
             return QuestionResponse(
@@ -101,14 +110,17 @@ def main_chat_flow(user_request: str, session_file: str, session_id: Optional[st
         if response.correct and response.question == "Session complete!":
             flow_status = "general"
             sessions[session_id]["flow_status"] = flow_status
+            session_data["conversation_flow"].append({"role": "assistant", "content": "Nice! you successfully understand the problem, Do you have anything to ask?"})
             save_session_data(session_file, sessions)
 
             return QuestionResponse(
                 session_id=session_id,
-                question="Socratic tutoring session completed successfully.",
+                question="Nice! you successfully understand the problem, Do you have anything to ask?",
                 correct=True
             )
         else:
+            
+            session_data["conversation_flow"].append({"role": "assistant", "content": response.question})
             save_session_data(session_file, sessions)
 
             return QuestionResponse(

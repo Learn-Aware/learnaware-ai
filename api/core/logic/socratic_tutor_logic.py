@@ -49,11 +49,11 @@ def start_tutoring_session(student_question: str, sessions: dict, session_id: st
     # session_id = str(uuid.uuid4())
     questions_and_answers = followup_qa["questions_and_answers"]
 
-    sessions[session_id] = {
+    sessions[session_id].update({
         "questions_and_answers": questions_and_answers,
-        "current_question_index": 0,
-        "attempts": 0
-    }
+        "current_question_index": 0,  # Initialize the current question index
+        "attempts": 0  # Initialize the attempts count
+    })
 
     first_question = questions_and_answers[0]["question"]
     return QuestionResponse(session_id=session_id, question=first_question)
