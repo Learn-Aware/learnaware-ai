@@ -23,11 +23,9 @@ build/
 .coverage
 *.tgz
 
-# Docker
-*.dockerignore
-
 # macOS
 .DS_Store
+*/.DS_Store
 
 # IDE/Editor specific
 .vscode/
@@ -43,7 +41,9 @@ build/
 *.swp
 *.lock
 
-.DS_Store
-*/.DS_Store
 api/.env
 api/test/*.sqlite
+
+
+# all .env files should be  in env folder
+.env
