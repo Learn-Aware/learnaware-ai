@@ -11,3 +11,5 @@ openai
 mistralai
 uvicorn
 google-generativeai
+pillow
+python-multipart
