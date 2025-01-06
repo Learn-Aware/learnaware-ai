@@ -45,5 +45,3 @@ api/.env
 api/test/*.sqlite
 
 
-# all .env files should be  in env folder
-.env
