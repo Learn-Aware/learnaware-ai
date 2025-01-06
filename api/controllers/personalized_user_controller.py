@@ -5,7 +5,7 @@ from data.questions import questions
 
 router = APIRouter()
 
-# In-memory storage for user sessions
+# In-memory storage for user sessions future implementation we can add database for this storage
 user_sessions: Dict[str, Dict] = {}
 
 class Answer(BaseModel):
