@@ -1,4 +1,5 @@
 from core.logic.conversation_flow import main_chat_flow
+from core.logic.conversation_flowv2 import main_chat_flowv2
 from fastapi import APIRouter, HTTPException
 from schemas.socratic_tutor_schemas import StudentQuestionRequest, TutorAnswerRequest, TutorResponse, StartSessionRequest, SubmitAnswerRequest, QuestionResponse
 from core.logic.socratic_tutor_logic import generate_socratic_response, start_tutoring_session, submit_tutor_answer
@@ -7,7 +8,7 @@ router = APIRouter()
 
 
 # In-memory conversation storage
-SESSION_FILE = "temp_db/conversation_db.json"
+SESSION_FILE = "temp_db/conversation_db_v2.json"
 # conversations = {}
 
 # API Endpoint: Handles the request and calls the core logic
@@ -35,6 +36,11 @@ async def submit_answer(request: SubmitAnswerRequest):
         raise HTTPException(status_code=404, detail="Session not found.")
     return submit_tutor_answer(session_id, user_answer, SESSION_FILE)
 
-@router.post("/chat", response_model = QuestionResponse)
+@router.post("/v1/chat", response_model = QuestionResponse)
 async def chat_flow(request: StartSessionRequest):
     return main_chat_flow(request.user_request, SESSION_FILE, request.session_id)
+
+
+@router.post("/v2/chat", response_model = QuestionResponse)
+async def chat_flow(request: StartSessionRequest):
+    return main_chat_flowv2(request.user_request, SESSION_FILE, request.session_id)

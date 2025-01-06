@@ -1,1 +1,197 @@
-{"00822f0c-49aa-40d5-96f8-6ecebe97336e": {"questions_and_answers": [{"question": "If 10 men take 6 days to complete a task, how many man-days does the task require?", "answer": "The task requires 10 men * 6 days = 60 man-days."}, {"question": "The new job is double the original task. How many man-days does the new job require?", "answer": "The new job requires 60 man-days * 2 = 120 man-days."}, {"question": "If 8 men are working on the new job, and it requires 120 man-days, how many days will it take to complete?", "answer": "It will take 120 man-days / 8 men = 15 days."}], "current_question_index": 3, "attempts": 0, "flow_status": "general"}, "6312dea6-cca1-460a-b7ee-23e7d082673c": {"questions_and_answers": [{"question": "If 10 men take 6 days to complete a task, how many man-days are required for that task?", "answer": "10 men * 6 days = 60 man-days"}, {"question": "The new job is double the original task, so how many man-days are required for the new job?", "answer": "60 man-days * 2 = 120 man-days"}, {"question": "If 8 men are working on the doubled task, and the task requires 120 man-days, how many days will it take them?", "answer": "120 man-days / 8 men = 15 days"}], "current_question_index": 0, "attempts": 0, "flow_status": "socratic"}}
+{
+  "00822f0c-49aa-40d5-96f8-6ecebe97336e": {
+    "questions_and_answers": [
+      {
+        "question": "If 10 men take 6 days to complete a task, how many man-days does the task require?",
+        "answer": "The task requires 10 men * 6 days = 60 man-days."
+      },
+      {
+        "question": "The new job is double the original task. How many man-days does the new job require?",
+        "answer": "The new job requires 60 man-days * 2 = 120 man-days."
+      },
+      {
+        "question": "If 8 men are working on the new job, and it requires 120 man-days, how many days will it take to complete?",
+        "answer": "It will take 120 man-days / 8 men = 15 days."
+      }
+    ],
+    "current_question_index": 3,
+    "attempts": 0,
+    "flow_status": "general"
+  },
+  "6312dea6-cca1-460a-b7ee-23e7d082673c": {
+    "questions_and_answers": [
+      {
+        "question": "If 10 men take 6 days to complete a task, how many man-days are required for that task?",
+        "answer": "10 men * 6 days = 60 man-days"
+      },
+      {
+        "question": "The new job is double the original task, so how many man-days are required for the new job?",
+        "answer": "60 man-days * 2 = 120 man-days"
+      },
+      {
+        "question": "If 8 men are working on the doubled task, and the task requires 120 man-days, how many days will it take them?",
+        "answer": "120 man-days / 8 men = 15 days"
+      }
+    ],
+    "current_question_index": 0,
+    "attempts": 0,
+    "flow_status": "socratic"
+  },
+  "fe95b7b8-b681-4d7f-83da-07e090c32dd7": {
+    "flow_status": "general",
+    "conversation_flow": { "role": "user", "content": "hi" }
+  },
+  "86a1258e-013f-4e1a-a946-d8d383537620": {
+    "flow_status": "general",
+    "conversation_flow": [
+      { "role": "user", "content": "hi" },
+      {
+        "role": "assistant",
+        "content": "Hello! I'm LAAI, your educational tutor. I'm here to help you with any questions or topics you're studying. How can I assist you today?"
+      }
+    ]
+  },
+  "c9cb4c9c-150c-455d-b248-41692a2ae57f": {
+    "questions_and_answers": [
+      {
+        "question": "If 10 men take 6 days to complete a task, what is the total amount of 'man-days' required for the task?",
+        "answer": "10 men * 6 days = 60 man-days"
+      },
+      {
+        "question": "The new job is double the original task. How many 'man-days' are required for this new job?",
+        "answer": "60 man-days * 2 = 120 man-days"
+      },
+      {
+        "question": "If you have 8 men working on the new task, and it requires 120 man-days in total, how many days will it take?",
+        "answer": "120 man-days / 8 men = 15 days"
+      }
+    ],
+    "current_question_index": 0,
+    "attempts": 0,
+    "flow_status": "socratic"
+  },
+  "b80e38ad-f133-4cc2-8414-dd5d74ccc461": {
+    "questions_and_answers": [
+      {
+        "question": "If 10 men take 6 days to complete a task, how many 'man-days' does the task require?",
+        "answer": "10 men * 6 days = 60 man-days"
+      },
+      {
+        "question": "The new job is double the original task. How many man-days does the new job require?",
+        "answer": "60 man-days * 2 = 120 man-days"
+      },
+      {
+        "question": "If the new job requires 120 man-days, and you have 8 men, how many days will it take to complete?",
+        "answer": "120 man-days / 8 men = 15 days"
+      }
+    ],
+    "current_question_index": 3,
+    "attempts": 0,
+    "flow_status": "general",
+    "conversation_flow": [
+      { "role": "user", "content": "okey" },
+      {
+        "role": "assistant",
+        "content": "Hi there! I'm LAAI, your educational tutor. I'm here to help you with any questions or topics you're studying."
+      }
+    ]
+  },
+  "11101c2c-fd3a-4967-99be-d25877e1f592": {
+    "questions_and_answers": [
+      {
+        "question": "If 10 men take 6 days to complete a task, how much work does 1 man do in 1 day (expressed as a fraction of the whole task)?",
+        "answer": "1/60 of the task"
+      },
+      {
+        "question": "If one man does 1/60 of the task in one day, how much of the task will 8 men do in one day?",
+        "answer": "8/60 of the task, or 2/15 of the task"
+      },
+      {
+        "question": "The new job is double the original task. How much of this new, double task will 8 men complete in one day?",
+        "answer": "2 * (2/15) = 4/15 of the new task"
+      },
+      {
+        "question": "If 8 men do 4/15 of the new task each day, how many days will it take them to complete the entire double task?",
+        "answer": "15/4 days or 3.75 days"
+      }
+    ],
+    "current_question_index": 0,
+    "attempts": 0,
+    "flow_status": "socratic"
+  },
+  "6992c7b5-6219-4565-a5f9-419fd9d21941": {
+    "questions_and_answers": [
+      {
+        "question": "If 10 men take 6 days to complete a task, how many 'man-days' are required for that task?",
+        "answer": "10 men * 6 days = 60 man-days"
+      },
+      {
+        "question": "The new task is double the original task. How many man-days are required for the new task?",
+        "answer": "60 man-days * 2 = 120 man-days"
+      },
+      {
+        "question": "Now you have 8 men working on the task which requires 120 man-days. How many days will it take them to complete?",
+        "answer": "120 man-days / 8 men = 15 days"
+      }
+    ],
+    "current_question_index": 0,
+    "attempts": 0,
+    "flow_status": "socratic"
+  },
+  "68dfcf7e-4dd9-4fa3-a74a-f5649e1d8e47": {
+    "flow_status": "socratic",
+    "conversation_flow": [
+      { "role": "user", "content": "hi" },
+      {
+        "role": "assistant",
+        "content": "Hi there! How can I assist you today? If you have any questions or need help with something, feel free to ask!"
+      },
+      {
+        "role": "user",
+        "content": "It has been estimated that it will take 10 men 6 days to complete a certain task. Find the number of days it will take 8 men to complete a job which is double that task. Student Question: It has been estimated that it will take 10 men 6 days to complete a certain task. Find the number of days it will take 8 men to complete a job which is double that task."
+      },
+      {
+        "role": "user",
+        "content": "It has been estimated that it will take 10 men 6 days to complete a certain task. Find the number of days it will take 8 men to complete a job which is double that task. Student Question: It has been estimated that it will take 10 men 6 days to complete a certain task. Find the number of days it will take 8 men to complete a job which is double that task."
+      },
+      {
+        "role": "assistant",
+        "content": "If 10 men take 6 days to complete a task, how many man-days are required for that task?"
+      },
+      { "role": "user", "content": "60 man days" },
+      {
+        "role": "assistant",
+        "content": "The new task is double the original task. How many man-days are needed for the new task?"
+      },
+      { "role": "user", "content": "120 man days" },
+      {
+        "role": "assistant",
+        "content": "If 8 men work on the new task, how can you calculate the number of days it will take them, using the total man-days?"
+      },
+      { "role": "user", "content": "15" },
+      { "role": "user", "content": "15" },
+      { "role": "user", "content": "15 days" },
+      { "role": "user", "content": "15 days" }
+    ],
+    "questions_and_answers": [
+      {
+        "question": "If 10 men take 6 days to complete a task, how many man-days are required for that task?",
+        "answer": "10 men * 6 days = 60 man-days"
+      },
+      {
+        "question": "The new task is double the original task. How many man-days are needed for the new task?",
+        "answer": "60 man-days * 2 = 120 man-days"
+      },
+      {
+        "question": "If 8 men work on the new task, how can you calculate the number of days it will take them, using the total man-days?",
+        "answer": "Divide the total man-days by the number of men: 120 man-days / 8 men"
+      },
+      {
+        "question": "What is the number of days when you calculate the previous step?",
+        "answer": "120 man-days / 8 men = 15 days"
+      }
+    ],
+    "current_question_index": 2,
+    "attempts": 0
+  }
+}
