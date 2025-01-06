@@ -1,14 +1,12 @@
-version: "3.8"
+version: '3.8'
 
 services:
   api:
     build:
-      context: ./services/api
+      context: ./api
       dockerfile: Dockerfile
-    image: birfbkdstsbhbk/learnawareai:api
-    container_name: fastapi_app
     ports:
-      - "4000:8000"
+      - "8000:8000"
     networks:
       - app-network
 
@@ -16,10 +14,10 @@ services:
     build:
       context: ./frontend
       dockerfile: Dockerfile
-    image: birfbkdstsbhbk/learnawareai:frontend
-    container_name: nextjs_app
     ports:
       - "3000:3000"
+    depends_on:
+      - api
     networks:
       - app-network
 
