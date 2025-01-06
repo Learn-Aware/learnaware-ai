@@ -30,7 +30,7 @@ app.include_router(
 
 app.include_router(
     personalized_user_router,
-    prefix="/personalized_user",
+    prefix="/api/v1/personalized_user",
     tags=["Personalized Behavior"]  
 )
 
