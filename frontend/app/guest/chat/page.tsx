@@ -27,6 +27,7 @@ const ChatPage = () => {
   const [userInput, setUserInput] = useState("");
   const [loading, setLoading] = useState(false);
   const [sessionID, setSessionID] = useState("");
+  const [image, setImage] = useState<File | null>(null); // New state for image
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const [isNewSession, setIsNewSession] = useState(true);
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -40,24 +41,28 @@ const ChatPage = () => {
   }, [messages]);
 
   const handleSendMessage = async () => {
-    if (!userInput.trim()) return;
+    if (!userInput.trim() && !image) return; // Check for both text and image
 
     const userMessage = {
       id: Date.now(),
       sender: "user",
       text: userInput,
       time: getCurrentTime(),
+      image: image ? URL.createObjectURL(image) : null, // Store image URL if present
     };
 
     setMessages((prevMessages) => [...prevMessages, userMessage]);
     setUserInput("");
+    setImage(null); // Clear image after sending
     setLoading(true);
 
     try {
       const response = await agentChat({
         session_id: sessionID,
         user_request: userInput,
+        image: image,
       });
+
       const botMessage = {
         id: Date.now() + 1,
         sender: "bot",
@@ -81,13 +86,6 @@ const ChatPage = () => {
       setIsNewSession(false);
     }
   };
-
-  setTimeout(() => {
-    const scrollArea = document.querySelector(".scroll-area");
-    if (scrollArea) {
-      scrollArea.scrollTo(0, 0);
-    }
-  }, 100);
 
   const handleNewConversation = () => {
     if (!isNewSession) {
@@ -123,6 +121,14 @@ const ChatPage = () => {
     setSessionID("");
     setIsNewSession(true);
     setIsSidebarOpen(false);
+  };
+
+  const handleImageChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    console.log("Image selected:", e.target.files?.[0]);
+
+    if (e.target.files) {
+      setImage(e.target.files[0]);
+    }
   };
 
   return (
@@ -217,6 +223,13 @@ const ChatPage = () => {
                   }`}
                 >
                   {message.text}
+                  {message.image && (
+                    <img
+                      src={message.image}
+                      alt="Attached"
+                      className="mt-2 max-w-xs rounded-lg"
+                    />
+                  )}
                 </Card>
 
                 <span
@@ -255,22 +268,32 @@ const ChatPage = () => {
             onKeyDown={(e) => e.key === "Enter" && handleSendMessage()}
           />
 
+          {/* Image Upload */}
+          <div className="flex items-center space-x-4">
+            <input
+              type="file"
+              accept="image/*"
+              onChange={handleImageChange}
+              disabled={loading}
+              className="hidden"
+              id="image-upload"
+            />
+            <label htmlFor="image-upload">
+              <button
+                onClick={() => document.getElementById("image-upload")?.click()}
+                className="relative w-5 h-5 rounded-full flex items-center justify-center transition-all duration-200 hover:bg-gray-200 active:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-300"
+              >
+                <Image
+                  src="/images/Paperclip.svg"
+                  alt="Attach Image"
+                  fill
+                  className="w-full h-full object-contain"
+                />
+              </button>
+            </label>
+          </div>
+
           <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-4 ml-2">
-              {["Grid", "Paperclip", "Microphone", "Element"].map((icon) => (
-                <button
-                  key={icon}
-                  className="relative w-5 h-5 rounded-full flex items-center justify-center transition-all duration-200 hover:bg-gray-200 active:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-300"
-                >
-                  <Image
-                    src={`/images/${icon}.svg`}
-                    alt={icon}
-                    fill
-                    className="w-full h-full object-contain"
-                  />
-                </button>
-              ))}
-            </div>
             <Button
               onClick={handleSendMessage}
               className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${
