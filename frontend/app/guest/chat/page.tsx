@@ -131,6 +131,13 @@ const ChatPage = () => {
     }
   };
 
+  setTimeout(() => {
+    const scrollArea = document.querySelector(".scroll-area");
+    if (scrollArea) {
+      scrollArea.scrollTo(0, 0);
+    }
+  }, 100);
+
   return (
     <div className="flex flex-col sm:flex-row h-full bg-gray-50">
       <button
@@ -269,7 +276,7 @@ const ChatPage = () => {
           />
 
           {/* Image Upload */}
-          <div className="flex items-center space-x-4">
+          <div className="flex items-center justify-between">
             <input
               type="file"
               accept="image/*"
@@ -278,44 +285,60 @@ const ChatPage = () => {
               className="hidden"
               id="image-upload"
             />
-            <label htmlFor="image-upload">
-              <button
-                onClick={() => document.getElementById("image-upload")?.click()}
-                className="relative w-5 h-5 rounded-full flex items-center justify-center transition-all duration-200 hover:bg-gray-200 active:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-300"
+            <div className="flex items-center space-x-4">
+              <label htmlFor="image-upload">
+                <button
+                  onClick={() =>
+                    document.getElementById("image-upload")?.click()
+                  }
+                  className="relative w-5 h-5 rounded-full flex items-center justify-center transition-all duration-200 hover:bg-gray-200 active:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-300"
+                >
+                  <Image
+                    src="/images/Paperclip.svg"
+                    alt="Attach Image"
+                    fill
+                    className="w-full h-full object-contain"
+                  />
+                </button>
+              </label>
+              {["Grid", "Microphone", "Element"].map((icon) => (
+                <button
+                  key={icon}
+                  className="relative w-5 h-5 rounded-full flex items-center justify-center transition-all duration-200 hover:bg-gray-200 active:scale-105 focus:outline-none focus:ring-2 focus:ring-gray-300"
+                >
+                  <Image
+                    src={`/images/${icon}.svg`}
+                    alt={icon}
+                    fill
+                    className="w-full h-full object-contain"
+                  />
+                </button>
+              ))}
+            </div>
+            <div className="flex items-center justify-between">
+              <Button
+                onClick={handleSendMessage}
+                className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${
+                  loading
+                    ? "bg-gray-400 text-gray-800 cursor-not-allowed"
+                    : "bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] text-white transition-colors"
+                }`}
+                disabled={loading}
+                aria-label="Send message"
               >
-                <Image
-                  src="/images/Paperclip.svg"
-                  alt="Attach Image"
-                  fill
-                  className="w-full h-full object-contain"
-                />
-              </button>
-            </label>
-          </div>
-
-          <div className="flex items-center justify-between">
-            <Button
-              onClick={handleSendMessage}
-              className={`flex items-center space-x-4 px-4 py-2 rounded-lg shadow-md ${
-                loading
-                  ? "bg-gray-400 text-gray-800 cursor-not-allowed"
-                  : "bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] text-white transition-colors"
-              }`}
-              disabled={loading}
-              aria-label="Send message"
-            >
-              <div className="relative w-5 h-5">
-                <Image
-                  src="/images/Send.svg"
-                  alt="Send"
-                  fill
-                  className="w-full h-full object-contain"
-                />
-              </div>
-              <span className="hidden md:inline">
-                {loading ? "Sending..." : "Send message"}
-              </span>
-            </Button>
+                <div className="relative w-5 h-5">
+                  <Image
+                    src="/images/Send.svg"
+                    alt="Send"
+                    fill
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+                <span className="hidden md:inline">
+                  {loading ? "Sending..." : "Send message"}
+                </span>
+              </Button>
+            </div>
           </div>
         </div>
       </div>
