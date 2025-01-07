@@ -7,7 +7,7 @@ import { ScrollArea } from "@/components/ui/scroll-area";
 import { Card } from "@/components/ui/card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Textarea } from "@/components/ui/textarea";
-import { startSession, submitAnswer } from "@/services/socraticServices";
+import { agentChat } from "@/services/socraticServices";
 
 const getCurrentTime = () =>
   new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
@@ -54,37 +54,19 @@ const ChatPage = () => {
     setLoading(true);
 
     try {
-      if (!sessionID) {
-        const response = await startSession(userInput);
+      const response = await agentChat({
+        session_id: sessionID,
+        user_request: userInput,
+      });
+      const botMessage = {
+        id: Date.now() + 1,
+        sender: "bot",
+        text: response.question,
+        time: getCurrentTime(),
+      };
 
-        const botMessage = {
-          id: Date.now() + 1,
-          sender: "bot",
-          text: response.question || "I'm here to help!",
-          time: getCurrentTime(),
-        };
-
-        setSessionID(response.session_id);
-        setMessages((prevMessages) => [...prevMessages, botMessage]);
-      } else {
-        const response = await submitAnswer({
-          session_id: sessionID,
-          user_answer: userInput,
-        });
-
-        const botMessage = {
-          id: Date.now() + 1,
-          sender: "bot",
-          text: response.correct
-            ? response.question || "I'm here to help!"
-            : response.guidance,
-          time: getCurrentTime(),
-        };
-
-        setMessages((prevMessages) => [...prevMessages, botMessage]);
-      }
+      setMessages((prevMessages) => [...prevMessages, botMessage]);
     } catch (error) {
-      console.error("Error fetching bot response:", error);
       setMessages((prevMessages) => [
         ...prevMessages,
         {
