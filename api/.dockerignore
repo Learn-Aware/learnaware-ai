@@ -1,0 +1,30 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__
+.Python
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore local development settings and environment files
+*.local
+*.db
+
+# Ignore log files
+*.log
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+
+# Ignore Docker-related files (optional if you don't want to send them to Docker Hub)
+docker-compose.yml
+Dockerfile
+
+# Ignore test-related files
+tests/

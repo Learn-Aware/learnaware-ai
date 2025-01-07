@@ -23,13 +23,9 @@ build/
 .coverage
 *.tgz
 
-# Docker
-*.dockerignore
-Dockerfile
-docker-compose.yml
-
 # macOS
 .DS_Store
+*/.DS_Store
 
 # IDE/Editor specific
 .vscode/
@@ -45,7 +41,7 @@ docker-compose.yml
 *.swp
 *.lock
 
-.DS_Store
-*/.DS_Store
 api/.env
 api/test/*.sqlite
+
+
