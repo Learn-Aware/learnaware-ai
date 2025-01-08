@@ -13,16 +13,25 @@ const getCurrentTime = () =>
   new Date().toLocaleTimeString([], { hour: "2-digit", minute: "2-digit" });
 
 const ChatPage = () => {
-  const [messages, setMessages] = useState([
+  const [messages, setMessages] = useState<
+    { id: number; sender: string; text: string; time: string; image: string | null }[]
+  >([
     {
       id: 1,
       sender: "bot",
       text: "Hello! How can I assist you today?",
       time: getCurrentTime(),
+      image: null,
     },
   ]);
   const [history, setHistory] = useState<
-    { id: number; sender: string; text: string; time: string }[][]
+    {
+      id: number;
+      sender: string;
+      text: string;
+      time: string;
+      image: string | null;
+    }[][]
   >([]);
   const [userInput, setUserInput] = useState("");
   const [loading, setLoading] = useState(false);
@@ -41,19 +50,19 @@ const ChatPage = () => {
   }, [messages]);
 
   const handleSendMessage = async () => {
-    if (!userInput.trim() && !image) return; // Check for both text and image
+    if (!userInput.trim() && !image) return;
 
     const userMessage = {
       id: Date.now(),
       sender: "user",
       text: userInput,
       time: getCurrentTime(),
-      image: image ? URL.createObjectURL(image) : null, // Store image URL if present
+      image: image ? URL.createObjectURL(image) : null,
     };
 
     setMessages((prevMessages) => [...prevMessages, userMessage]);
     setUserInput("");
-    setImage(null); // Clear image after sending
+    setImage(null);
     setLoading(true);
 
     try {
@@ -68,6 +77,7 @@ const ChatPage = () => {
         sender: "bot",
         text: response.question,
         time: getCurrentTime(),
+        image: null,
       };
 
       setMessages((prevMessages) => [...prevMessages, botMessage]);
@@ -79,6 +89,7 @@ const ChatPage = () => {
           sender: "bot",
           text: "Oops! Something went wrong. Please try again.",
           time: getCurrentTime(),
+          image: null,
         },
       ]);
     } finally {
@@ -98,6 +109,7 @@ const ChatPage = () => {
         sender: "bot",
         text: "Hello! How can I assist you today?",
         time: getCurrentTime(),
+        image: null,
       },
     ]);
     setSessionID("");
@@ -116,6 +128,7 @@ const ChatPage = () => {
         sender: "bot",
         text: `Hello! How can I assist you with ${category} today?`,
         time: getCurrentTime(),
+        image: null,
       },
     ]);
     setSessionID("");
@@ -231,10 +244,12 @@ const ChatPage = () => {
                 >
                   {message.text}
                   {message.image && (
-                    <img
+                    <Image
                       src={message.image}
                       alt="Attached"
                       className="mt-2 max-w-xs rounded-lg"
+                      width={200} // Set appropriate width
+                      height={200} // Set appropriate height
                     />
                   )}
                 </Card>
