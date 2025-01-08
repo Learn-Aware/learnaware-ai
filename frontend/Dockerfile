@@ -25,7 +25,13 @@ ENV NODE_ENV=production
 # Set working directory
 WORKDIR /app
 
-# Copy only the necessary files from the builder stage
+# Copy package.json and package-lock.json for production
+COPY package.json package-lock.json ./
+
+# Install only production dependencies
+RUN npm ci --only=production
+
+# Copy the necessary files from the builder stage
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
 
