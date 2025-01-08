@@ -1,37 +1,36 @@
-# Stage 1: Builder
-FROM node:18 AS builder
+# Stage 1: Build
+FROM node:18-alpine AS builder
 
-# Set the working directory
+# Set working directory
 WORKDIR /app
 
-# Copy package.json and package-lock.json (if available)
-COPY package*.json ./
+# Copy package.json and package-lock.json
+COPY package.json package-lock.json ./
 
 # Install dependencies
-RUN npm install
+RUN npm ci
 
-# Copy the rest of the application code
+# Copy the rest of the application files
 COPY . .
 
-# Build the Next.js application
+# Build the Next.js app
 RUN npm run build
 
 # Stage 2: Production
-FROM node:18-slim AS production
+FROM node:18-alpine
 
-# Set the working directory
+# Set environment variables
+ENV NODE_ENV=production
+
+# Set working directory
 WORKDIR /app
 
-# Copy only the built assets and package files from the builder stage
-COPY --from=builder /app/package*.json ./
+# Copy only the necessary files from the builder stage
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public ./public
 
-# Install only production dependencies
-RUN npm install --production
-
-# Expose the application port
+# Expose the port the app runs on
 EXPOSE 3000
 
-# Start the Next.js application
+# Start the application
 CMD ["npm", "start"]
