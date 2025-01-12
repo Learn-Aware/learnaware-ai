@@ -17,3 +17,4 @@ python-dotenv==1.0.1
 langchain_community
 pypdf
 deep_translator
+langchain_google_genai
