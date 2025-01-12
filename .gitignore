@@ -45,3 +45,4 @@ api/.env
 api/test/*.sqlite
 
 
+uploads/
