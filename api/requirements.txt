@@ -14,3 +14,6 @@ google-generativeai
 pillow
 python-multipart
 python-dotenv==1.0.1
+langchain_community
+pypdf
+deep_translator
