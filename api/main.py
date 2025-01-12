@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from controllers.socratic_tutor_controller import router as socratic_tutor_router
 from controllers.personalized_user_controller import router as personalized_user_router
-
+from controllers.cached_augmented_generation_controller import router as cached_augmented_generation_router
 
 app = FastAPI(
     title="Socratic Tutor API",
@@ -32,6 +32,12 @@ app.include_router(
     personalized_user_router,
     prefix="/api/v1/personalized_user",
     tags=["Personalized Behavior"]  
+)
+
+app.include_router(
+    cached_augmented_generation_router,
+    prefix="/api/v1/cag",
+    tags=["Cached Augmented Generation"]  
 )
 
 
