@@ -8,7 +8,7 @@ from controllers.personalized_user_controller import router as personalized_user
 from controllers.cached_augmented_generation_controller import router as cached_augmented_generation_router
 
 app = FastAPI(
-    title="Socratic Tutor API",
+    title="LearnAware AI Services",
     description="An API for the Socratic Tutor that generates follow-up questions and guides students.",
     version="1.0.0",
 )
