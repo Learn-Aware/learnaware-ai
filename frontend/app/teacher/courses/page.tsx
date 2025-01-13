@@ -10,6 +10,8 @@ import {
   Input,
   Label,
   Checkbox,
+  Card,
+  CardContent,
 } from "../../../components/ui";
 
 export default function TeacherCourses() {
@@ -88,9 +90,9 @@ export default function TeacherCourses() {
   };
 
   return (
-    <div className="flex p-6 max-w-4xl mx-auto">
+    <Card className="my-1 mx-0 p-8 bg-white shadow-lg rounded-lg">
       {/* Left Column: Select Students */}
-      <div className="w-1/3 pr-4 border-r">
+      <CardContent className="w-1/3 pr-4 border-r">
         <div className="mb-4">
           <h2 className="text-lg font-bold mb-4">Select Grade</h2>
           <div className="space-y-2">
@@ -123,10 +125,10 @@ export default function TeacherCourses() {
             ))}
           </div>
         </div>
-      </div>
+      </CardContent>
 
       {/* Right Column: Select Subject and Upload PDFs */}
-      <div className="w-2/3 pl-4">
+      <CardContent className="w-2/3 pl-4">
         <h2 className="text-lg font-bold mb-4">
           Select Subject and Upload PDFs
         </h2>
@@ -162,7 +164,7 @@ export default function TeacherCourses() {
             />
           </div>
 
-          <div className="mb-4">
+          <CardContent className="mb-4">
             <h3 className="font-medium mb-2">Selected Documents:</h3>
             <ul className="space-y-2">
               {pdfFiles.map((file, index) => (
@@ -178,7 +180,7 @@ export default function TeacherCourses() {
                 </li>
               ))}
             </ul>
-          </div>
+          </CardContent>
 
           <Button
             className="bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] text-white w-full transition-colors"
@@ -187,7 +189,7 @@ export default function TeacherCourses() {
             Upload
           </Button>
         </form>
-      </div>
-    </div>
+      </CardContent>
+    </Card>
   );
 }
