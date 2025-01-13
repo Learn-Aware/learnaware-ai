@@ -13,23 +13,20 @@ import {
 } from "../../../components/ui";
 
 export default function TeacherCourses() {
-  const [selectedStudents, setSelectedStudents] = useState<string[]>([]);
-  const [selectedSubject, setSelectedSubject] = useState<string | null>(null);
   const [pdfFiles, setPdfFiles] = useState<File[]>([]);
-  const [students, setStudents] = useState([
-    "Alice",
-    "Bob",
-    "Charlie",
-    "Diana",
-    "Eve",
-  ]);
-  const [subjects, setSubjects] = useState([
+  const grades = ["Grade 10", "Grade 11", "Grade 12"];
+  const students = ["Alice", "Bob", "Charlie", "Diana", "Eve"];
+  const subjects = [
     "Mathematics",
     "Science",
     "History",
     "English",
     "Computer Science",
-  ]);
+  ];
+
+  const [selectedGrade, setSelectedGrade] = useState<string | null>(null);
+  const [selectedStudents, setSelectedStudents] = useState<string[]>([]);
+  const [selectedSubjects, setSelectedSubjects] = useState<string | null>(null);
 
   const handleStudentChange = (student: string) => {
     setSelectedStudents((prev) =>
@@ -40,7 +37,7 @@ export default function TeacherCourses() {
   };
 
   const handleSubjectChange = (value: string) => {
-    setSelectedSubject(value);
+    setSelectedSubjects(value);
   };
 
   const handleFileChange = (files: FileList | null) => {
@@ -57,7 +54,7 @@ export default function TeacherCourses() {
     event.preventDefault();
     if (
       selectedStudents.length === 0 ||
-      !selectedSubject ||
+      selectedSubjects === null ||
       pdfFiles.length === 0
     ) {
       alert(
@@ -68,7 +65,7 @@ export default function TeacherCourses() {
 
     const formData = new FormData();
     formData.append("students", JSON.stringify(selectedStudents));
-    formData.append("subject", selectedSubject);
+    formData.append("subject", selectedSubjects);
     pdfFiles.forEach((file, index) => {
       formData.append(`file-${index}`, file);
     });
@@ -94,18 +91,37 @@ export default function TeacherCourses() {
     <div className="flex p-6 max-w-4xl mx-auto">
       {/* Left Column: Select Students */}
       <div className="w-1/3 pr-4 border-r">
-        <h2 className="text-lg font-bold mb-4">Select Students</h2>
-        <div className="space-y-2">
-          {students.map((student, index) => (
-            <div key={index} className="flex items-center space-x-2">
-              <Checkbox
-                id={`student-${index}`}
-                checked={selectedStudents.includes(student)}
-                onCheckedChange={() => handleStudentChange(student)}
-              />
-              <Label htmlFor={`student-${index}`}>{student}</Label>
-            </div>
-          ))}
+        <div className="mb-4">
+          <h2 className="text-lg font-bold mb-4">Select Grade</h2>
+          <div className="space-y-2">
+            {grades.map((grade, index) => (
+              <div key={index} className="flex items-center space-x-2">
+                <Checkbox
+                  id={`grade-${index}`}
+                  checked={selectedGrade === grade}
+                  onCheckedChange={() =>
+                    setSelectedGrade((prev) => (prev === grade ? null : grade))
+                  }
+                />
+                <Label htmlFor={`grade-${index}`}>{grade}</Label>
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="mb-4">
+          <h2 className="text-lg font-bold mb-4">Select Students</h2>
+          <div className="space-y-2">
+            {students.map((student, index) => (
+              <div key={index} className="flex items-center space-x-2">
+                <Checkbox
+                  id={`student-${index}`}
+                  checked={selectedStudents.includes(student)}
+                  onCheckedChange={() => handleStudentChange(student)}
+                />
+                <Label htmlFor={`student-${index}`}>{student}</Label>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
 
