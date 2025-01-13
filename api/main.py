@@ -9,7 +9,7 @@ from controllers.cached_augmented_generation_controller import router as cached_
 
 app = FastAPI(
     title="LearnAware AI Services",
-    description="An API for the Socratic Tutor that generates follow-up questions and guides students.",
+    description="An API for the LearnAware AI Services",
     version="1.0.0",
 )
 
