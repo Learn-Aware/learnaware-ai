@@ -180,7 +180,10 @@ export default function TeacherCourses() {
             </ul>
           </div>
 
-          <Button type="submit" className="w-full bg-blue-600 text-white">
+          <Button
+            className="bg-[hsl(var(--laai-blue))] hover:bg-[hsl(var(--laai-blue-dark))] text-white w-full transition-colors"
+            type="submit"
+          >
             Upload
           </Button>
         </form>
