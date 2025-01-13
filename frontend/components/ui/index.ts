@@ -11,4 +11,4 @@ export { Button } from "./button";
 export { Input } from "./input";
 export { Textarea } from "./textarea";
 export { RadioGroup } from "./radio-group";
-export { Card, CardContent } from "./card";
+export { Card, CardContent,CardHeader,CardTitle } from "./card";

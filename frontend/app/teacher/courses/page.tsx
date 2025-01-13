@@ -12,6 +12,8 @@ import {
   Checkbox,
   Card,
   CardContent,
+  CardHeader,
+  CardTitle,
 } from "../../../components/ui";
 
 export default function TeacherCourses() {
@@ -90,11 +92,15 @@ export default function TeacherCourses() {
   };
 
   return (
-    <Card className="my-1 mx-0 p-8 bg-white shadow-lg rounded-lg">
+    <Card className="flex flex-col my-1 mx-0 p-8 bg-white shadow-lg rounded-lg">
       {/* Left Column: Select Students */}
-      <CardContent className="w-1/3 pr-4 border-r">
-        <div className="mb-4">
-          <h2 className="text-lg font-bold mb-4">Select Grade</h2>
+      <CardContent className="flex flex-row pr-4 border-r justify-start gap-8">
+        <Card className="px-4">
+          <CardHeader>
+            <CardTitle className="text-2xl font-semibold text-gray-800">
+              Select Grade
+            </CardTitle>
+          </CardHeader>
           <div className="space-y-2">
             {grades.map((grade, index) => (
               <div key={index} className="flex items-center space-x-2">
@@ -109,9 +115,13 @@ export default function TeacherCourses() {
               </div>
             ))}
           </div>
-        </div>
-        <div className="mb-4">
-          <h2 className="text-lg font-bold mb-4">Select Students</h2>
+        </Card>
+        <Card className="px-4">
+          <CardHeader>
+            <CardTitle className="text-2xl font-semibold text-gray-800">
+              Select Students
+            </CardTitle>
+          </CardHeader>
           <div className="space-y-2">
             {students.map((student, index) => (
               <div key={index} className="flex items-center space-x-2">
@@ -124,11 +134,11 @@ export default function TeacherCourses() {
               </div>
             ))}
           </div>
-        </div>
+        </Card>
       </CardContent>
 
       {/* Right Column: Select Subject and Upload PDFs */}
-      <CardContent className="w-2/3 pl-4">
+      <CardContent className="pl-4">
         <h2 className="text-lg font-bold mb-4">
           Select Subject and Upload PDFs
         </h2>
